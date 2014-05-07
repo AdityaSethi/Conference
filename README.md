@@ -1,4 +1,4 @@
 Conference
 ==========
 
-An app or the conferences
+An app for the conferences
