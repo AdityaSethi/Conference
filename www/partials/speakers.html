@@ -10,23 +10,26 @@
 		<div>
 			<h3>{{speaker.name}}</h3>
 		</div>
-		<div style="font-size:16px">
+		<div class="font_size">
 			{{speaker.known_for}}
 		</div>
-		<div style="font-size:16px">
+		<div class="font_size">
 			Speaks on "{{speaker.topic}}"
 		</div>
 		<div class="breakline">
 		</div>
-		<div class="default_content" ng-class="{'content':$index==selectedIndex}">
+		<div class="content" style="font-size:16px" ng-if="class_toggle[$index]">
 			{{speaker.description}}
 		</div>
-		<a ng-show="expand" ng-model="check" ng-click="check_expand($index)">
+		<div class="default_content" style="font-size:16px" ng-if="!class_toggle[$index]">
+			{{speaker.description}}
+		</div>
+		<a ng-model="check" ng-click="check_expand($index)">
 			<div style="padding-top:2%" ng-if="toggle[$index]">
-				<span>See less</span><div class="glyphicon glyphicon-chevron-down"></div>
+				<span style="font-size:16px">See less</span><div class="glyphicon glyphicon-chevron-down"></div>
 			</div>
 			<div style="padding-top:2%" ng-if="!toggle[$index]">
-				<span>See more</span><div class="glyphicon glyphicon-chevron-left" ></div>
+				<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-left" ></div>
 			</div>
 		</a>	
 	</div>	

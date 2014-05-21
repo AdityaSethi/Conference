@@ -1,3 +1,4 @@
+  
     <div class="head">
       <img src="img/testImage.png" class="logoImage"></img>
       <span class="logoText"><span class="color1">JS</span>CHANNEL</span>
@@ -6,15 +7,15 @@
       <div class="breakline"></div>
       Email: name@jschannel.com
     </div>
-    
-      <ul class="nav nav-tabs col-md-12">
-        <li class="active tabs col-md-3" ng-class="{selected : currentTab == 'main'}"><a data-toggle="tab" class="font col-md-12" href="#overview" ng-click="selectTab('overview')">Overview</a></li>
-        <li class="tabs  col-md-3" ng-class="{selected : currentTab == 'speaker'}"><a data-toggle="tab" class="font col-md-12" href="#speakers" ng-click="selectTab('speakers')">Speakers</a></li>
-        <li class="tabs  col-md-3" ng-class="{selected : currentTab == 'speaker'}"><a data-toggle="tab" class="font col-md-12" href="#agenda" ng-click="selectTab('agenda')">Agenda</a></li>
-        <li class="tabs  col-md-3" ng-class="{selected : currentTab == 'speaker'}"><a data-toggle="tab" class="font col-md-12" href="#venue" ng-click="selectTab('venue')">Venue</a></li>
+
+      <ul class="nav col-md-12" style="padding-right:0px !important">
+        <li class="{{active_overview}} tabs col-md-3"><a data-toggle="tab"  href="#overview" ng-click="selectTab('active')">Overview</a></li>
+        <li class="{{active_speaker}} tabs  col-md-3"><a data-toggle="tab" href="#speakers" ng-click="selectTab('speakers')">Speakers</a></li>
+        <li class="{{active_agenda}} tabs  col-md-3"><a data-toggle="tab"  href="#agenda" ng-click="selectTab('agenda')">Agenda</a></li>
+        <li class="{{active_venue}} tabs  col-md-3"><a data-toggle="tab"  href="#venue" ng-click="selectTab('venue')">Venue</a></li>
       </ul>
       <div class="breakline"></div>
-  
+   
  
 <!--<div class='navbar-collapse bs-navbar-collapse'>
     <ul class='nav navbar-nav'>

@@ -4,6 +4,8 @@
 {
   border:1px solid black;
   background-color: #CCCCCC;
+  height: 20%;
+  text-align: center;
 }
 li.active,a.active:hover,a.active:hover,li.active > a,li.active > a:hover
 {
@@ -176,4 +178,8 @@ color:#818181;
 
 .glyphicon-chevron-left{
   color:#CCCCCC;
+}
+.font_size
+{
+  font-size: 20px;
 }

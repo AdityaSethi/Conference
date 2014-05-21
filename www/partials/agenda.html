@@ -9,22 +9,30 @@
 
 <div class="borderDiv"></div>
 
-<div class="agendaDiv"  ng-repeat="row in agenda.data">
+<div class="agendaDiv"  ng-repeat="row in agenda.data" ng-controller="SpeakerCtrl">
 	<div class="agendaSmallDiv">
-	<div class="agendaSessionTime">{{row.time}}</div>
-	
-	<div class="agendaSessionTitle">{{row.session}}</div>
-	
-	
-	<div class="agendaSpeakerName">{{row.speaker}}</div>
-	<div class="com" ng-if="row.speaker!=null && row.speakerTitle!=null">,</div>
-	<div class="agendaSpeakerTitle">{{row.speakerTitle}}</div>
-	
-	<div class="agendaSessionDetail">{{row.detail}}</div>
-
+		<div class="agendaSessionTime">{{row.time}}</div>
+		
+		<div class="agendaSessionTitle">{{row.session}}</div>
+		
+		
+		<div class="agendaSpeakerName">{{row.speaker}}</div>
+		<div class="com" ng-if="row.speaker!=null && row.speakerTitle!=null">,</div>
+		<div class="agendaSpeakerTitle">{{row.speakerTitle}}</div>
+		
+		<div class="content" ng-if="class_toggle[$index]">{{row.detail}}</div>
+		<div class="default_content" ng-if="!class_toggle[$index]">{{row.detail}}</div>
+		<a ng-model="check" ng-click="check_expand($index)" ng-if="$index!=0">
+			<div style="padding-top:2%" ng-if="toggle[$index]">
+				<span style="font-size:16px">See less</span><div class="glyphicon glyphicon-chevron-down"></div>
+			</div>
+			<div style="padding-top:2%" ng-if="!toggle[$index]">
+				<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-left" ></div>
+			</div>
+		</a>
 
 	</div>
 	<div class="borderDiv"></div>
-	</div>
+</div>
 </div>
 </div>

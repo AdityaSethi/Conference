@@ -5,5 +5,9 @@ angular.module('conferenceApp')
         $scope.overviews=response;
         
         console.log($scope.overviews)
-    })
+    });
+         $scope.active_overview="active";
+    $scope.active_speaker;
+    $scope.active_agenda;
+    $scope.active_venue;
   });
