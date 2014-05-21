@@ -1,0 +1,17 @@
+[
+				{
+				"name":"Douglas Crawford",
+				"image":"douglas",
+				"known_for":"Discovered the JSON",
+				"topic":"The Better Parts",
+				"description":"Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI)."
+				},
+				{
+				"name":"Amod Malviya",
+				"image":"amod",
+				"known_for":"SVP and Head of Engineering,Flipkart",
+				"topic":"...",
+				"description":"Amod heads the Engineering setup that powers Flipkart.com. Having joined the Engineering team during its infancy as a Sr. Engineering Manager,he has grown wearing multiple hats at a time,...."
+				}
+]
+

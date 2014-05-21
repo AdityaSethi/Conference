@@ -1,0 +1,179 @@
+/* app css stylesheet */
+
+.tabs
+{
+  border:1px solid black;
+  background-color: #CCCCCC;
+}
+li.active,a.active:hover,a.active:hover,li.active > a,li.active > a:hover
+{
+  background-color: #5BA3D8 !important; 
+  color:white !important;
+}
+a.active,a
+{
+  border:none !important;
+}
+.font
+{
+  color:white;
+  text-align: center !important;
+  font-size:18px;
+  margin:0 !important;
+}
+li >a:hover
+{
+  background-color: #CCCCCC !important ;
+  color:white !important;
+  border-color: #CCCCCC !important;
+}
+img
+{
+  border:1px solid #CCCCCC !important;
+  height:180px !important;
+  width:180px !important;
+}
+.default_content
+{
+  color:#A0A0A0 !important;
+  height:40px;
+  overflow:hidden ;
+}
+.content
+{
+  color:#A0A0A0 !important;
+  height:auto;
+}
+a:hover
+{
+  text-decoration: none !important;
+}
+.breakline
+{
+  padding-top:3%;
+}
+/*.horizontal_line
+{
+  margin-top:1.5%;
+  border:1px solid #CCCCCC;
+  margin-left:2%;
+  margin-right:2%;
+  position: relative;
+}*/
+.nav-tabs
+{
+  border:none !important;
+}
+
+/*Twinkle's*/
+
+
+
+.head{
+  height: 20%;
+  background-color: #190F0D;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0% 0% 0% 0%;
+}
+
+.logoImage{
+max-width:6% ;
+max-height:6% ;
+
+
+}
+
+.logoText{
+font-size: 2.5em;
+font-weight: bold;
+margin-left: 1%;
+
+}
+
+.color1{
+  color:#73A7BD;
+}
+
+.overviewText{
+  max-height:50%;
+  color: #888888;
+}
+
+.divider{
+max-width: 100%;
+  height: 0;
+  border-bottom: 20px solid #E1CB57;
+  border-left: 700px solid transparent;
+}
+
+.overviewImage{
+  max-height:30% ;
+
+}
+
+.agendaTitleDiv{
+
+
+}
+
+.agendaTitle{
+  text-align: center;
+font-size: 2em;
+color:#444444;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+.agendaSmallDiv{
+
+padding: 3% 3% 3% 3%;
+
+}
+
+.borderDiv{
+ border-bottom: 2px solid #CCCCCC; 
+}
+
+.agendaSessionTime{
+color:#818181;
+
+}
+
+.agendaSessionTitle{
+font-size: 1.5em;
+color:#444444;
+
+}
+
+.agendaSpeakerName{
+  display: inline;
+font-weight: bold;
+color:#D35400;
+}
+
+.com{
+  display:inline;
+  font-weight: bold;
+color:#D35400;
+}
+
+.agendaSpeakerTitle{
+   display: inline;
+
+color:#818181;
+}
+
+.agendaSessionDetail{
+
+margin-top: 0%;
+color:#818181;
+}
+
+.glyphicon-chevron-right{
+  color:#CCCCCC;
+}
+
+.glyphicon-chevron-left{
+  color:#CCCCCC;
+}

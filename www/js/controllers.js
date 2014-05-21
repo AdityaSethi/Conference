@@ -1,4 +1,4 @@
-angular.module('App.controllers', [])
+angular.module('conferenceApp')
 		.controller('ParentCtrl', ['$scope', function ($scope) {
         $scope.currentTab = 'main';
         $scope.selectTab = function(tab) {

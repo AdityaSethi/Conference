@@ -8,9 +8,21 @@ angular.module('conferenceApp', ['ngRoute'])
             controller: 'MainCtrl',
             templateUrl: 'partials/main.html'
         })
-        .when('/speaker', {
+        .when('/overview', {
+            controller: 'overviewCtrl',
+            templateUrl: 'partials/overview.html'
+        })
+        .when('/speakers', {
             controller: 'SpeakerCtrl',
-            templateUrl: 'partials/speaker.html'
+            templateUrl: 'partials/speakers.html'
+        })
+        .when('/agenda', {
+            controller: 'agendaCtrl',
+            templateUrl: 'partials/agenda.html'
+        })
+        .when('/venue', {
+            controller: 'VenueCtrl',
+            templateUrl: 'partials/venue.html'
         })
         .otherwise({redirectTo: '/'});
     });

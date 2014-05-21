@@ -1,0 +1,30 @@
+<div ng-include="'partials/navbar.html'"></div>
+<div class="agendaTitleDiv" ng-repeat="agenda in agendas">
+	<div ng-if="$index==ind">
+<div class="agendaTitle">
+<div ng-hide="$index==0" class="glyphicon glyphicon-chevron-left" ng-click="getPreviousDate($index)"></div>
+	{{agenda.title}}
+<div ng-hide="$index==agendas.length-1" class="glyphicon glyphicon-chevron-right" ng-click="getNextDate($index)"></div>
+</div>
+
+<div class="borderDiv"></div>
+
+<div class="agendaDiv"  ng-repeat="row in agenda.data">
+	<div class="agendaSmallDiv">
+	<div class="agendaSessionTime">{{row.time}}</div>
+	
+	<div class="agendaSessionTitle">{{row.session}}</div>
+	
+	
+	<div class="agendaSpeakerName">{{row.speaker}}</div>
+	<div class="com" ng-if="row.speaker!=null && row.speakerTitle!=null">,</div>
+	<div class="agendaSpeakerTitle">{{row.speakerTitle}}</div>
+	
+	<div class="agendaSessionDetail">{{row.detail}}</div>
+
+
+	</div>
+	<div class="borderDiv"></div>
+	</div>
+</div>
+</div>
