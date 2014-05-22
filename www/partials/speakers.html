@@ -1,12 +1,12 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="col-md-12" style=" border-bottom:1px solid #CCCCCC;padding-bottom:2.5%" ng-repeat="speaker in speakers">
-	<div class="col-md-5">
+<div class="col-md-12 speakerBorder" ng-repeat="speaker in speakers">
+	<div class="col-md-4">
 		<div class="breakline"></div>
 		<div class="breakline"></div>
 		<div class="breakline"></div>
-		<img src="img/{{speaker.image}}.jpg"></img>
+		<img class="speaker_image" src="img/{{speaker.image}}.jpg"></img>
 	</div>
-	<div class="col-md-7">
+	<div class="col-md-8">
 		<div>
 			<h3>{{speaker.name}}</h3>
 		</div>
@@ -24,14 +24,16 @@
 		<div class="default_content" style="font-size:16px" ng-if="!class_toggle[$index]">
 			{{speaker.description}}
 		</div>
-		<a ng-model="check" ng-click="check_expand($index)">
-			<div style="padding-top:2%" ng-if="toggle[$index]">
-				<span style="font-size:16px">See less</span><div class="glyphicon glyphicon-chevron-down"></div>
-			</div>
-			<div style="padding-top:2%" ng-if="!toggle[$index]">
-				<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-left" ></div>
-			</div>
-		</a>	
+		<div style="width:90px;padding-top:2%;padding-left:0">
+			<a ng-model="check" ng-click="check_expand($index)">
+				<div  ng-if="toggle[$index]">
+					<span style="font-size:16px">See less</span><div class="glyphicon glyphicon-chevron-down"></div>
+				</div>
+				<div style="padding-top:2%" ng-if="!toggle[$index]">
+					<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-left" ></div>
+				</div>
+			</a>
+		</div>	
 	</div>	
 
 	

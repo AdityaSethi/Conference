@@ -6,7 +6,11 @@ angular.module('conferenceApp', ['ngRoute'])
         $routeProvider
         .when('/', {
             controller: 'MainCtrl',
-            templateUrl: 'partials/main.html'
+            templateUrl: 'partials/landingPage.html'
+        })
+        .when('/view2', {
+            controller: 'MainCtrl',
+            templateUrl: 'partials/secondPage.html'
         })
         .when('/overview', {
             controller: 'overviewCtrl',
@@ -21,7 +25,7 @@ angular.module('conferenceApp', ['ngRoute'])
             templateUrl: 'partials/agenda.html'
         })
         .when('/venue', {
-            controller: 'VenueCtrl',
+            controller: 'venueCtrl',
             templateUrl: 'partials/venue.html'
         })
         .otherwise({redirectTo: '/'});

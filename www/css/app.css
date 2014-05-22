@@ -1,35 +1,44 @@
 /* app css stylesheet */
 
+html {
+  width: 768px;
+  height: 1200px;
+}
 .tabs
 {
   border:1px solid black;
   background-color: #CCCCCC;
-  height: 20%;
+  height: 90px !important; 
   text-align: center;
+  width:25% !important;
+  float:left;
+  padding-top: 2%; 
+ text-align: center;
 }
-li.active,a.active:hover,a.active:hover,li.active > a,li.active > a:hover
+div.active,div > a.active:hover,div.active > a,div.active > a:hover
 {
   background-color: #5BA3D8 !important; 
   color:white !important;
 }
+
 a.active,a
 {
   border:none !important;
+  color:#428BCA;
 }
 .font
 {
-  color:white;
+  color:white !important;
   text-align: center !important;
-  font-size:18px;
+  font-size:20px;
   margin:0 !important;
 }
-li >a:hover
+div >a:hover
 {
   background-color: #CCCCCC !important ;
-  color:white !important;
   border-color: #CCCCCC !important;
 }
-img
+.speaker_image
 {
   border:1px solid #CCCCCC !important;
   height:180px !important;
@@ -101,6 +110,10 @@ margin-left: 1%;
   max-height:50%;
   color: #888888;
 }
+.overviewImage
+{
+  width: 768px;
+}
 
 .divider{
 max-width: 100%;
@@ -134,7 +147,9 @@ padding: 3% 3% 3% 3%;
 }
 
 .borderDiv{
- border-bottom: 2px solid #CCCCCC; 
+ border-bottom: 2px solid #CCCCCC;
+ width:98%;
+ margin-left:1%; 
 }
 
 .agendaSessionTime{
@@ -182,4 +197,182 @@ color:#818181;
 .font_size
 {
   font-size: 20px;
+}
+.speakerBorder
+{
+  border-bottom:1px solid #CCCCCC !important;
+  padding-bottom:2.5% !important;
+  width:96% !important;
+  margin-left:2% !important;
+}
+/*Latest css*/
+
+.landingPage{
+   background: url('../img/background.png');
+  
+   width: 100%;
+   height: 1200px;
+    text-align: center;
+    vertical-align: center;
+    padding: 40% 10% 40% 10%;
+}
+
+.secondPage{
+   background: url('../img/background.png');
+  text-align: center;
+   width: 100%;
+   height: 1200px;
+   padding: 20% 10% 20% 10%;
+    
+    
+    
+}
+
+.landingPageIcon{
+  height:50%;
+  width:60%;
+
+}
+
+.landingPageLogo{
+  height:50%;
+  width:80%;
+
+}
+
+.landingPageText{
+  color:#FFFFFF;
+  display: inline;
+  font-size:20px;
+  
+  
+}
+
+.blue{
+  color:#73A7BD;
+  display:inline;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+.secondPageIcon{
+  height:20%;
+  width:20%;
+  display: inline;
+  float: left;
+
+}
+
+.secondPageLogo{
+  height:40%;
+  width:80%;
+  display: inline;
+
+}
+
+.secondPageText{
+  color:#FFFFFF;
+  margin-right: 10%;
+  font-size:22px;
+  
+  
+}
+
+.secondPageLogoDiv{
+  
+  margin-left: 10%;
+}
+
+.secondPageArrow{
+  margin-top: 2%;
+}
+
+.secondPageText2{
+  text-align: center;
+  color:#FFFFFF;
+  font-size:50px;
+  
+}
+
+.gridOne{
+height: 15%;
+width:60%;
+
+margin: 0px auto;
+
+
+
+}
+
+.gridOne1{
+float:left;
+ height:100%;
+  width:44%;
+  background-color: #3498DB;
+  
+  text-align: center;
+}
+
+.gridOne2{
+display: inline-block;
+height: 100%;
+width: 44%;
+
+background-color: #1ABC9C;
+text-align: center;
+}
+
+.gridTwo{
+height: 15%;
+width:60%;
+
+margin: 0px auto;
+
+
+
+}
+
+.gridTwo1{
+float:left;
+ height:100%;
+  width:44%;
+  background-color: #27AE60;
+  text-align: center;
+  
+}
+
+.gridTwo2{
+display: inline-block;
+height: 100%;
+width: 44%;
+
+background-color: #F1C40F;
+text-align: center;
+}
+
+.lineSpace{
+  width: 2%;
+  height: 2%;
+}
+
+.secondPageText3{
+  color:#FFFFFF;
+  
+  font-size:22px;
+  
+  
+  
+}
+
+.secondPageIcon2{
+ margin-top: 20%;
+height: 35%;
+}
+
+.homepage:hover
+{
+  color:transparent !important;
+ background-color:transparent !important;
 }

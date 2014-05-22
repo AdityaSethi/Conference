@@ -22,14 +22,16 @@
 		
 		<div class="content" ng-if="class_toggle[$index]">{{row.detail}}</div>
 		<div class="default_content" ng-if="!class_toggle[$index]">{{row.detail}}</div>
-		<a ng-model="check" ng-click="check_expand($index)" ng-if="$index!=0">
-			<div style="padding-top:2%" ng-if="toggle[$index]">
-				<span style="font-size:16px">See less</span><div class="glyphicon glyphicon-chevron-down"></div>
-			</div>
-			<div style="padding-top:2%" ng-if="!toggle[$index]">
-				<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-left" ></div>
-			</div>
-		</a>
+		<div style="width:90px;padding-top:2%;padding-left:0">
+			<a ng-model="check" ng-click="check_expand($index)">
+				<div  ng-if="toggle[$index]">
+					<span style="font-size:16px">See less</span><div class="glyphicon glyphicon-chevron-down"></div>
+				</div>
+				<div style="padding-top:2%" ng-if="!toggle[$index]">
+					<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-left" ></div>
+				</div>
+			</a>
+		</div>	
 
 	</div>
 	<div class="borderDiv"></div>

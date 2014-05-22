@@ -1,4 +1,3 @@
-  
     <div class="head">
       <img src="img/testImage.png" class="logoImage"></img>
       <span class="logoText"><span class="color1">JS</span>CHANNEL</span>
@@ -8,14 +7,17 @@
       Email: name@jschannel.com
     </div>
 
-      <ul class="nav col-md-12" style="padding-right:0px !important">
-        <li class="{{active_overview}} tabs col-md-3"><a data-toggle="tab"  href="#overview" ng-click="selectTab('active')">Overview</a></li>
-        <li class="{{active_speaker}} tabs  col-md-3"><a data-toggle="tab" href="#speakers" ng-click="selectTab('speakers')">Speakers</a></li>
-        <li class="{{active_agenda}} tabs  col-md-3"><a data-toggle="tab"  href="#agenda" ng-click="selectTab('agenda')">Agenda</a></li>
-        <li class="{{active_venue}} tabs  col-md-3"><a data-toggle="tab"  href="#venue" ng-click="selectTab('venue')">Venue</a></li>
-      </ul>
+      <div class="nav-tabs">
+        <a data-toggle="tab" href="#overview" ng-click="selectTab('active')"><div class="{{active_overview}} tabs font"><img src="img/icons/overview-small.png"></img><div class="breakline"></div><span>Overview</span></div></a>
+
+        <a data-toggle="tab" href="#speakers" ng-click="selectTab('speakers')"><div class="{{active_speaker}} tabs font"><img src="img/icons/speaker-small.png"></img><div class="breakline"></div><span>Speakers</span></div></a>
+
+        <a data-toggle="tab"  href="#agenda" ng-click="selectTab('agenda')"> <div class="{{active_agenda}} tabs font"><img src="img/icons/schedule-small.png"></img><div class="breakline"></div><span>Agenda</span></div></a>
+
+        <a data-toggle="tab"  href="#venue" ng-click="selectTab('venue')"><div class="{{active_venue}} tabs font"><img class="icons" src="img/icons/venue-small.png"></img><div class="breakline"></div><span>Venue</span></div></a>
+      </div>
       <div class="breakline"></div>
-   
+
  
 <!--<div class='navbar-collapse bs-navbar-collapse'>
     <ul class='nav navbar-nav'>
