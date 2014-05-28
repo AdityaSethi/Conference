@@ -1,12 +1,39 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="col-md-12 speakerBorder" ng-repeat="speaker in speakers">
-	<div class="col-md-4">
+<div class="container-fluid speakerBorder" ng-repeat="speaker in speakers">
+	<div style="width:30%;float:left">
 		<div class="breakline"></div>
-		<div class="breakline"></div>
-		<div class="breakline"></div>
-		<img class="speaker_image" src="img/{{speaker.image}}.jpg"></img>
+		<img class="speaker_image" src="img/{{speaker.image}}"></img>
+	</div><div style="width:5%;float:right;padding-top:40px">
+		 <a href="#speakerinfo" ng-click="speakerIndex($index)">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
 	</div>
-	<div class="col-md-8">
+	<div style="width:60%;float:right">
+		<div>
+			<h4>{{speaker.name}}</h4>
+		</div>
+		
+		<div class="font_size font_color">
+			{{speaker.known_for}}
+		</div>
+		<div class="font_color">
+			<h6>Speaks on "{{speaker.topic}}" topic on {{speaker.dd}}/{{speaker.mon}}/{{speaker.yy}} at {{speaker.startTime}}<h6>
+		</div>
+			
+	</div>	
+	
+	
+		
+	
+	
+
+</div>
+
+
+
+
+<!--
+<div class="col-md-8">
 		<div>
 			<h3>{{speaker.name}}</h3>
 		</div>
@@ -35,7 +62,4 @@
 			</a>
 		</div>	
 	</div>	
-
-	
-
-</div>
+	-->

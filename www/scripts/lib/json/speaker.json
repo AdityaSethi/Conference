@@ -1,17 +1,36 @@
 [
 				{
 				"name":"Douglas Crawford",
-				"image":"douglas",
-				"known_for":"Discovered the JSON",
+				"image":"douglas.jpg", 
+				"known_for":"Founder,Javascript",
 				"topic":"The Better Parts",
-				"description":"Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI)."
+				"description":"Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI).",
+				"dd":"10",
+				"mon":"Feb",
+				"yy":"14",
+				"yyyy":"2014",
+				"startTime":"1.30 p.m",
+				"endTime":"2.30 p.m",
+				"day":"Monday",
+				"venue":"Meeting Room 1",
+				"session":"The Big Parts",
+				"topic_description":"The Better Parts was a book written by Douglas Crawford.Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI)."
 				},
 				{
 				"name":"Amod Malviya",
-				"image":"amod",
+				"image":"amod.jpg",
 				"known_for":"SVP and Head of Engineering,Flipkart",
 				"topic":"...",
-				"description":"Amod heads the Engineering setup that powers Flipkart.com. Having joined the Engineering team during its infancy as a Sr. Engineering Manager,he has grown wearing multiple hats at a time,...."
+				"description":"Amod heads the Engineering setup that powers Flipkart.com. Having joined the Engineering team during its infancy as a Sr. Engineering Manager,he has grown wearing multiple hats at a time,....",
+				"dd":"10",
+				"mon":"Feb",
+				"yy":"14",
+				"yyyy":"2014",
+				"time":"1.30 p.m",
+				"day":"Monday",
+				"venue":"Meeting Room 1",
+				"session":"The Big Parts",
+				"topic_description":"The Better Parts was a book written by Douglas Crawford.Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI)."	
 				}
 ]
 

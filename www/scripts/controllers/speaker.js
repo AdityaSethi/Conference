@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('conferenceApp')
- .controller('SpeakerCtrl', function($scope,$http){
+ .controller('SpeakerCtrl', function($scope,$rootScope,$http){
   	$http.get('scripts/lib/json/speaker.json').success(function(response){
   		$scope.speakers=response;
   	});
@@ -16,7 +16,7 @@ angular.module('conferenceApp')
     $scope.active_venue;
 
       $scope.currentTab='speaker';
-  		$scope.expand="See more";
+  	/*	$scope.expand="See more";
   		$scope.selectedIndex=-1;
   		$scope.toggle = [];
       $scope.class_toggle=[];
@@ -34,4 +34,23 @@ angular.module('conferenceApp')
   				$scope.expand="See more";
   			}
   		};
+      */
+      
+      $scope.speakerIndex=function(index)
+      {
+        $http.get('scripts/lib/json/speaker.json').success(function(response){
+          $rootScope.speakerDetail = response[index];
+           console.log($rootScope.speakerDetail);
+      });
+      }
+
+      $scope.openLinkedIn=function()
+      {
+        window.open("https://in.linkedin.com/");
+      }
+
+      $scope.openTwitter=function()
+      {
+        window.open("https://twitter.com/");
+      }
   });

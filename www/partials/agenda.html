@@ -3,24 +3,36 @@
 	<div ng-if="$index==ind">
 <div class="agendaTitle">
 <div ng-hide="$index==0" class="glyphicon glyphicon-chevron-left" ng-click="getPreviousDate($index)"></div>
-	{{agenda.title}}
+	<!-- {{agenda.title}} -->
+	{{agenda.title.dayNum}} : {{agenda.title.day}}, {{agenda.title.month}} {{agenda.title.date}}
+	
 <div ng-hide="$index==agendas.length-1" class="glyphicon glyphicon-chevron-right" ng-click="getNextDate($index)"></div>
 </div>
 
 <div class="borderDiv"></div>
 
 <div class="agendaDiv"  ng-repeat="row in agenda.data" ng-controller="SpeakerCtrl">
+<div class="agendaStartTime">{{row.startTime}}</div>
 	<div class="agendaSmallDiv">
-		<div class="agendaSessionTime">{{row.time}}</div>
-		
-		<div class="agendaSessionTitle">{{row.session}}</div>
+	  <div class="agendaTime">
+		<div id="agendaSessionIcon" class="glyphicon glyphicon-time"></div>
+		<div class="agendaSessionTime">{{row.startTime}}-{{row.endTime}}</div>
+		</div>
+		<div class="agendaVenue" ng-if="row.venue!=null">
+		<div class="glyphicon glyphicon-map-marker" id="agendaVenueIcon"></div>
+		<div class="agendaVenueText">{{row.venue}}</div>
+		</div>
+		<div class="agendaSessionTitle">
+		<div class="agendaSessionText">{{row.session}}</div>
+		<a href="#/agendaDetail"><div class="glyphicon glyphicon-chevron-right" id="agendaSessionRightIcon" ng-click="showDetail(row,agenda)"></div></a>
+		</div>
 		
 		
 		<div class="agendaSpeakerName">{{row.speaker}}</div>
 		<div class="com" ng-if="row.speaker!=null && row.speakerTitle!=null">,</div>
 		<div class="agendaSpeakerTitle">{{row.speakerTitle}}</div>
 		
-		<div class="content overviewText" ng-if="class_toggle[$index]">{{row.detail}}</div>
+	<!-- 	<div class="content overviewText" ng-if="class_toggle[$index]">{{row.detail}}</div>
 		<div class="default_content overviewText" ng-if="!class_toggle[$index]">{{row.detail}}</div>
 		<div style="width:90px;padding-top:2%;padding-left:0" ng-if="row.detail!=null">
 			<a ng-model="check" ng-click="check_expand($index)">
@@ -30,11 +42,12 @@
 				<div style="padding-top:2%" ng-if="!toggle[$index]">
 					<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-down" ></div>
 				</div>
-			</a>
+			</a> -->
 		</div>	
 
+
 	</div>
-	<div class="borderDiv"></div>
+	
 </div>
 </div>
 </div>

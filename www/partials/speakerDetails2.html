@@ -1,0 +1,42 @@
+<div ng-include="'partials/navbar.html'"></div>
+<div class="aMain">
+<div class="aHead">
+<a href="#/speakerinfo"><div class="glyphicon glyphicon-chevron-left" id="aHeadLeftIcon"></div></a>
+<div class="aHeadText">{{speakerDetail.session}}</div>
+</div>
+<div class="aBody">
+ 	<div class="aBodyUpper">
+		<div class="DateTime">
+			<div class="aText2">DATE & TIME</div>
+				<div class="DTText">
+					<div id="aIcon" class="glyphicon glyphicon-calendar"></div>
+						<div class="aText">
+						{{speakerDetail.day}}, {{speakerDetail.dd}} {{speakerDetail.mon}} {{speakerDetail.yyyy}}
+						</div>
+					</div>
+				<div class="DTText">
+					<div id="aIcon" class="glyphicon glyphicon-time"></div>
+					<div class="aText">{{speakerDetail.startTime}}-{{speakerDetail.endTime}}</div>
+				</div>
+				<div  class="DTText">
+					<div id="aIcon" class="glyphicon glyphicon-map-marker"></div>
+					<div class="aText">{{speakerDetail.venue}}</div>
+				</div>
+			</div>
+		<div class="Speaker">
+			<div class="aText4">SPEAKER</div>
+			<div class="ImageDiv">
+			<img src="img/{{speakerDetail.image}}"  class="aImage"/>
+			<div class="aImageText">
+				<div>{speakerDetail.name}}</div>
+				<div>{{speakerDetail.known_for}}</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="aBodyLower">
+		<div class="aText2">DESCRIPTION</div>
+		<div class="aText3">{{speakerDetail.topic_description}}</div>
+	</div>
+</div>
+</div>

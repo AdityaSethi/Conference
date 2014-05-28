@@ -1,9 +1,9 @@
 /* app css stylesheet */
 .tabs
 {
-  border:1px solid black;
+  border-right:1px solid white;
   background-color: #CCCCCC;
-  height: 60px !important; 
+  height: 55px !important; 
   text-align: center;
   width:25% !important;
   float:left;
@@ -26,7 +26,7 @@ a.active,a
   color:white !important;
   text-align: center !important;
   font-size:100%;
-  margin:0 !important;
+  position:relative;
 }
 div >a:hover
 {
@@ -36,8 +36,8 @@ div >a:hover
 .speaker_image
 {
   border:1px solid #CCCCCC !important;
-  height:180px !important;
-  width:180px !important;
+  height:80px !important;
+  width:80px !important;
 }
 .default_content
 {
@@ -105,7 +105,7 @@ max-height:6% ;
 }
 
 .headerLogo{
-width:40%;
+width:300px;
 }
 
 .headerLogoDiv{
@@ -132,12 +132,13 @@ max-width: 100%;
   border-left: 700px solid transparent;
 }
 .agendaTitleDiv{
-
+background-color: #F4F4F4;
+padding: 1% 1% 1% 1%;
 }
 
 .agendaTitle{
   text-align: center;
-font-size: 2em;
+font-size: 15px;
 color:#444444;
 margin-top: 2%;
 margin-bottom: 2%;
@@ -145,8 +146,10 @@ margin-bottom: 2%;
 
 .agendaSmallDiv{
 
-padding: 3% 3% 3% 3%;
-
+padding: 1% 1% 1% 1%;
+border:1px solid #DBDBDB;
+background-color: #FFFFFF;
+margin-bottom: 20px;
 }
 
 .borderDiv{
@@ -157,25 +160,37 @@ padding: 3% 3% 3% 3%;
 
 .agendaSessionTime{
 color:#818181;
+display: inline;
 
 }
 
 .agendaSessionTitle{
-font-size: 1.5em;
-color:#444444;
 
+margin-top: 20px;
+}
+.agendaSessionText{
+  font-size: 15px;
+color:#444444;
+display: inline;
+}
+
+#agendaSessionRightIcon{
+  color:#8C8C8C;
+  font-size: 15px;
+  display: inline;
+float:right;
 }
 
 .agendaSpeakerName{
   display: inline;
-font-weight: bold;
-color:#D35400;
+
+color:#FFA03E;
 }
 
 .com{
   display:inline;
-  font-weight: bold;
-color:#D35400;
+  
+color:#FFA03E;
 }
 
 .agendaSpeakerTitle{
@@ -199,14 +214,18 @@ color:#818181;
 }
 .font_size
 {
-  font-size: 20px;
+  font-size: 15px;
+}
+.font_color
+{
+    color:#888888;
 }
 .speakerBorder
 {
-  border-bottom:1px solid #CCCCCC !important;
-  padding-bottom:2.5% !important;
-  width:96% !important;
-  margin-left:2% !important;
+  border:1px solid #CCCCCC !important;
+  background-color: white;
+  margin-top: 2%;
+  padding-bottom:1%;
 }
 /*Latest css*/
 
@@ -219,7 +238,7 @@ color:#818181;
 
 .secondPage{
    background: url('../img/background.png');
-   padding: 20% 10% 20% 10%;  
+   padding: 20% 10% 20% 20%;  
 }
 
 .landingPageIcon{
@@ -260,35 +279,40 @@ a:link{
 }
 
 .secondPageLogo{
-  height:50%;
-  width:70%;
+  height:35%;
+  width:55%;
   display: inline;
 
 }
 
 .secondPageText{
   color:#FFFFFF;
-  margin-right: 10%;
-  font-size:130%;
+  margin-right: 15%;
+  font-size:100%;
 
   
 }
 
 .secondPageLogoDiv{
-  
   margin-left: 10%;
+} 
+
+.secondPageArrowDiv{
+     vertical-align: middle;  
+      width:10%; 
+      margin:auto; 
 }
 
 .secondPageArrow{
   margin-top: 2%;
   vertical-align: middle;
-  padding-left: 25%;
+
 }
 
 .secondPageText2{
   text-align: center;
   color:#FFFFFF;
-  font-size:280%;
+  font-size:200%;
   
 }
 
@@ -305,8 +329,8 @@ margin: 0px auto;
 .gridOne1{
   
 float:left;
- height:75px;
-  width:75px;
+ height:85px;
+  width:85px;
   background-color: #3498DB;
   margin:0px auto;
   text-align: center;
@@ -314,8 +338,8 @@ float:left;
 
 .gridOne2{
 display: inline-block;
-height: 75px;
-width: 75px;
+height: 85px;
+width: 85px;
 
 background-color: #1ABC9C;
 text-align: center;
@@ -323,15 +347,15 @@ text-align: center;
 
 .gridTwo{
 width:200px;
-margin: 0px auto;
+margin: 15px auto;
 text-align: center;
 }
 
 .gridTwo1{
 
 float:left;
- height:75px;
-  width:75px;
+ height:85px;
+  width:85px;
   background-color: #27AE60;
   text-align: center;
   
@@ -339,8 +363,8 @@ float:left;
 
 .gridTwo2{
 display: inline-block;
-height: 75px;
-width: 75px;
+height: 85px;
+width: 85px;
 
 background-color: #F1C40F;
 text-align: center;
@@ -382,6 +406,173 @@ text-align: center;
   width:10%;
   padding-left:0px;
 }
-body{
-  orient:"portrait";
+
+.agendaStartTime{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#agendaSessionIcon{
+  color:#818181;
+  display: inline;
+  font-size: 9px;
+}
+
+.agendaTime{
+  
+  display: inline;
+}
+
+.agendaVenue{
+  display: inline;
+  float:right;
+}
+
+.agendaVenueText{
+  display: inline;
+  color:#8C8C8C;
+  font-size: 12px;
+}
+
+#agendaVenueIcon{
+  color:#8C8C8C;
+  font-size: 12px;
+  display: inline;
+}
+.aMain{
+  background-color:#F4F4F4 ;
+  padding:1% 1% 1% 1% ;
+  text-align: center;
+}
+
+.aHeadText{
+  text-align: center;
+  display: inline;
+  color:#2E2E2E;
+  font-size: 18px;
+}
+
+#aHeadLeftIcon{
+  float:left;
+  font-size: 14px;
+  color:#D1D1D1;
+}
+
+.aBody{
+  background-color: #FFFFFF;
+  border:1px solid #E4E4E4;
+  display: inline-block;
+  width:95%;
+  padding:2% 2% 2% 2%;
+}
+
+.DateTime{
+display:inline;
+float:left;
+}
+
+.Speaker {
+    display: inline;
+    float: right;
+    width: 40%;
+    height: 50%;
+}
+
+.aText{
+display: inline;
+   font-size: 11px;
+   color:#909090;
+}
+
+#aIcon{
+  display: inline;
+   font-size: 12px;
+  color:#969696;
+  float: left;
+  margin-right: 2px;
+}
+
+.aText2{
+   font-size: 12px;
+   color:#909090;
+   margin-bottom: 10px;
+   font-weight: bold;
+   text-align: left;
+}
+
+.aText4 {
+    font-size: 12px;
+    color: #909090;
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10%;
+    float: right;
+}
+.aImage {
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    right: 0px;
+    float: right;
+}
+
+.aImageText {
+    bottom: 0px;
+    z-index: 100;
+    position: absolute;
+    background-color: #000;
+    color: #FFF;
+    padding: 1%;
+    width: 36%;
+    max-width: ;
+    opacity: 0.7;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.aBodyLower{
+  margin-top: 20px;
+  position: relative;
+  height:60%;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.aText3{
+  color:#949494;
+  font-size:11px;
+
+}
+
+.aBodyUpper{
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  height: 40%;
+
+}
+
+.DTText{
+  text-align: left;
+}
+
+.ImageDiv{
+  width:90%;
+  height: 90%;
+  float: right;
+}
+/**/
+.sdImage
+{
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    left: 0px;
 }

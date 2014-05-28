@@ -1,42 +1,62 @@
 [{
-	"title":"Day 1: Monday, July 18",
+	"title":
+	{
+		"dayNum":"Day 1",
+	"day": "Monday",
+	"month": "July",
+	"date": "18",
+	"year":"2014"
+	},
 	"data": [
 
 	{
-		"time":"8:00am-8:30am",
+		"startTime":"8:00am",
+		"endTime":"8:30am",
 		"session":"Registration Starts"
 	},
 	
 	{
-		"time":"8:30am-9:15am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"The Big Parts",
 		"speaker":"Douglas Crawford",
 		"speakerTitle":"Discovered the JSON",
+		"speakerPic":"douglas.jpg",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed.JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	},
 
 	{
-		"time":"9:15am-10:00am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Three",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed.JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	},
 
 	{
-		"time":"10:00am-10:45am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Four",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	
 	},
 
 	{
-		"time":"10:45am-11:45am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Five",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	
 	}
@@ -44,44 +64,64 @@
 	]
 },
 {
-	"title":"Day 2: Tuesday, July 19",
+	"title":
+	{
+		"dayNum":"Day 2",
+	"day": "Tuesday",
+	"month": "July",
+	"date": "19",
+	"year":"2014"
+	},
 	"data": [
 
 	{
-		"time":"8:00am-8:30am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Registration Starts"
 	},
 	
 	{
-		"time":"8:30am-9:15am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"The Big Parts",
 		"speaker":"Douglas Crawford",
 		"speakerTitle":"Discovered the JSON",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	},
 
 	{
-		"time":"9:15am-10:00am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Three",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	},
 
 	{
-		"time":"10:00am-10:45am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Four",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	
 	},
 
 	{
-		"time":"10:45am-11:45am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Five",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	
 	}
@@ -89,45 +129,69 @@
 	]
 },
 {
-	"title":"Day 3: Wednesday, July 20",
+	"title":
+	{
+		"dayNum":"Day 3",
+	"day": "Wednesday",
+	"month": "July",
+	"date": "20",
+	"year":"2014"
+	},
 	"data": [
 
 	{
-		"time":"8:00am-8:30am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title One",
-		"speaker":"Speaker Name One"
+		"speaker":"Speaker Name One",
+		"speakerTitle":"Discovered the JSON",
+		"speakerPic":"testImage.png",
+	"venue":"Meeting Room 1",
+		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	},
 	
 	{
-		"time":"8:30am-9:15am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"The Big Parts",
 		"speaker":"Douglas Crawford",
 		"speakerTitle":"Discovered the JSON",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	},
 
 	{
-		"time":"9:15am-10:00am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Three",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	},
 
 	{
-		"time":"10:00am-10:45am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Four",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	
 	},
 
 	{
-		"time":"10:45am-11:45am",
+		"startTime":"8:30am",
+		"endTime":"9:15am",
 		"session":"Session Title Five",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Meeting Room 1",
 		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
 	
 	}
