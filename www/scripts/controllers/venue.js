@@ -8,5 +8,12 @@ angular.module('conferenceApp')
     $scope.active_speaker;
     $scope.active_agenda;
     $scope.active_venue="active";
+    $scope.map = {
+    center: {
+        latitude: 45,
+        longitude: -73
+    },
+    zoom: 8
+};
 
   });

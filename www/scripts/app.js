@@ -1,4 +1,4 @@
-angular.module('conferenceApp', ['ngRoute'])
+angular.module('conferenceApp', ['ngRoute','google-maps'])
     // .config(['$compileProvider', function ($compileProvider) {
     //     $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
     // }])
