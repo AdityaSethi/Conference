@@ -1,19 +1,19 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div style="width:5%;padding-left:5%;padding-top:30px">
-		 <a href="#speakers">
-			<span class="glyphicon glyphicon-chevron-left"></span>
+<div style="width:5%;padding-left:5%;margin-top:30px">
+		 <a href="#speakers" >
+			<span style="padding-bottom:25px" class="glyphicon glyphicon-chevron-left"></span>
 		</a>
 </div>
 
 <div class="aBody" style="margin-left:2%">
 
-	<div style="float:left;width:60%">
+	<div style="float:left;width:50%">
 		<img class="sdImage" src="img/{{speakerDetail.image}}"></img>
 	</div>
-	<div style="margin-left:62%;width:40%">
+	<div style="float:left;width:50%">
 		<div><h5>{{speakerDetail.name}}</h5><h6 class="font_color">{{speakerDetail.known_for}}</h6></div >
-		<a ng-click="openLinkedIn()" href="#linkedin"><img height="22px"src="img/icons/linkedin-icon.png"></img></a>
-		<a ng-click="openTwitter()" href="#twitter"><img height="22px"src="img/icons/twitter-logo.png"></img></a>
+		<!--<a ng-click="openLinkedIn()" href="#linkedin"><img height="22px"src="img/icons/linkedin-icon.png"></img></a>
+		<a ng-click="openTwitter()" href="#twitter"><img height="22px"src="img/icons/twitter-logo.png"></img></a>-->
 		<div class="breakline"></div>
 		<div>
 			<div><h6 class="font_color"><b>SESSION</b></h6></div >
