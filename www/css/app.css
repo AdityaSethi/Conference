@@ -36,10 +36,10 @@ div >a:hover
 .speaker_image
 {
   border:1px solid #CCCCCC !important;
-  height:115px !important;
-  width:115px !important;
-  margin-left:10%;
-  margin-top:0%;
+  height:110px !important;
+  width:110px !important;
+  margin-left:7%;
+  margin-top:2%;
 }
 .default_content
 {
@@ -154,7 +154,7 @@ padding: 1% 1% 1% 1%;
   text-align: center;
 font-size: 15px;
 color:#444444;
-margin-top: 2%;
+margin-top: 50px;
 margin-bottom: 2%;
 }
 
@@ -478,9 +478,7 @@ width: 250px;
   color:#2E2E2E;
   font-size: 18px;
 }
-.aHead{
-  height:40px;
-}
+
 
 #aHeadLeftIcon{
   float:left;
@@ -616,8 +614,8 @@ display: inline;
 .sdImage
 {
     
-    height: 165px;
-    width: 165px;
+    height: 160px;
+    width: 160px;
     left: 0px;
 }
 
@@ -651,9 +649,12 @@ display: inline;
 {
   width:5%;
   padding-left:5%;
-  margin-top:30px;
+  margin-top:60px;
 }
-
+.sdArrowGlyph
+{
+  padding-bottom:25px;
+}
 .speakerDetailDiv
 {
   float:left;
@@ -676,4 +677,34 @@ span.glyphicon-chevron-left,span.glyphicon-chevron-right
 .speakerMainDiv
 {
   color:black !important;
+}
+.speakerDiv
+{
+  width:40%;
+  float:left;
+}
+
+.glyphChevronRight
+{
+  width:5%;
+  float:right;
+  padding-top:40px;
+  margin-right:2%;
+}
+.speakerInfo
+{
+  width:50%;
+  float:left;
+  margin-left:1%;
+}
+.speakerImageDivLeft
+{
+  float:left;
+  width:50%;
+}
+.speakerImageDivRight
+{
+  float:right;
+  width:40%;
+  padding-left: 10px;
 }

@@ -37,7 +37,7 @@
 	</div>
 	<div class="aBodyLower" ng-if="row.detail!=null">
 		<div class="aText2">DESCRIPTION</div>
-		<div class="aText3">{{row.detail}}</div>
+		<div class="aText3" ng-bind-html="row.detail"></div>
 	</div>
 </div>
 </div>

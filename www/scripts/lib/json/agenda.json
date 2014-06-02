@@ -2,62 +2,117 @@
 	"title":
 	{
 		"dayNum":"Day 1",
-	"day": "Monday",
+	"day": "Friday",
 	"month": "July",
-	"date": "18",
+	"date": "18th",
 	"year":"2014"
 	},
 	"data": [
 
 	{
-		"startTime":"8:00am",
-		"endTime":"8:30am",
-		"session":"Registration Starts"
+		"startTime":"8:30am",
+		"endTime":"9:30am",
+		"session":"Registration",
+		"speaker":"JSChannel Team"
 	},
 	
 	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"The Big Parts",
-		"speaker":"Douglas Crawford",
+		"startTime":"9:30am",
+		"endTime":"10:00am",
+		"session":"Pre Conference",
+		"speaker":"JSChannel Team",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"<ul><li>Welcome all guests keynote speakers and JS Community</li><li>Lighting lamp ceremony</li><li>Kick start the conference</li></ul>"
+	},
+	{
+		"startTime":"10:00am",
+		"endTime":"11:00am",
+		"session":"The Better Parts",
+		"speaker":"Douglas Crockford",
 		"speakerTitle":"Discovered the JSON",
 		"speakerPic":"douglas.jpg",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed.JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
 	},
 
+
 	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Three",
+		"startTime":"11:00am",
+		"endTime":"11:45am",
+		"session":"Session I",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed.JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
-	},
-
-	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Four",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":" Description here"
 	
 	},
 
 	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Five",
+		"startTime":"11:45am",
+		"endTime":"12:30am",
+		"session":"Session II",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	
+	},
+
+	{
+		"startTime":"12:30am",
+		"endTime":"2:00am",
+		"session":"Lunch",
+		
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	
+	},
+
+	{
+		"startTime":"2:00am",
+		"endTime":"4:30am",
+		"session":"HTML5 Game Programming",
+		"speaker":"Mark Lassoff",
+		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"<ol type='I'><li>Understanding when HTML5/JS is Appropriate for Gaming and When it's Not<ol type='A'><li>Pros of HTML5 Gaming</li><li>Cons of HTML5 Gaming</li><li>Cross Device Alternatives<ol type='1'><li>Unity Engine</li><li>Native Porting</li><li>WebGL</li></ol></li></ol></li><li>HTML5 Game Architecture<ol type='A'><li>Loading/Preloading Assets</li><li>Asset Hierarchies</li><li>Server Interaction</li><li>Game Loop</li><li>Libraries</li></ol></li><li>Developing the App<ol type='A'><li>Creating the Application Shell</li><li>Including Necessary Libraries</li><li>Coding the Basic Game Loop</li><li>Adding Player Interaction</li><li>Adding Animations</li><li>Adding Sounds</li><li>Adding Scoring</li><li>Making the Game Replayable</li></ol></li><li>Testing Across Environments</li><li>Release Considerations</li></ol>"
+	
+	
+	},
+
+	{
+		"startTime":"2:00pm",
+		"endTime":"4:30pm",
+		"session":"Functional Programming Techniques in JavaScript",
+		"speaker":"Magesh Kuppan",
+		"speakerTitle":"Software consultant and trainer",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"<p>Functional programming encourages the use of 'Pure functions' that depend only on their inputs and not on the global state. This leads to functions with no 'side effects' which are relatively bug free.</p><p>Functions programming gives way for declarative programming paradigm where the users of the api have to deal only with the 'what' aspect of the api rather than the nuances of the 'how'.</p><p>The workshops covers the following:<ol type='1'><li>Thinking in terms of 'actions' (functions) rather than 'state' (objects)</li><li>Writing pure functions</li><li>Avoiding intermediate state by exploiting recursion</li><li> Understanding and using 'Higher order functions'</li><li>Mastering closures</li><li> Implementing some of the Object Oriented Language Design Patterns the functional way.</li></ol></p>"
+	
+	},
+
+	{
+		"startTime":"4:30pm",
+		"endTime":"5:00pm",
+		"session":"Tea Break",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	
+	},
+
+	{
+		"startTime":"5:00pm",
+		"endTime":"6:00pm",
+		"session":"Keynote II",
+		"speaker":"Amod Malviya",
+		"speakerTitle":"SVP and Head of Engineering Flipkart",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
 	
 	}
 
@@ -67,133 +122,117 @@
 	"title":
 	{
 		"dayNum":"Day 2",
-	"day": "Tuesday",
+	"day": "Saturday",
 	"month": "July",
-	"date": "19",
+	"date": "19th",
 	"year":"2014"
 	},
 	"data": [
 
 	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Registration Starts"
+		"startTime":"9:30am",
+		"endTime":"10:30am",
+		"session":"Keynote III",
+		"speaker":"Speaker Name",
+		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
 	},
 	
 	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"The Big Parts",
-		"speaker":"Douglas Crawford",
-		"speakerTitle":"Discovered the JSON",
+		"startTime":"10:30am",
+		"endTime":"11:15am",
+		"session":"Node @ Myntra",
+		"speaker":"Sunil Pai",
+		"speakerTitle":"Skinny, smart, sufferin' suckatash",
 		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. I was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. We learnt a number of things along the way, and I'd like to share some of these with the rest of the community. We experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. We managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with."
 	},
 
 	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Three",
+		"startTime":"11:15am",
+		"endTime":"12:00pm",
+		"session":"Session II",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
 	},
 
 	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Four",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
-	
-	},
-
-	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Five",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
-	
-	}
-
-	]
-},
-{
-	"title":
-	{
-		"dayNum":"Day 3",
-	"day": "Wednesday",
-	"month": "July",
-	"date": "20",
-	"year":"2014"
-	},
-	"data": [
-
-	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title One",
-		"speaker":"Speaker Name One",
-		"speakerTitle":"Discovered the JSON",
-		"speakerPic":"testImage.png",
-	"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
-	},
-	
-	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"The Big Parts",
-		"speaker":"Douglas Crawford",
-		"speakerTitle":"Discovered the JSON",
-		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
-	},
-
-	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Three",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
-	},
-
-	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Four",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
+		"startTime":"12:00pm",
+		"endTime":"1:00pm",
+		"session":"Lunch",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
 	
 	},
 
 	{
-		"startTime":"8:30am",
-		"endTime":"9:15am",
-		"session":"Session Title Five",
+		"startTime":"1:00pm",
+		"endTime":"3:30pm",
+		"session":"Build a scalable video chat platform using Node, Kraken, WebRTC and HTML5 video",
+		"speaker":"Joe Pettersson",
+		"speakerTitle":"Technical Lead of UI Engineering at McKinsey & Company",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	
+	},
+	
+	{
+		"startTime":"1:00pm",
+		"endTime":"3:30pm",
+		"session":"Angular Directive: Deep dive",
+		"speaker":"Suman Paul",
+		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	},
+	
+	{
+		"startTime":"3:30pm",
+		"endTime":"4:00pm",
+		"session":"Tea Break",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	},
+	
+	{
+		"startTime":"4:00pm",
+		"endTime":"4:30pm",
+		"session":"Lightning Talks",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
-		"venue":"Meeting Room 1",
-		"detail":"JavaScript (JS) is a dynamic computer programming language.[5] It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed."
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	},
 	
+	{
+		"startTime":"4:30pm",
+		"endTime":"5:30pm",
+		"session":"Keynote IV",
+		"speaker":"Satty Bhens",
+		"speakerTitle":"all things web,dev & ifc",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	},
+	
+	{
+		"startTime":"5:00pm",
+		"endTime":"5:30pm",
+		"session":"Thanking All - Feedback",
+		"speaker":"Speaker name",
+		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
 	}
 
 	]

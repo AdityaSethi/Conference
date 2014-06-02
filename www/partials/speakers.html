@@ -1,29 +1,28 @@
 <div ng-include="'partials/navbar.html'"></div>
 <div class="container-fluid speakerBorder" ng-repeat="speaker in speakers">
-	 
 	 <a class="speakerMainDiv" href="#speakerinfo" ng-click="speakerIndex($index)">
-	<div style="width:30%;float:left">
-		<div class="breakline"></div>
-		<img class="speaker_image" src="img/{{speaker.image}}"></img>
-	</div><div style="width:5%;float:right;padding-top:40px">
-		
-			<span class="glyphicon glyphicon-chevron-right"></span>
-		
-	</div>
-	<div style="width:60%;float:right">
-		<div>
-			<h4>{{speaker.name}}</h4>
+		<div class="speakerDiv">
+			<div class="breakline"></div>
+			<img class="speaker_image" src="img/{{speaker.image}}"></img>
 		</div>
 		
-		<div class="font_size font_color">
-			{{speaker.known_for}}
-		</div>
-		<div class="font_color">
-			<h6>Speaks on "{{speaker.topic}}" topic on {{speaker.dd}}/{{speaker.mon}}/{{speaker.yy}} at {{speaker.startTime}}<h6>
-		</div>
-			
-	</div>	
-	
+			<div class="glyphChevronRight">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</div>
+				<div class="speakerInfo">
+					<div>
+						<h4>{{speaker.name}}</h4>
+					</div>
+					
+					<div class="font_size font_color">
+						{{speaker.known_for}}
+					</div>
+					<div class="font_color">
+						<h6>Speaks on "{{speaker.topic}}" topic on {{speaker.dd}}/{{speaker.mon}}/{{speaker.yy}} at {{speaker.startTime}}<h6>
+					</div>
+						
+				</div>	
+		
 	</a>
 		
 	

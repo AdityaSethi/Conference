@@ -1,17 +1,17 @@
-angular.module('conferenceApp', ['ngRoute','google-maps'])
+angular.module('conferenceApp', ['ngRoute','google-maps','ngSanitize'])
     // .config(['$compileProvider', function ($compileProvider) {
     //     $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
     // }])
     .config(function ($routeProvider) {
         $routeProvider
         .when('/', {
-            controller: 'MainCtrl',
-            templateUrl: 'partials/landingPage.html'
-        })
-        .when('/view2', {
             controller: 'secondPageCtrl',
             templateUrl: 'partials/secondPage.html'
         })
+        /*.when('/view2', {
+            controller: 'secondPageCtrl',
+            templateUrl: 'partials/secondPage.html'
+        })*/
         .when('/overview', {
             controller: 'overviewCtrl',
             templateUrl: 'partials/overview.html'
