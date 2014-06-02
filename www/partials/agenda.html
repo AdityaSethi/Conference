@@ -1,6 +1,6 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="agendaTitleDiv" ng-repeat="agenda in agendas">
-	<div ng-if="$index==ind">
+<div class="agendaTitleDiv" ng-repeat="agenda in agendas" ng-if="$index==ind">
+	
 <div class="agendaTitle">
 <div ng-hide="$index==0" class="glyphicon glyphicon-chevron-left" ng-click="getPreviousDate($index)"></div>
 	<!-- {{agenda.title}} -->
@@ -11,9 +11,11 @@
 
 <div class="borderDiv"></div>
 
-<div class="agendaDiv"  ng-repeat="row in agenda.data" ng-controller="SpeakerCtrl">
+<div class="agendaDiv"  ng-repeat="row in agenda.data" ng-controller="SpeakerCtrl"  ng-click="showDetail(row,agenda)">
 <div class="agendaStartTime">{{row.startTime}}</div>
-	<div class="agendaSmallDiv">
+	<a href="#/agendaDetail" class="fill-div">
+	<div class="agendaSmallDiv" >
+	
 	  <div class="agendaTime">
 		<div id="agendaSessionIcon" class="glyphicon glyphicon-time"></div>
 		<div class="agendaSessionTime">{{row.startTime}}-{{row.endTime}}</div>
@@ -24,7 +26,7 @@
 		</div>
 		<div class="agendaSessionTitle">
 		<div class="agendaSessionText">{{row.session}}</div>
-		<a href="#/agendaDetail"><div class="glyphicon glyphicon-chevron-right" id="agendaSessionRightIcon" ng-click="showDetail(row,agenda)"></div></a>
+		<div class="glyphicon glyphicon-chevron-right" id="agendaSessionRightIcon"></div>
 		</div>
 		
 		
@@ -43,11 +45,12 @@
 					<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-down" ></div>
 				</div>
 			</a> -->
+			
 		</div>	
 
-
+</a>
 	</div>
 	
 </div>
-</div>
+
 </div>

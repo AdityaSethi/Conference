@@ -6,7 +6,8 @@
 </div>
 <div class="aBody">
  	<div class="aBodyUpper">
-		<div class="DateTime">
+		<div class="DateTime" 
+		ng-if="agenda.title!=null || 'row.startTime!=null && row.endTime!=null' ||  row.venue!=null">
 			<div class="aText2">DATE & TIME</div>
 				<div class="DTText" ng-if="agenda.title!=null">
 					<div id="aIcon" class="glyphicon glyphicon-calendar"></div>
@@ -23,18 +24,18 @@
 					<div class="aText">{{row.venue}}</div>
 				</div>
 			</div>
-		<div class="Speaker">
+		<div class="Speaker" ng-if="row.speaker!=null">
 			<div class="aText4">SPEAKER</div>
-			<div class="ImageDiv">
+			<div class="ImageDiv" ng-if="row.speakerPic!=null">
 			<img src="img/{{row.speakerPic}}"  class="aImage"/>
-			<div class="aImageText">
+			<div class="aImageText" ng-if="row.speaker!=null || rpw.speakerTitle!=null">
 				<div>{{row.speaker}}</div>
 				<div>{{row.speakerTitle}}</div>
 			</div>
 			</div>
 		</div>
 	</div>
-	<div class="aBodyLower">
+	<div class="aBodyLower" ng-if="row.detail!=null">
 		<div class="aText2">DESCRIPTION</div>
 		<div class="aText3">{{row.detail}}</div>
 	</div>
