@@ -36,10 +36,10 @@ div >a:hover
 .speaker_image
 {
   border:1px solid #CCCCCC !important;
-  height:80px !important;
-  width:80px !important;
+  height:115px !important;
+  width:115px !important;
   margin-left:10%;
-  margin-top:7%;
+  margin-top:0%;
 }
 .default_content
 {
@@ -495,10 +495,18 @@ width: 250px;
   display: inline-block;
   width:95%;
   padding:2% 2% 2% 2%;
-  margin-left:2%;
-  margin-top:2%;
+ 
+}
+.aBodyMarginLeft
+{
+   margin-left:2% !important;
+}
+.aBodyMarginTopBot
+{
+    margin-top:2%;
   margin-bottom:2%;
 }
+
 
 .DateTime{
 display:inline;
@@ -604,16 +612,12 @@ display: inline;
 }
 /**/
 
-.sdImageDiv
-{
-  float:left;
-  width:50%;  
-}
+
 .sdImage
 {
-    max-height: 100px;
-    height: 120px;
-    width: 110px;
+    
+    height: 165px;
+    width: 165px;
     left: 0px;
 }
 
@@ -662,4 +666,14 @@ display: inline;
 .speakerTopicImage
 {
   height:22px;
+}
+span.glyphicon-chevron-left,span.glyphicon-chevron-right
+{
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.speakerMainDiv
+{
+  color:black !important;
 }
