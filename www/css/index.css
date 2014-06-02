@@ -95,7 +95,7 @@ h1 {
 .selected {
   background-color: #f9f9f9;
 }
-.angular-google-map-container { height: 400px; }
+.angular-google-map-container { height: 430px; }
 /*.nav > li {
     width: auto;
     position: relative;
