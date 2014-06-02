@@ -7,7 +7,7 @@
   text-align: center;
   width:25% !important;
   float:left;
-  padding-top: 1px; 
+  padding-top: 10px; 
  text-align: center;
 }
 div.active,div > a.active:hover,div.active > a,div.active > a:hover
@@ -38,6 +38,8 @@ div >a:hover
   border:1px solid #CCCCCC !important;
   height:80px !important;
   width:80px !important;
+  margin-left:10%;
+  margin-top:7%;
 }
 .default_content
 {
@@ -75,9 +77,9 @@ a:hover
 
 
 
-.head{
+.head {
   height: 20%;
-  background-color: #190F0D;
+  background:url('../img/background.png');
   color: #FFFFFF;
   text-align: center;
   padding: 2% 2% 2% 2%;
@@ -88,8 +90,9 @@ a:hover
   display: inline;
 }
 .headerText2{
-  margin-left: 6%;
+  margin-left: 10%;
   margin-top: -3%;
+  color:white;
   
 }
 .headerText3{
@@ -105,7 +108,8 @@ max-height:6% ;
 }
 
 .headerLogo{
-width:300px;
+
+width:140px;
 }
 
 .headerLogoDiv{
@@ -118,10 +122,20 @@ width:300px;
   color:#73A7BD;
 }
 
+.overview
+{
+  padding:0px !important;
+}
+.overviewImage
+{
+  width:100%;
+  height:100%;
+  position:relative;
+}
 .overviewText{
   max-height:50%;
   color: #888888;
-  font-size:120%;
+  font-size:100%;
 }
 
 
@@ -149,7 +163,7 @@ margin-bottom: 2%;
 padding: 1% 1% 1% 1%;
 border:1px solid #DBDBDB;
 background-color: #FFFFFF;
-margin-bottom: 20px;
+
 }
 
 .borderDiv{
@@ -161,6 +175,7 @@ margin-bottom: 20px;
 .agendaSessionTime{
 color:#818181;
 display: inline;
+
 
 }
 
@@ -227,6 +242,8 @@ color:#818181;
   margin-top: 2%;
   padding-bottom:1%;
 }
+
+
 /*Latest css*/
 
 .landingPage{
@@ -238,27 +255,26 @@ color:#818181;
 
 .secondPage{
    background: url('../img/background.png');
-   padding: 20% 10% 20% 20%;  
+   padding: 20% 0% 20% 0%; 
+   margin:auto;
 }
 
 .landingPageIcon{
-  height:40%;
-  width:40%;
-
+  height:50px;
+  width:75px;
+  margin:auto;
 }
 
 .landingPageLogo{
-  height:50%;
-  width:80%;
-
+  height:50px;
+  width:140px;
+  margin:auto;
 }
 
 .landingPageText{
   color:#FFFFFF;
   display: inline;
-  font-size:125%;
-  
-  
+  font-size:100%;
 }
 
 .blue{
@@ -270,49 +286,41 @@ a:link{
   text-decoration:none;
 }
 
-.secondPageIcon{
-  height:30%;
-  width:20%;
-  display: inline;
-  float: left;
-
-}
-
-.secondPageLogo{
-  height:35%;
-  width:55%;
-  display: inline;
-
-}
-
-.secondPageText{
-  color:#FFFFFF;
-  margin-right: 15%;
-  font-size:100%;
-
-  
+.secondPageDiv
+{
+  width:280px !important;
+  margin: auto;
 }
 
 .secondPageLogoDiv{
-  margin-left: 10%;
-} 
+  width:300px;
+}
+
+.secondPageIconLogo {
+height: 65px;
+width: 260px;
+padding-right: 3%;
+margin: auto;
+display: inline;
+}
 
 .secondPageArrowDiv{
-     vertical-align: middle;  
-      width:10%; 
+      width:20%; 
       margin:auto; 
 }
 
 .secondPageArrow{
-  margin-top: 2%;
-  vertical-align: middle;
+  height:100px;
+  margin-left:10px;
 
 }
 
 .secondPageText2{
   text-align: center;
   color:#FFFFFF;
-  font-size:200%;
+  font-size:150%;
+  margin:auto;
+  padding-bottom: 15px;
   
 }
 
@@ -320,56 +328,52 @@ a:link{
 
 width:200px;
 text-align: center;
+margin-left:33px;
+}
+
+.gridOne1 {
+float: left;
+height: 85px;
+width: 85px;
+background-color: #3498DB;
 margin: 0px auto;
-
-
-
+text-align: center;
+padding: 22px 6px 6px 6px;
 }
 
-.gridOne1{
-  
-float:left;
- height:85px;
-  width:85px;
-  background-color: #3498DB;
-  margin:0px auto;
-  text-align: center;
-}
-
-.gridOne2{
+.gridOne2 {
 display: inline-block;
 height: 85px;
 width: 85px;
-
 background-color: #1ABC9C;
 text-align: center;
+padding: 12px 6px 6px 6px;
 }
 
 .gridTwo{
 width:200px;
 margin: 15px auto;
 text-align: center;
+margin-left:33px;
 }
 
-.gridTwo1{
-
-float:left;
- height:85px;
-  width:85px;
-  background-color: #27AE60;
-  text-align: center;
-  
+.gridTwo1 {
+float: left;
+height: 85px;
+width: 85px;
+background-color: #27AE60;
+text-align: center;
+padding: 13px 6px 6px 6px;
 }
 
-.gridTwo2{
+.gridTwo2 {
 display: inline-block;
 height: 85px;
 width: 85px;
-
 background-color: #F1C40F;
 text-align: center;
+padding: 8px 6px 6px 6px;
 }
-
 .lineSpace{
   width: 2%;
   height: 2%;
@@ -380,16 +384,36 @@ text-align: center;
   font-size:100%;
 }
 
-.secondPageIcon2{
- margin-top: 5%;
- padding:1% 1% 1% 1%;
- width:50px;
- max-width:100%;
- height: 50px;
-
-
+.secondPageIconOverview{
+width: 50px;
+height: 25px;
+/* padding: 2px 2px 2px 2px; */
+margin-bottom: 2px;
 }
 
+.secondPageIconSpeakers {
+height: 35px;
+margin-bottom: 2px;
+}
+
+.secondPageIconAgenda {
+height: 35px;
+margin-bottom: 2px;
+}
+
+.secondPageIconVenue {
+width: 35px;
+margin-bottom: 2px;
+}
+
+.secondPageLogoDiv{
+margin:auto;
+}
+
+.homepage
+{
+  text-decoration:none;
+}
 .homepage:hover
 {
   color:transparent !important;
@@ -400,11 +424,12 @@ text-align: center;
   padding-left:0px !important;
   padding-right: 0px !important;
 }
-.headerIcon
-{
-  height:10%;
-  width:10%;
-  padding-left:0px;
+
+.headerIcon {
+height: 80px;
+width: 250px;
+/* padding-left: 0px; */
+/* margin: auto; */
 }
 
 .agendaStartTime{
@@ -453,11 +478,15 @@ text-align: center;
   color:#2E2E2E;
   font-size: 18px;
 }
+.aHead{
+  height:40px;
+}
 
 #aHeadLeftIcon{
   float:left;
-  font-size: 14px;
+  font-size: 22px;
   color:#D1D1D1;
+ padding: 3px 3px 3px 3px;
 }
 
 .aBody{
@@ -466,6 +495,9 @@ text-align: center;
   display: inline-block;
   width:95%;
   padding:2% 2% 2% 2%;
+  margin-left:2%;
+  margin-top:2%;
+  margin-bottom:2%;
 }
 
 .DateTime{
@@ -490,8 +522,9 @@ display: inline;
   display: inline;
    font-size: 12px;
   color:#969696;
-  float: left;
+  /*float: left;*/
   margin-right: 2px;
+  padding-top:3px;
 }
 
 .aText2{
@@ -500,6 +533,7 @@ display: inline;
    margin-bottom: 10px;
    font-weight: bold;
    text-align: left;
+
 }
 
 .aText4 {
@@ -514,11 +548,12 @@ display: inline;
 }
 .aImage {
     max-height: 100%;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
+    height: 100px;
+    width: 100px;
     right: 0px;
     float: right;
+
+
 }
 
 .aImageText {
@@ -527,9 +562,9 @@ display: inline;
     position: absolute;
     background-color: #000;
     color: #FFF;
-    padding: 1%;
-    width: 36%;
-    max-width: ;
+    padding: 0%;
+    right:0px;
+    width: 100px;
     opacity: 0.7;
     font-size: 10px;
     font-weight: bold;
@@ -568,11 +603,63 @@ display: inline;
   float: right;
 }
 /**/
+
+.sdImageDiv
+{
+  float:left;
+  width:50%;  
+}
 .sdImage
 {
-    max-height: 100%;
+    max-height: 100px;
+    height: 120px;
+    width: 110px;
+    left: 0px;
+}
+
+.fill-div {
+    display: block;
     height: 100%;
     width: 100%;
-    max-width: 100%;
-    left: 0px;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    color:inherit;
+}
+ a:target{
+   display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    outline: none;
+     border:none;
+  color:inherit;
+ }
+
+ /* speakerDetail.html css */
+
+ .sdArrow
+ {
+  padding-bottom:25px;
+ }
+
+.sdArrowDiv
+{
+  width:5%;
+  padding-left:5%;
+  margin-top:30px;
+}
+
+.speakerDetailDiv
+{
+  float:left;
+  width:50%;
+}
+.speakerTopicColor
+{
+  color:#399DE8;
+}
+.speakerTopicImage
+{
+  height:22px;
 }

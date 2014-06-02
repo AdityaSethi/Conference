@@ -1,9 +1,9 @@
 <div ng-include="'partials/navbar.html'"></div>
 <div  style="height:{{deviceHeight}}px !important;width:{{deviceWidth}}px !important">
-<div class="col-md-12" style="padding:0px !important">
-<div class="overviewText " ng-repeat="overview in overviews">
-	{{overview.data}}
-</div>
-<div ><img style="width:100%;height:100%;position:relative" src="img/overview-bg.png"></img></div>
-</div>
+	<div class="overview">
+		<div class="overviewText " ng-repeat="overview in overviews">
+			{{overview.data}}
+		</div>
+		<div ><img class="overviewImage" src="img/overview-bg.png"></img></div>
+	</div>
 </div>

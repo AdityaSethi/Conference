@@ -1,23 +1,23 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div style="width:5%;padding-left:5%;padding-top:30px">
-		 <a href="#speakers">
+<div class="sdArrowDiv">
+		 <a href="#speakers" class="sdArrow">
 			<span class="glyphicon glyphicon-chevron-left"></span>
 		</a>
 </div>
 
-<div class="aBody" style="margin-left:2%">
+<div class="aBody">
 
-	<div style="float:left;width:60%">
+	<div class="sdImageDiv">
 		<img class="sdImage" src="img/{{speakerDetail.image}}"></img>
 	</div>
-	<div style="margin-left:62%;width:40%">
+	<div style="speakerDetailDiv">
 		<div><h5>{{speakerDetail.name}}</h5><h6 class="font_color">{{speakerDetail.known_for}}</h6></div >
-		<a ng-click="openLinkedIn()" href="#linkedin"><img height="22px"src="img/icons/linkedin-icon.png"></img></a>
-		<a ng-click="openTwitter()" href="#twitter"><img height="22px"src="img/icons/twitter-logo.png"></img></a>
+		<!--<a ng-click="openLinkedIn()" href="#linkedin"><img height="22px"src="img/icons/linkedin-icon.png"></img></a>
+		<a ng-click="openTwitter()" href="#twitter"><img height="22px"src="img/icons/twitter-logo.png"></img></a>-->
 		<div class="breakline"></div>
 		<div>
 			<div><h6 class="font_color"><b>SESSION</b></h6></div >
-			<a href="#speakerDetail" ng-click="showSpeakerDetails({{speakerDetail.name}})"><div><h6 style="color:#399DE8"><img height="22px"src="img/icons/mic-icon.png"></img>"{{speakerDetail.topic}}"</h6></div ></a>
+			<a href="#speakerDetail" ng-click="showSpeakerDetails({{speakerDetail.name}})"><div><h6 class="speakerTopicColor"><img class="speakerTopicImage" src="img/icons/mic-icon.png"></img>"{{speakerDetail.topic}}"</h6></div ></a>
 		</div>
 		<div class="breakline"></div>
 		<div class="breakline"></div>
@@ -40,7 +40,7 @@
 		</div>
 	</div>
 </div>
-<div class="aBody" style="margin-left:2%;margin-top:2%;margin-bottom:2%">
+<div class="aBody"> <!--Margin left top bottom 2%-->
 	<div class="font_color">
 		<h6><b>ABOUT SPEAKER</b></h6>
 	</div>
