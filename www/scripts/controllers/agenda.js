@@ -1,5 +1,5 @@
 angular.module('conferenceApp')
-.controller('agendaCtrl', function($scope,$http,$rootScope) {
+.controller('agendaCtrl', function($scope,$http,$rootScope,$location) {
   	$http.get('scripts/lib/json/agenda.json').success(function(response) {
         $scope.agendas=response;
         $scope.ind=0;
@@ -26,6 +26,7 @@ angular.module('conferenceApp')
             $rootScope.agenda=selectedAgenda;
             console.log($rootScope.row)
             console.log($rootScope.agenda)
+            $location.path('/agendaDetail')
         }
     });
     $scope.active_overview;

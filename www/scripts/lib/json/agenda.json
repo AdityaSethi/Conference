@@ -4,29 +4,31 @@
 		"dayNum":"Day 1",
 	"day": "Friday",
 	"month": "July",
-	"date": "18th",
+	"date": "18",
 	"year":"2014"
 	},
 	"data": [
 
 	{
-		"startTime":"8:30am",
-		"endTime":"9:30am",
+		"startTime":"8:30 am",
+		"Time":"8:30 - 9:30 am",
 		"session":"Registration",
+		"speakerPic":"testImage.png",
 		"speaker":"JSChannel Team"
 	},
 	
 	{
-		"startTime":"9:30am",
-		"endTime":"10:00am",
+		"startTime":"9:30 am",
+		"Time":"9:30 - 10:00 am",
 		"session":"Pre Conference",
 		"speaker":"JSChannel Team",
+		"speakerPic":"testImage.png",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"<ul><li>Welcome all guests keynote speakers and JS Community</li><li>Lighting lamp ceremony</li><li>Kick start the conference</li></ul>"
 	},
 	{
-		"startTime":"10:00am",
-		"endTime":"11:00am",
+		"startTime":"10:00 am",
+		"Time":"10:00 - 11:00 am",
 		"session":"The Better Parts",
 		"speaker":"Douglas Crockford",
 		"speakerTitle":"Discovered the JSON",
@@ -37,8 +39,8 @@
 
 
 	{
-		"startTime":"11:00am",
-		"endTime":"11:45am",
+		"startTime":"11:00 am",
+		"Time":"11:00 - 11:45 am",
 		"session":"Session I",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
@@ -49,8 +51,8 @@
 	},
 
 	{
-		"startTime":"11:45am",
-		"endTime":"12:30am",
+		"startTime":"11:45 am",
+		"Time":"11:45 - 12:30 pm",
 		"session":"Session II",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
@@ -61,18 +63,17 @@
 	},
 
 	{
-		"startTime":"12:30am",
-		"endTime":"2:00am",
-		"session":"Lunch",
+		"startTime":"12:30 pm",
+		"Time":"12:30 - 2:00 pm",
+		"session":"Lunch"
 		
-		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		
 	
 	},
 
 	{
-		"startTime":"2:00am",
-		"endTime":"4:30am",
+		"startTime":"2:00 pm",
+		"Time":"2:00 - 4:30 pm",
 		"session":"HTML5 Game Programming",
 		"speaker":"Mark Lassoff",
 		"speakerTitle":"Title of the speaker",
@@ -84,8 +85,8 @@
 	},
 
 	{
-		"startTime":"2:00pm",
-		"endTime":"4:30pm",
+		"startTime":"2:00 pm",
+		"Time":"2:00 - 4:30 pm",
 		"session":"Functional Programming Techniques in JavaScript",
 		"speaker":"Magesh Kuppan",
 		"speakerTitle":"Software consultant and trainer",
@@ -96,20 +97,18 @@
 	},
 
 	{
-		"startTime":"4:30pm",
-		"endTime":"5:00pm",
-		"session":"Tea Break",
-		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
-	
+		"startTime":"4:30 pm",
+		"Time":"4:30 - 5:00 pm",
+		"session":"Tea Break"
+		
 	},
 
 	{
-		"startTime":"5:00pm",
-		"endTime":"6:00pm",
-		"session":"Keynote II",
-		"speaker":"Amod Malviya",
-		"speakerTitle":"SVP and Head of Engineering Flipkart",
+		"startTime":"5:00 pm",
+		"Time":"5:00 - 6:00 pm",
+		"session":"Lightning Talks",
+		"speaker":"Speaker name",
+		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"Description here"
@@ -124,25 +123,25 @@
 		"dayNum":"Day 2",
 	"day": "Saturday",
 	"month": "July",
-	"date": "19th",
+	"date": "19",
 	"year":"2014"
 	},
 	"data": [
 
 	{
-		"startTime":"9:30am",
-		"endTime":"10:30am",
+		"startTime":"9:30 am",
+		"Time":"9:30 - 10:30 am",
 		"session":"Keynote III",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
+		"speaker":"Amod Malviya",
+		"speakerTitle":"SVP and Head of Engineering Flipkart",
 		"speakerPic":"testImage.png",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"Description here"
 	},
 	
 	{
-		"startTime":"10:30am",
-		"endTime":"11:15am",
+		"startTime":"10:30 am",
+		"Time":"10:30 - 11:15 am",
 		"session":"Node @ Myntra",
 		"speaker":"Sunil Pai",
 		"speakerTitle":"Skinny, smart, sufferin' suckatash",
@@ -152,8 +151,8 @@
 	},
 
 	{
-		"startTime":"11:15am",
-		"endTime":"12:00pm",
+		"startTime":"11:15 am",
+		"Time":"11:15 - 12:00 pm",
 		"session":"Session II",
 		"speaker":"Speaker Name",
 		"speakerTitle":"Title of the speaker",
@@ -163,17 +162,15 @@
 	},
 
 	{
-		"startTime":"12:00pm",
-		"endTime":"1:00pm",
-		"session":"Lunch",
-		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"startTime":"12:00 pm",
+		"Time":"12:00 - 1:00 pm",
+		"session":"Lunch"
 	
 	},
 
 	{
-		"startTime":"1:00pm",
-		"endTime":"3:30pm",
+		"startTime":"1:00 pm",
+		"Time":"1:00 - 3:30 pm",
 		"session":"Build a scalable video chat platform using Node, Kraken, WebRTC and HTML5 video",
 		"speaker":"Joe Pettersson",
 		"speakerTitle":"Technical Lead of UI Engineering at McKinsey & Company",
@@ -184,8 +181,8 @@
 	},
 	
 	{
-		"startTime":"1:00pm",
-		"endTime":"3:30pm",
+		"startTime":"1:00 pm",
+		"Time":"1:00 - 3:30 pm",
 		"session":"Angular Directive: Deep dive",
 		"speaker":"Suman Paul",
 		"speakerTitle":"Title of the speaker",
@@ -195,27 +192,15 @@
 	},
 	
 	{
-		"startTime":"3:30pm",
-		"endTime":"4:00pm",
-		"session":"Tea Break",
-		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"startTime":"3:30 pm",
+		"Time":"3:30 - 4:00 pm",
+		"session":"Tea Break"
+		
 	},
 	
 	{
-		"startTime":"4:00pm",
-		"endTime":"4:30pm",
-		"session":"Lightning Talks",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
-		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
-	},
-	
-	{
-		"startTime":"4:30pm",
-		"endTime":"5:30pm",
+		"startTime":"4:00 pm",
+		"Time":"4:00 - 5:00 pm",
 		"session":"Keynote IV",
 		"speaker":"Satty Bhens",
 		"speakerTitle":"all things web,dev & ifc",
@@ -225,8 +210,19 @@
 	},
 	
 	{
-		"startTime":"5:00pm",
-		"endTime":"5:30pm",
+		"startTime":"4:00 pm",
+		"Time":"4:00 - 4:30 pm",
+		"session":"Lightning Talks",
+		"speaker":"Speaker Name",
+		"speakerTitle":"Title of the speaker",
+		"speakerPic":"testImage.png",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	},
+	
+	{
+		"startTime":"5:00 pm",
+		"Time":"5:00 - 5:30 pm",
 		"session":"Thanking All - Feedback",
 		"speaker":"Speaker name",
 		"speakerTitle":"Title of the speaker",

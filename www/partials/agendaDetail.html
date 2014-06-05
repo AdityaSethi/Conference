@@ -1,7 +1,7 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="aMain">
+<div class="aMain headerMargin">
 <div class="aHead">
-<a href="#/agenda"><div class="glyphicon glyphicon-chevron-left" id="aHeadLeftIcon"></div></a>
+<div><a href="#/agenda"><img id="aHeadLeftIcon" src="img/icons/back-arrow.png"/> </a></div>
 <div class="aHeadText">{{row.session}}</div>
 </div>
 <div class="aBody">
@@ -15,9 +15,9 @@
 						{{agenda.title.day}}, {{agenda.title.date}} {{agenda.title.month}} {{agenda.title.year}}
 						</div>
 					</div>
-				<div class="DTText" ng-if="row.startTime!=null && row.endTime!=null;">
+				<div class="DTText" ng-if="row.startTime!=null && row.Time!=null;">
 					<div id="aIcon" class="glyphicon glyphicon-time"></div>
-					<div class="aText">{{row.startTime}}-{{row.endTime}}</div>
+					<div class="aText">{{row.Time}}</div>
 				</div>
 				<div  class="DTText" ng-if="row.venue!=null">
 					<div id="aIcon" class="glyphicon glyphicon-map-marker"></div>

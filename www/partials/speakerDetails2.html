@@ -1,7 +1,7 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="aMain">
+<div class="aMain headerMargin">
 <div class="aHead">
-<a href="#/speakerinfo"><div class="glyphicon glyphicon-chevron-left" id="aHeadLeftIcon"></div></a>
+<a href="#/speakerinfo"><img id="aHeadLeftIcon" src="img/icons/back-arrow.png"/></a>
 <div class="aHeadText">{{speakerDetail.session}}</div>
 </div>
 <div class="aBody">
@@ -28,7 +28,7 @@
 			<div class="ImageDiv">
 			<img src="img/{{speakerDetail.image}}"  class="aImage"/>
 			<div class="aImageText">
-				<div>{speakerDetail.name}}</div>
+				<div>{{speakerDetail.name}}</div>
 				<div>{{speakerDetail.known_for}}</div>
 			</div>
 			</div>
