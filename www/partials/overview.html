@@ -2,7 +2,13 @@
 <div style="height:{{deviceHeight}}px !important;width:{{deviceWidth}}px !important">
 	<div class="headerMargin">
 		<div class="overviewText " ng-repeat="overview in overviews">
-			{{overview.data}}
+			<div class="oheadingOne">{{overview.headingOne}}</div>
+			<div class="odate">{{overview.date}}</div>
+			<div class="ovenue">{{overview.venue}}</div>
+			<div class="oheadingTwo">{{overview.headingTwo}}</div>
+			<div class="oparaOne">{{overview.paraOne}}</div>
+			<div class="oparaTwo">{{overview.paraTwo}}</div>
+			<div class="oparaThree">{{overview.paraThree}}</div>
 		</div>
 		<div ><img class="overviewImage" src="img/overview-bg.png"></img></div>
 	</div>

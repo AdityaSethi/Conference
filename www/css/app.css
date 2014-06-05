@@ -133,11 +133,7 @@ width:140px;
   height:100%;
   position:relative;
 }
-.overviewText{
-  max-height:50%;
-  color: #888888;
-  font-size:100%;
-}
+
 
 
 .divider{
@@ -514,7 +510,7 @@ width: 250px;
 }
 .aMain{
   background-color:#F4F4F4 ;
-  padding:1% 1% 1% 1% ;
+
   text-align: center;
 }
 
@@ -799,4 +795,53 @@ width:65%;
 {
   float:left;
   width: 35%;
+}
+
+.oheadingTwo{
+text-align: center;
+margin-top: 30px;
+font-weight: bold;
+color: #444444;
+}
+
+.odate{
+text-align: center;
+margin-top: 5px;
+color: #444444;
+}
+
+.ovenue{
+text-align: center;
+margin-top: 5px;
+color: #444444;
+}
+
+.oparaOne{
+margin-top: 8px;
+color: #444444;
+}
+
+.oparaTwo{
+margin-top: 8px;
+color: #444444;
+}
+
+
+.oparaThree{
+margin-top: 8px;
+color: #444444;
+}
+
+.overviewText {
+max-height: 50%;
+color: #888888;
+font-size: 100%;
+padding:10px 5px 5px 5px;
+
+
+}
+.oheadingOne{
+  text-align: center;
+  font-weight: bold;
+  color: #444444;
 }
