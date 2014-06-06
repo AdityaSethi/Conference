@@ -1,15 +1,11 @@
 <div ng-include="'partials/navbar.html'"></div>
-<<<<<<< HEAD
 <div class="headerMargin" style="height:{{deviceHeight}}px !important">
 <google-map center="[77.6197981,12.9732486]" zoom="15" >
     <marker coords="[77.6197981,12.9732486]" icon="info.markerImage">
         <window options="infoWindow.options">
             <p id="address"  ng-model="address">
-=======
-<google-map center="[77.6197981,12.9732486]" zoom="15" style="height:100px !important">
-    <window coords="[77.6197981,12.9732486]" isIconVisibleOnClick=false show=true  options="infoWindow.options" id="addr">
-        <p id="address"  ng-model="address">
->>>>>>> 5123da440fac1d937f6cabe42b5e7b52c60ed19a
             {{address}}
-    </window>
- </google-map>
+        </window>
+    </marker>
+</google-map>
+</div>
