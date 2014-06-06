@@ -1,5 +1,5 @@
 <div ng-include="'partials/navbar.html'" ></div>
-<div class="headerMargin">
+<div class="headerMargin" style="height:{{deviceHeight}}px !important">
 <div class="sdArrowDiv ">
 		<div class="sdArrowSubDiv">	
 		 <a href="#speakers">
@@ -14,17 +14,16 @@
 	<div class="speakerImageDivLeft">
 		<img class="sdImage" src="img/{{speakerDetail.image}}"></img>
 	</div>
-	<div class="speakerImageDivRight">
-		<div><h5>{{speakerDetail.name}}</h5><h6 class="font_color">{{speakerDetail.known_for}}</h6></div >
+	<div class="speakerImageDivRight" style="display:inline-block">
+		<div><span class="speaker_font">{{speakerDetail.name}}</span><h6 class="font_color">{{speakerDetail.known_for}}</h6></div >
 		<!--<a ng-click="openLinkedIn()" href="#linkedin"><img height="22px"src="img/icons/linkedin-icon.png"></img></a>
 		<a ng-click="openTwitter()" href="#twitter"><img height="22px"src="img/icons/twitter-logo.png"></img></a>-->
-		<div class="breakline"></div>
+		<!-- <div class="breakline"></div> -->
 		<div>
 			<div><h6 class="font_color"><b>SESSION</b></h6></div >
 			<a href="#speakerDetail" ng-click="showSpeakerDetails({{speakerDetail.name}})"><div><h6 style="color:#399DE8"><img class="speakerTopicImage" src="img/icons/mic-icon.png"></img>   "{{speakerDetail.topic}}"</h6></div ></a>
 		</div>
-		<div class="breakline"></div>
-		<div class="breakline"></div>
+		
 		<div>
 			<div><h6 class="font_color"><b>DATE & TIME</b></h6></div>
 			<div class="DTText" >
@@ -37,10 +36,10 @@
 					<div id="aIcon" class="glyphicon glyphicon-time"></div>
 					<div class="aText">{{speakerDetail.startTime}}-{{speakerDetail.endTime}}</div>
 				</div>
-				<div  class="DTText">
+				<!-- <div  class="DTText">
 					<div id="aIcon" class="glyphicon glyphicon-map-marker"></div>
 					<div class="aText">{{speakerDetail.venue}}</div>
-				</div>
+				</div> -->
 		</div>
 	</div>
 </div>

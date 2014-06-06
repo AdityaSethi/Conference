@@ -2,6 +2,7 @@
 
 angular.module('conferenceApp')
 .controller('venueCtrl',function($scope,$http) {
+	
   	//$http.get('scripts/lib/json/venue.json').success(function(response) {
      //  }
     $scope.active_overview;

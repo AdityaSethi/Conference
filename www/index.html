@@ -17,7 +17,7 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<html ng-app="conferenceApp" >
+<html ng-app="conferenceApp" ng-controller="MainCtrl">
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
@@ -27,7 +27,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <title>Angular PhoneGap Seed</title>
     </head>
-    <body style="background-color:#F4F4F4;height:{{deviceHeight}}px !important;width:{{deviceWidth}}px !important" ng-controller="MainCtrl">
+    <body style="height:{{deviceHeight}}px !important;width:{{deviceWidth}}px !important" >
         <div ng-controller='ParentCtrl'> <!--remove container to make it full view-->
             <div ng-view></div>
         </div>

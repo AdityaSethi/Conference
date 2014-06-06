@@ -86,9 +86,6 @@ a:hover
   color: #FFFFFF;
   text-align: center;
   padding: 2% 2% 2% 2%;
-
-  background-size:400px 687px !important;
-  background-repeat: repeat !important; 
 }
 
 .headerText{
@@ -289,10 +286,12 @@ color:#818181;
 }
 
 .secondPage{
-   background: url('../img/background.png');
+   /* background: url('../img/background.png');
   background-size:400px 687px !important;
    padding: 20% 0% 40% 0%; 
   background-repeat: repeat !important; 
+  Edited this part*/
+    padding-top: 20% !important;
    margin:auto;
 }
 
@@ -465,6 +464,7 @@ margin:auto;
 .headerMargin
 {
   padding-top:140px;
+  background-color: #F4F4F4;
 }
 .headerIcon {
 height: 60px;
@@ -518,14 +518,14 @@ width: 250px;
   text-align: center;
   display: inline;
   color:#2E2E2E;
-  font-size: 16px;
+  font-size: 15px;
 
 }
 
 .aHead {
 
-margin-top: 5px;
-margin-bottom: 5px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 
 #aHeadLeftIcon {
@@ -619,7 +619,7 @@ display: inline;
     position: absolute;
     background-color: #000;
     color: #FFF;
-    padding: 0%;
+    padding: 1px;
     /*right:0px;*/
     width: 100px;
     opacity: 0.7;
@@ -704,7 +704,7 @@ display: inline;
 {
   width:100%;
   padding:2% 2% 0% 2%;
-  margin-top:52px;
+  
 }
 .sdArrowSubDiv > a:hover
 {
@@ -819,17 +819,26 @@ color: #444444;
 .oparaOne{
 margin-top: 8px;
 color: #444444;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .oparaTwo{
 margin-top: 8px;
 color: #444444;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 }
 
 
 .oparaThree{
 margin-top: 8px;
 color: #444444;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .overviewText {
@@ -844,4 +853,21 @@ padding:10px 5px 5px 5px;
   text-align: center;
   font-weight: bold;
   color: #444444;
+}
+.speaker_font
+{
+  font-size: 13px;
+}
+
+.white_bg
+{
+  background-color: white !important;
+}
+.grey_bg
+{
+  background-color: #F4F4F4 !important;
+}
+body
+{
+  background:url('../img/background.png') ;
 }

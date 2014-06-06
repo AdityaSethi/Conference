@@ -18,7 +18,7 @@
 
 <div class="agendaDiv"  ng-repeat="row in agenda.data" ng-controller="SpeakerCtrl"   >
 <div class="agendaStartTime">{{row.startTime}}</div>
-	<button ng-click="showDetail(row,agenda)" class="fill-div" ng-disabled="row.detail==null" >
+	<button ng-click="showDetail(row,agenda,ind)" class="fill-div" ng-disabled="row.detail==null" >
 	<div class="agendaSmallDiv" >
 	
 	  <div class="agendaTime">

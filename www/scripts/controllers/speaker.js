@@ -36,6 +36,7 @@ angular.module('conferenceApp')
   		};
       */
       
+      console.log($rootScope.speakerDetail)
       $scope.speakerIndex=function(index)
       {
         $http.get('scripts/lib/json/speaker.json').success(function(response){

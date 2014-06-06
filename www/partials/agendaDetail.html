@@ -1,7 +1,8 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="aMain headerMargin">
+<div class="aMain headerMargin" style="height:{{deviceHeight}}px">
 <div class="aHead">
-<div><a href="#/agenda"><img id="aHeadLeftIcon" src="img/icons/back-arrow.png"/> </a></div>
+<img id="aHeadLeftIcon" src="img/icons/back-arrow.png" 
+	ng-click="showAgenda(index)"/>
 <div class="aHeadText">{{row.session}}</div>
 </div>
 <div class="aBody">
@@ -26,11 +27,12 @@
 			</div>
 		<div class="Speaker" ng-if="row.speaker!=null">
 			<div class="aText4">SPEAKER</div>
-			<div class="ImageDiv" ng-if="row.speakerPic!=null">
+			<div class="ImageDiv" ng-if="row.speakerPic!=null" 
+			ng-click="showSpeakerDetails(row.speaker)">
 			<img src="img/{{row.speakerPic}}"  class="aImage"/>
 			<div class="aImageText" ng-if="row.speaker!=null || rpw.speakerTitle!=null">
 				<div>{{row.speaker}}</div>
-				<div>{{row.speakerTitle}}</div>
+				
 			</div>
 			</div>
 		</div>
