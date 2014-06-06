@@ -95,9 +95,7 @@ h1 {
 .selected {
   background-color: #f9f9f9;
 }
-.angular-google-map-container { height: 500px; }
-/*.nav > li {
-    width: auto;
-    position: relative;
-    float: left;
-}*/
+#map-canvas {
+  height: 520px;
+  margin-top: 140px;
+}
