@@ -2,41 +2,42 @@
 <div class="aMain headerMargin" style="height:{{deviceHeight}}px">
 <div class="aHead">
 <a href="#/speakerinfo"><img id="aHeadLeftIcon" src="img/icons/back-arrow.png"/></a>
-<div class="aHeadText">{{speakerDetail.session}}</div>
+<div class="aHeadText roboto-medium">{{speakerDetail.session}}</div>
 </div>
 <div class="aBody">
  	<div class="aBodyUpper">
 		<div class="DateTime">
-			<div class="aText2">DATE & TIME</div>
+			<div class="aText2 roboto-medium">DATE & TIME</div>
 				<div class="DTText">
 					<div id="aIcon" class="glyphicon glyphicon-calendar"></div>
-						<div class="aText">
+						<div class="aText roboto-regular">
 						{{speakerDetail.day}}, {{speakerDetail.dd}} {{speakerDetail.mon}} {{speakerDetail.yyyy}}
 						</div>
 					</div>
 				<div class="DTText">
 					<div id="aIcon" class="glyphicon glyphicon-time"></div>
-					<div class="aText">{{speakerDetail.startTime}}-{{speakerDetail.endTime}}</div>
+					<div class="aText roboto-regular">{{speakerDetail.startTime}}-{{speakerDetail.endTime}}</div>
 				</div>
 				<div  class="DTText">
 					<div id="aIcon" class="glyphicon glyphicon-map-marker"></div>
-					<div class="aText">{{speakerDetail.venue}}</div>
+					<div class="aText roboto-regular">{{speakerDetail.venue}}</div>
 				</div>
 			</div>
 		<div class="Speaker">
-			<div class="aText4">SPEAKER</div>
+			<div class="aText4 roboto-medium">SPEAKER</div>
 			<div class="ImageDiv">
 			<img src="img/{{speakerDetail.image}}"  class="aImage"/>
 			<div class="aImageText">
-				<div>{{speakerDetail.name}}</div>
-				<div>{{speakerDetail.known_for}}</div>
+				<div class=" roboto-regular">{{speakerDetail.name}}</div>
+				<div class=" roboto-regular">{{speakerDetail.known_for}}</div>
 			</div>
 			</div>
 		</div>
 	</div>
 	<div class="aBodyLower">
-		<div class="aText2">DESCRIPTION</div>
-		<div class="aText3">{{speakerDetail.topic_description}}</div>
+		<div class="aText2 roboto-medium">DESCRIPTION</div>
+		<div class="aText3 roboto-regular" ng-bind-html="speakerDetail.topic_description"></div>
 	</div>
 </div>
 </div>
+<div ng-include="'partials/footer.html'"></div>

@@ -1,9 +1,7 @@
 angular.module('conferenceApp')
 		.controller('ParentCtrl', ['$scope', function ($scope) {
         $scope.currentTab = 'main';
-        $scope.selectTab = function(tab) {
-					$scope.currentTab = tab;
-    		};
+       
     }])
     .controller('MainCtrl', ['$scope', function ($scope) {
         $scope.status = "It works!";

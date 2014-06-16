@@ -34,16 +34,16 @@ angular.module('conferenceApp')
             $rootScope.agenda=selectedAgenda;
             $rootScope.index=selectedInd;
             
-            console.log($rootScope.row)
-            console.log($rootScope.agenda)
-            $location.path('/agendaDetail')
+            console.log($rootScope.row);
+            console.log($rootScope.agenda);
+            $location.path('/agendaDetail');
         }
         $scope.showAgenda=function(selectedInd){
            
            $rootScope.index=selectedInd;
           
            
-           $location.path('/agenda')
+           $location.path('/agenda');
         }
         $scope.showSpeakerDetails=function(selectedName){
            
@@ -60,7 +60,7 @@ angular.module('conferenceApp')
                     {
                         $rootScope.speakerDetail=$rootScope.speaker[key];
                         
-                        $location.path('/speakerinfo')
+                        $location.path('/speakerinfo');
                         
 
                     }

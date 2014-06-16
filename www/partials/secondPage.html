@@ -1,21 +1,27 @@
-<div class="secondPage loading" ng-class="{loaded:loads=='loaded'}"> 
-  <div class="secondPageDiv container">
-	
+<div class="secondPage loading" ng-class="{loaded:loads=='loaded'}" style="height:{{deviceHeight}}px !important"> 
+ 	
 	<div class="secondPageLogoDiv">
-  	<img src="img/icons/home-logo.png" class="secondPageIconLogo">
+  	<img src="img/icons/New-Logo.png" class="secondPageIconLogo">
   </div>
+ <div class="secondPageDiv container">
 
   	<div class="secondPageArrowDiv"><img class="secondPageArrow" src="img/icons/arrow.png" ></img></div>
-  	<div class="secondPageText2">
-  		<div>Conference 2014</div> 
-  		<div>Bengaluru</div> 
-  		<div>18 - 19 July</div>
+  	<div class="secondPageText2" >
+  		<div>{{confvenue.events}}</div> 
+  		<div>{{confvenue.venue}},{{confvenue.date}}</div> 
+  		
   	</div>
   	<div class="lineSpace"></div>
   	<div class="lineSpace"></div>
-        	<div class="gridOne">
+        	<div class="gridOneUp">
+          <div class="gridOne1Up"></div>
+          <div class="gridOne2Up"></div>
+         </div>
         	<a href="#/overview">
+          
+         <div class="gridOne">
         		<div class="gridOne1">
+
         			<img src="img/icons/overview-large.png" class="secondPageIconOverview"></img>
         			<div class="secondPageText3">Overview</div>
         		</div>
@@ -42,5 +48,9 @@
     		</div>
     	</a>
     	</div>
+      <div class="gridTwoDown">
+          <div class="gridTwo1Down"></div>
+          <div class="gridTwo2Down"></div>
+         </div>
   </div>  
 </div>

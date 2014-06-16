@@ -1,5 +1,5 @@
 <div ng-include="'partials/navbar.html'" ></div>
-<div class="headerMargin" style="height:{{deviceHeight}}px !important">
+<div class="headerMargin" >
 <div class="sdArrowDiv ">
 		<div class="sdArrowSubDiv">	
 		 <a href="#speakers">
@@ -15,26 +15,26 @@
 		<img class="sdImage" src="img/{{speakerDetail.image}}"></img>
 	</div>
 	<div class="speakerImageDivRight" style="display:inline-block">
-		<div><span class="speaker_font">{{speakerDetail.name}}</span><h6 class="font_color">{{speakerDetail.known_for}}</h6></div >
+		<div><span class="speaker_font roboto-medium">{{speakerDetail.name}}</span><h6 class="font_color roboto-regular">{{speakerDetail.known_for}}</h6></div >
 		<!--<a ng-click="openLinkedIn()" href="#linkedin"><img height="22px"src="img/icons/linkedin-icon.png"></img></a>
 		<a ng-click="openTwitter()" href="#twitter"><img height="22px"src="img/icons/twitter-logo.png"></img></a>-->
 		<!-- <div class="breakline"></div> -->
 		<div>
-			<div><h6 class="font_color"><b>SESSION</b></h6></div >
-			<a href="#speakerDetail" ng-click="showSpeakerDetails({{speakerDetail.name}})"><div><h6 style="color:#399DE8"><img class="speakerTopicImage" src="img/icons/mic-icon.png"></img>   "{{speakerDetail.topic}}"</h6></div ></a>
+			<div><h6 class="font_color roboto-medium">SESSION</h6></div >
+			<a href="#speakerDetail" ng-click="showSpeakerDetails({{speakerDetail.name}})"><div><h6 class="roboto-medium" style="color:#399DE8"><img class="speakerTopicImage" src="img/icons/mic-icon.png"></img>   "{{speakerDetail.topic}}"</h6></div ></a>
 		</div>
 		
 		<div>
-			<div><h6 class="font_color"><b>DATE & TIME</b></h6></div>
+			<div><h6 class="font_color roboto-medium">DATE & TIME</h6></div>
 			<div class="DTText" >
 					<div id="aIcon" class="glyphicon glyphicon-calendar"></div>
-						<div class="aText">
+						<div class="aText roboto-regular">
 						{{speakerDetail.day}}, {{speakerDetail.dd}} {{speakerDetail.mon}} {{speakerDetail.yyyy}}
 						</div>
 					</div>
 				<div class="DTText">
 					<div id="aIcon" class="glyphicon glyphicon-time"></div>
-					<div class="aText">{{speakerDetail.startTime}}-{{speakerDetail.endTime}}</div>
+					<div class="aText roboto-regular">{{speakerDetail.startTime}}-{{speakerDetail.endTime}}</div>
 				</div>
 				<!-- <div  class="DTText">
 					<div id="aIcon" class="glyphicon glyphicon-map-marker"></div>
@@ -44,12 +44,14 @@
 	</div>
 </div>
 <div class="aBody aBodyMarginTopBot aBodyMarginLeft">
-	<div class="font_color">
-		<h6><b>ABOUT SPEAKER</b></h6>
+	<div class="font_color roboto-medium">
+		<h6>ABOUT SPEAKER</h6>
 	</div>
-	<div class="font_color">
+	<div class="font_color roboto-regular">
 		<h6>{{speakerDetail.description}}</h6>
 	</div>
 </div>
 
 </div>
+<div class="footerMargin2"></div>
+<div class="foot" ng-include="'partials/footer.html'"></div>

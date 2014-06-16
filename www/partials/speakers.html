@@ -1,5 +1,5 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="headerMargin" style="height:{{deviceHeight}}px">
+<div class="headerMargin">
 <div class="speakerBreakline"></div>
 <div class="container-fluid speakerBorder" ng-repeat="speaker in speakers" >
 	 <a class="speakerMainDiv" href="#speakerinfo" ng-click="speakerIndex($index)">
@@ -30,7 +30,8 @@
 
 </div>
 </div>
-
+<!-- <div class="footerMargin"></div> -->
+<div class="foot" ng-include="'partials/footer.html'"></div>
 <!--
 <div class="col-md-8">
 		<div>

@@ -30,54 +30,44 @@
 		"startTime":"10:00 am",
 		"Time":"10:00 - 11:00 am",
 		"session":"The Better Parts",
-		"speaker":"Douglas Crawford",
-		"speakerTitle":"Discovered the JSON",
+		"speaker":"Douglas Crockford",
+		"speakerTitle":"Founder,Javascript",
 		"speakerPic":"douglas.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"Description here"
 	},
-
-
 	{
-		"startTime":"11:00 am",
+		"startTime":"11.00 a.m",
 		"Time":"11:00 - 11:45 am",
-		"session":"Session I",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
+		"session":"What EmberJS taught us in past year",
+		"speaker":"Suchit Puri",
+		"speakerTitle":"Application Developer at Thoughtworks",
+		"speakerPic":"suchit.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":" Description here"
-	
+		"detail":"Description here"	
 	},
-
 	{
-		"startTime":"11:45 am",
+		"startTime":"11.45 a.m",
 		"Time":"11:45 - 12:30 pm",
-		"session":"Session II",
-		"speaker":"Speaker Name",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
+		"session":"The new gen of *gen{}{}",
+		"speaker":"Hemanth HM",
+		"speakerTitle":"Application Developer at Thoughtworks",
+		"speakerPic":"hemanth.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
-	
+		"detail":"Description here"	
 	},
-
 	{
 		"startTime":"12:30 pm",
 		"Time":"12:30 - 2:00 pm",
 		"session":"Lunch"
-		
-		
-	
 	},
-
 	{
 		"startTime":"2:00 pm",
 		"Time":"2:00 - 4:30 pm",
 		"session":"HTML5 Game Programming",
 		"speaker":"Mark Lassoff",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
+		"speakerTitle":"Author of 'Javascript for Beginners' and founder of LearnToProgram, Inc.",
+		"speakerPic":"mark.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"<ol type='I'><li>Understanding when HTML5/JS is Appropriate for Gaming and When it's Not<ol type='A'><li>Pros of HTML5 Gaming</li><li>Cons of HTML5 Gaming</li><li>Cross Device Alternatives<ol type='1'><li>Unity Engine</li><li>Native Porting</li><li>WebGL</li></ol></li></ol></li><li>HTML5 Game Architecture<ol type='A'><li>Loading/Preloading Assets</li><li>Asset Hierarchies</li><li>Server Interaction</li><li>Game Loop</li><li>Libraries</li></ol></li><li>Developing the App<ol type='A'><li>Creating the Application Shell</li><li>Including Necessary Libraries</li><li>Coding the Basic Game Loop</li><li>Adding Player Interaction</li><li>Adding Animations</li><li>Adding Sounds</li><li>Adding Scoring</li><li>Making the Game Replayable</li></ol></li><li>Testing Across Environments</li><li>Release Considerations</li></ol>"
 	
@@ -90,7 +80,7 @@
 		"session":"Functional Programming Techniques in JavaScript",
 		"speaker":"Magesh Kuppan",
 		"speakerTitle":"Software consultant and trainer",
-		"speakerPic":"testImage.png",
+		"speakerPic":"magesh.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"<p>Functional programming encourages the use of 'Pure functions' that depend only on their inputs and not on the global state. This leads to functions with no 'side effects' which are relatively bug free.</p><p>Functions programming gives way for declarative programming paradigm where the users of the api have to deal only with the 'what' aspect of the api rather than the nuances of the 'how'.</p><p>The workshops covers the following:<ol type='1'><li>Thinking in terms of 'actions' (functions) rather than 'state' (objects)</li><li>Writing pure functions</li><li>Avoiding intermediate state by exploiting recursion</li><li> Understanding and using 'Higher order functions'</li><li>Mastering closures</li><li> Implementing some of the Object Oriented Language Design Patterns the functional way.</li></ol></p>"
 	
@@ -107,7 +97,7 @@
 		"startTime":"5:00 pm",
 		"Time":"5:00 - 6:00 pm",
 		"session":"Lightning Talks",
-		"speaker":"Speaker name",
+		"speaker":"To Be Announced",
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
 		"venue":"Vivanta by Taj - M.G.Road",
@@ -131,10 +121,10 @@
 	{
 		"startTime":"9:30 am",
 		"Time":"9:30 - 10:30 am",
-		"session":"Keynote III",
+		"session":"Continuous Platformization",
 		"speaker":"Amod Malviya",
 		"speakerTitle":"SVP and Head of Engineering Flipkart",
-		"speakerPic":"testImage.png",
+		"speakerPic":"amod.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"Description here"
 	},
@@ -144,8 +134,8 @@
 		"Time":"10:30 - 11:15 am",
 		"session":"Node @ Myntra",
 		"speaker":"Sunil Pai",
-		"speakerTitle":"Skinny, smart, sufferin' suckatash",
-		"speakerPic":"testImage.png",
+		"speakerTitle":"Frontend Architect at Myntra",
+		"speakerPic":"sunil.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. I was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. We learnt a number of things along the way, and I'd like to share some of these with the rest of the community. We experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. We managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with."
 	},
@@ -154,7 +144,7 @@
 		"startTime":"11:15 am",
 		"Time":"11:15 - 12:00 pm",
 		"session":"Session II",
-		"speaker":"Speaker Name",
+		"speaker":"To Be Announced",
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
 		"venue":"Vivanta by Taj - M.G.Road",
@@ -173,8 +163,8 @@
 		"Time":"1:00 - 3:30 pm",
 		"session":"Build a scalable video chat platform using Node, Kraken, WebRTC and HTML5 video",
 		"speaker":"Joe Pettersson",
-		"speakerTitle":"Technical Lead of UI Engineering at McKinsey & Company",
-		"speakerPic":"testImage.png",
+		"speakerTitle":"UI Engineering Lead at MDL",
+		"speakerPic":"joe.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"Description here"
 	
@@ -183,10 +173,10 @@
 	{
 		"startTime":"1:00 pm",
 		"Time":"1:00 - 3:30 pm",
-		"session":"Angular Directive: Deep dive",
-		"speaker":"Suman Paul",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"testImage.png",
+		"session":"Angular Directive: A Deep Dive",
+		"speaker":"Naresh Sharma",
+		"speakerTitle":"Digital Consultant at MDL",
+		"speakerPic":"naresh.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"Description here"
 	},
@@ -197,23 +187,11 @@
 		"session":"Tea Break"
 		
 	},
-	
-	{
-		"startTime":"4:00 pm",
-		"Time":"4:00 - 5:00 pm",
-		"session":"Keynote IV",
-		"speaker":"Satty Bhens",
-		"speakerTitle":"all things web,dev & ifc",
-		"speakerPic":"testImage.png",
-		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
-	},
-	
 	{
 		"startTime":"4:00 pm",
 		"Time":"4:00 - 4:30 pm",
 		"session":"Lightning Talks",
-		"speaker":"Speaker Name",
+		"speaker":"To Be Announced",
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
 		"venue":"Vivanta by Taj - M.G.Road",
@@ -221,10 +199,23 @@
 	},
 	
 	{
+		"startTime":"4:00 pm",
+		"Time":"4:00 - 5:00 pm",
+		"session":"Keynote IV",
+		"speaker":"Satty Bhens",
+		"speakerTitle":"Digital Principal at McKinsey Digital Labs",
+		"speakerPic":"satty.jpg",
+		"venue":"Vivanta by Taj - M.G.Road",
+		"detail":"Description here"
+	},
+	
+	
+	
+	{
 		"startTime":"5:00 pm",
 		"Time":"5:00 - 5:30 pm",
 		"session":"Thanking All - Feedback",
-		"speaker":"Speaker name",
+		"speaker":"JS Channel",
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"testImage.png",
 		"venue":"Vivanta by Taj - M.G.Road",

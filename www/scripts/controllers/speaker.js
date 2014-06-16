@@ -45,13 +45,13 @@ angular.module('conferenceApp')
       });
       }
 
-      $scope.openLinkedIn=function()
-      {
-        window.open("https://in.linkedin.com/");
-      }
+      // $scope.openLinkedIn=function()
+      // {
+      //   window.open("https://in.linkedin.com/");
+      // }
 
-      $scope.openTwitter=function()
-      {
-        window.open("https://twitter.com/");
-      }
+      // $scope.openTwitter=function()
+      // {
+      //   window.open("https://twitter.com/");
+      // }
   });

@@ -1,22 +1,53 @@
 /* app css stylesheet */
+
+
+@font-face
+{
+font-family:"Roboto-Regular" ;
+src: url(Roboto-Regular.ttf);
+}
+
+@font-face
+{
+font-family:"Roboto-Medium" ;
+src: url(Roboto-Medium.ttf);
+}
+
+
 body {
   height: 1024px;
+ 
+}
+
+
+.font
+{
+  font-family:"Roboto-Medium" ;
+    color:white;
+  text-align: center !important;
+  font-size: 12px;
+  position:relative;
 }
 
 .tabs
 {
   border-right:1px solid white;
-  background-color: #CCCCCC;
-  height: 55px !important; 
+  background-color: #1E92B6; /* #CCCCCC */
+  height: 45px !important; 
   text-align: center;
   width:25% !important;
   float:left;
-  padding-top: 10px; 
+  padding-top: 4px; 
  text-align: center;
+ 
+}
+.tabs:active
+{
+ background: -webkit-linear-gradient(rgba(2,2,9,9),orange,rgba(2,2,9,9));  /* Not working currently in devices*/
 }
 div.active,div > a.active:hover,div.active > a,div.active > a:hover
 {
-  background-color: #5BA3D8 !important; 
+  background-color: #F39C12 !important; 
   color:white !important;
 }
 
@@ -25,18 +56,12 @@ a.active,a
   border:none !important;
   color:#428BCA;
 }
-.font
-{
-  color:white !important;
-  text-align: center !important;
-  font-size:100%;
-  position:relative;
-}
-div >a:hover
+
+/*div >a:hover
 {
   background-color: #CCCCCC !important ;
   border-color: #CCCCCC !important;
-}
+}*/
 .speaker_image
 {
   border:1px solid #CCCCCC !important;
@@ -81,11 +106,12 @@ a:hover
 
 
 .head {
-  height:85px;   /* Was 20% */
-  background:url('../img/background.png');
+  height:66px;   /* Was 20% */
+  /*background:url('../img/background.png');*/
+  background-color: #F39C12;
   color: #FFFFFF;
   text-align: center;
-  padding: 2% 2% 2% 2%;
+  padding-top: 6px; 
 }
 
 .headerText{
@@ -147,11 +173,12 @@ padding: 1% 1% 1% 1%;
 .agendaTitle{
   text-align: center;
 font-size: 15px;
-color:#444444;
+color:#1E8EB3;
 width:90%;
 margin:auto;
 margin-bottom: 10px;
 margin-top:10px;
+font-family: "Roboto-Medium";
 }
 
 .agendaSmallDiv{
@@ -171,6 +198,7 @@ background-color: #FFFFFF;
 .agendaSessionTime{
 color:#818181;
 display: inline;
+font-family: "Roboto-Regular";
 
 
 }
@@ -216,6 +244,7 @@ margin-top: 12px;
   font-size: 15px;
 color:#444444;
 display: inline;
+font-family: "Roboto-Medium";
 }
 
 #agendaSessionRightIcon{
@@ -227,7 +256,7 @@ float:right;
 
 .agendaSpeakerName{
   display: inline;
-
+font-family: "Roboto-Regular";
 color:#FFA03E;
 }
 
@@ -239,7 +268,7 @@ color:#FFA03E;
 
 .agendaSpeakerTitle{
    display: inline;
-
+ font-family: "Roboto-Regular";
 color:#818181;
 }
 
@@ -285,15 +314,7 @@ color:#818181;
     padding: 20% 10% 40% 10%;
 }
 
-.secondPage{
-   /* background: url('../img/background.png');
-  background-size:400px 687px !important;
-   padding: 20% 0% 40% 0%; 
-  background-repeat: repeat !important; 
-  Edited this part*/
-    padding-top: 20% !important;
-   margin:auto;
-}
+
 
 .landingPageIcon{
   height:50px;
@@ -334,10 +355,19 @@ a:link{
 
 .secondPageIconLogo {
 height: 65px;
-width: 260px;
-padding-right: 3%;
-margin: auto !important;
-display: inline;
+width:270px;
+ padding-left: 2%; 
+/* margin: auto !important; */
+/* display: inline; */
+/* float: left; */
+/* margin-left: 10%; */
+/* margin: 0px; */
+margin: auto;
+/* float: right; */
+/* margin-left: auto; */
+/* margin-right: auto; */
+/* position: inherit; */
+display: inherit;
 }
 
 .secondPageArrowDiv{
@@ -347,6 +377,7 @@ display: inline;
 
 .secondPageArrow{
   height:100px;
+  margin-top: 10px;
   margin-left:10px;
 
 }
@@ -357,6 +388,7 @@ display: inline;
   font-size:150%;
   margin:auto;
   padding-bottom: 15px;
+  margin-top: 5px;
   
 }
 
@@ -365,25 +397,61 @@ display: inline;
 width:200px;
 text-align: center;
 margin-left:33px;
+} 
+
+.gridOneUp {
+width: 185px;
+margin-left: 33px;
+margin-bottom: 7px;
+}
+
+.gridTwoDown {
+width: 185px;
+margin-left: 33px;
+margin-bottom: 50px;
+
 }
 
 .gridOne1 {
 float: left;
 height: 85px;
 width: 85px;
-background-color: #3498DB;
+
+background-color:rgba(85,170,255,0.7);
 margin: 0px auto;
 text-align: center;
 padding: 22px 6px 6px 6px;
+
+}
+
+.gridOne1Up{
+float: left;
+height: 5px;
+width: 85px;
+
+background-color:rgba(85,170,255,0.7);
+margin: 0px auto;
+
+
+
 }
 
 .gridOne2 {
 display: inline-block;
 height: 85px;
 width: 85px;
-background-color: #1ABC9C;
+
+background-color:rgba(27,156,126,0.7);
 text-align: center;
 padding: 12px 6px 6px 6px;
+}
+.gridOne2Up {
+/* display: inline-block; */
+height: 5px;
+width: 85px;
+background-color: rgba(27,156,126,0.7);
+float: right;
+display: inline;
 }
 
 .gridTwo{
@@ -397,7 +465,8 @@ margin-left:33px;
 float: left;
 height: 85px;
 width: 85px;
-background-color: #27AE60;
+
+background-color:rgba(3,173,3,0.7);
 text-align: center;
 padding: 13px 6px 6px 6px;
 }
@@ -406,9 +475,29 @@ padding: 13px 6px 6px 6px;
 display: inline-block;
 height: 85px;
 width: 85px;
-background-color: #F1C40F;
+
+background-color:rgba(227,190,42,0.7);
 text-align: center;
 padding: 8px 6px 6px 6px;
+}
+
+.gridTwo1Down {
+float: left;
+height: 5px;
+width: 85px;
+margin-top: -12px;
+background-color:rgba(3,173,3,0.7);
+
+}
+
+.gridTwo2Down {
+display: inline;
+height: 5px;
+width: 85px;
+margin-top: -12px;
+background-color:rgba(227,190,42,0.7);
+float:right;
+
 }
 .lineSpace{
   width: 2%;
@@ -442,8 +531,13 @@ width: 35px;
 margin-bottom: 2px;
 }
 
-.secondPageLogoDiv{
-margin:auto;
+
+.secondPageLogoDiv {
+/* margin: auto; */
+background-color: #F39C12;
+width: 95%;
+height:80px;
+padding-top: 7px;
 }
 
 .homepage
@@ -452,8 +546,8 @@ margin:auto;
 }
 .homepage:hover
 {
-  color:transparent !important;
- background-color:transparent !important;
+  color:#F39C12 !important;
+ background-color:#F39C12 !important;
 }
 .container-fluid
 {
@@ -463,7 +557,19 @@ margin:auto;
 
 .headerMargin
 {
-  padding-top:140px;
+  padding-top:64px;
+  padding-bottom:45px;
+  background-color: #F4F4F4;
+
+}
+.footerMargin
+{
+  padding-top:55px;
+  background-color: #F4F4F4;
+}
+.footerMargin2
+{
+  padding-bottom:63px;
   background-color: #F4F4F4;
 }
 .headerIcon {
@@ -477,14 +583,14 @@ width: 250px;
   margin-top: 20px;
   margin-bottom: 5px;
   font-size: 12px;
-  font-weight: bold;
+  font-family: "Roboto-Medium";
   margin-left: 7px;
 }
 
 #agendaSessionIcon{
-  color:#818181;
+  color:#F39C12;
   display: inline;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .agendaTime{
@@ -519,6 +625,7 @@ width: 250px;
   display: inline;
   color:#2E2E2E;
   font-size: 15px;
+  font-family: "Roboto-Medium";
 
 }
 
@@ -573,6 +680,7 @@ float:left;
 display: inline;
    font-size: 11px;
    color:#909090;
+   font-family: "Roboto-Regular";
 }
 
 #aIcon{
@@ -588,8 +696,9 @@ display: inline;
    font-size: 12px;
    color:#909090;
    margin-bottom: 10px;
-   font-weight: bold;
+   
    text-align: left;
+   font-family: "Roboto-Medium";
 
 }
 
@@ -599,9 +708,10 @@ display: inline;
     margin-bottom: 10px;
     width: 90%;
     text-align: left;
-    font-weight: bold;
+    
     margin-left: 10%;
     float: right;
+    font-family: "Roboto-Medium";
 }
 .aImage {
     max-height: 100%;
@@ -624,8 +734,9 @@ display: inline;
     width: 100px;
     opacity: 0.7;
     font-size: 10px;
-    font-weight: bold;
+    
     /*margin-right: 8%;*/
+    font-family: "Roboto-Medium";
 }
 
 .aBodyLower{
@@ -635,11 +746,13 @@ display: inline;
   display: inline-block;
   width: 100%;
   text-align: left;
+  margin-bottom: 40px;
 }
 
 .aText3{
   color:#949494;
   font-size:11px;
+  font-family: "Roboto-Regular";
 
 }
 
@@ -759,7 +872,8 @@ span.glyphicon-chevron-left
   width:50%;
   float:left;
   margin-left:1%;
-}
+  font-family:"Roboto-Regular";
+} 
 .speakerImageDivLeft
 {
   float:left;
@@ -788,6 +902,7 @@ span.glyphicon-chevron-left
 {
   color:#2E2E2E;
   font-size: 18px;
+  font-family:"Roboto-Medium";
 float:left ;
 width:65%;
 }
@@ -798,25 +913,29 @@ width:65%;
 }
 
 .oheadingTwo{
+  font-family: "Roboto-Medium";
 text-align: center;
 margin-top: 30px;
-font-weight: bold;
+
 color: #444444;
 }
 
 .odate{
+  font-family: "Roboto-Medium";
 text-align: center;
 margin-top: 5px;
 color: #444444;
 }
 
 .ovenue{
+  font-family: "Roboto-Medium";
 text-align: center;
 margin-top: 5px;
 color: #444444;
 }
 
 .oparaOne{
+  font-family: "Roboto-Medium";
 margin-top: 8px;
 color: #444444;
 width: 90%;
@@ -825,6 +944,7 @@ margin-right: auto;
 }
 
 .oparaTwo{
+  font-family: "Roboto-Medium";
 margin-top: 8px;
 color: #444444;
 width: 90%;
@@ -834,6 +954,7 @@ margin-right: auto;
 
 
 .oparaThree{
+  font-family: "Roboto-Medium";
 margin-top: 8px;
 color: #444444;
 width: 90%;
@@ -842,16 +963,19 @@ margin-right: auto;
 }
 
 .overviewText {
+  
 max-height: 50%;
 color: #888888;
 font-size: 100%;
 padding:10px 5px 5px 5px;
 
 
+
 }
 .oheadingOne{
+font-family: "Roboto-Medium";
   text-align: center;
-  font-weight: bold;
+  
   color: #444444;
 }
 .speaker_font
@@ -869,5 +993,103 @@ padding:10px 5px 5px 5px;
 }
 body
 {
-  background:url('../img/background.png') ;
+
+}
+
+.secondPage{
+    background: url('../img/Home-BG.png')  no-repeat center center fixed;
+    
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*background-size:400px 687px !important;
+   padding: 20% 0% 40% 0%; 
+  background-repeat: repeat !important; 
+  Edited this part*/
+  padding-top: 5% !important;
+   margin:auto;
+}
+
+.roboto-medium
+{
+  font-family: "Roboto-Medium";
+}
+.roboto-regular
+{
+  font-family: "Roboto-Regular";
+}
+.foot
+{
+ 
+  position: relative;
+}
+html
+{
+  background-color: #F4F4F4;
+}
+.overviewHeadText
+{
+  float:left;
+  font-family: "Roboto-Regular";
+  font-style: italic;
+  width:28%;
+  padding-top: 7px;
+  
+}
+
+.overviewHeadImage
+{
+  float:left;
+  width:50%;
+}
+.overviewImageFloatLeft
+{
+  float:left;
+}
+.overviewHead
+{
+ /* height:66px;*/   /* Was 20% */
+  /*background:url('../img/background.png');*/
+  /*background-color: #F39C12;*/
+  color: #FFFFFF;
+  padding-top: 10px; 
+  text-align: center;
+ margin:auto;
+  width:100%;
+}
+.overviewHP
+{
+  text-decoration: none;
+}
+.overviewHI
+{
+height: 34px;
+width: 190px;
+/*padding-left:-30px !important;
+margin-left: -30px !important;*/
+}
+.overviewBG
+{
+  background: url('../img/Home-BG.png')  !important;
+}
+.overviewTV
+{
+  text-align:center;
+  height:50px;
+  width:50px;
+  margin:auto;
+}
+.overviewTVH
+{
+  text-align:center;
+}
+.headerBar
+{
+  background-color: #F39C12 !important;
+  width:86%;
+  height:10px;
+  float:left;
+  color:#F39C12;
+  font-size: 0px
 }

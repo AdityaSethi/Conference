@@ -13,8 +13,14 @@ angular.module('conferenceApp')
     // {
         $rootScope.deviceHeight=window.innerHeight;
         $rootScope.deviceWidth=window.innerWidth;
+        $rootScope.deviceFixHeight=window.innerHeight-50;
     //}
     $scope.loads='loaded';
+
+     // $scope.selectTab = function(event) {
+                    
+     //        };
+
     // $scope.changeOrientation=function()
     // {
     // 	$rootScope.deviceWidth=window.innerWidth;
