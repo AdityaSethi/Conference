@@ -1033,20 +1033,31 @@ html
   float:left;
   font-family: "Roboto-Regular";
   font-style: italic;
-  width:28%;
+  min-width:24%;
+  max-width:100%;
   padding-top: 7px;
-  
+   margin-left:0px;
+  padding-bottom: 7px;
+  text-align: left !important;
+  border-bottom:solid #F39C12;
 }
+.overviewHT
+{
+  float:right;
+  padding-right: 5px;
 
+}
 .overviewHeadImage
 {
   float:left;
   width:50%;
+  border-bottom:solid #F39C12;
+
 }
-.overviewImageFloatLeft
+/*.overviewImageFloatLeft
 {
   float:left;
-}
+}*/
 .overviewHead
 {
  /* height:66px;*/   /* Was 20% */
@@ -1055,8 +1066,9 @@ html
   color: #FFFFFF;
   padding-top: 10px; 
   text-align: center;
- margin:auto;
+  display: inline-block;
   width:100%;
+  min-width:371px !important;
 }
 .overviewHP
 {
@@ -1066,12 +1078,14 @@ html
 {
 height: 34px;
 width: 190px;
+
 /*padding-left:-30px !important;
 margin-left: -30px !important;*/
 }
 .overviewBG
 {
-  background: url('../img/Home-BG.png')  !important;
+  background: url('../img/Home-BG.png') ;
+  background-repeat: no-repeat;
 }
 .overviewTV
 {
@@ -1083,13 +1097,64 @@ margin-left: -30px !important;*/
 .overviewTVH
 {
   text-align:center;
+  color:white;
+  font-family: roboto-medium;
+  font-size:11px;
 }
 .headerBar
 {
-  background-color: #F39C12 !important;
-  width:86%;
-  height:10px;
-  float:left;
-  color:#F39C12;
-  font-size: 0px
+  margin-top:35px;
+ border:5px solid #F39C12;
+
+
+}
+.overviewNI
+{
+  border-top: solid #C2B7AD;
+  border-bottom: solid #C2B7AD;
+  padding: 3% 0% 3% 0%;
+  margin:4% 4% 0% 4%;
+  color:white;
+  font-family: roboto-regular;
+}
+.overviewFeature1
+{
+  width:90%;
+  margin:0% 5% 0% 5%;
+  padding:4% 4% 4% 4%;
+  color:white;
+  background-color:#31ACA6;
+  display: inline-block;
+}
+.overviewFeature2
+{
+  width:90%;
+  margin:0% 5% 0% 5%;
+  padding:4% 4% 4% 4%;
+  color:white;
+  background-color:#DA5754;
+   display: inline-block;
+}
+.overviewFeature3
+{
+  width:90%;
+  margin:0% 5% 3% 5%;
+  padding:4% 4% 4% 4%;
+  color:white;
+  background-color:#F38649;
+   display: inline-block;
+}
+.overviewFI
+{
+  width:90%;
+  float:right;
+  font-size: 12px;
+  font-family: roboto-regular;
+}
+.overviewArrow
+{
+  
+  margin-top: 5%;
+  margin-bottom: 8%;
+  text-align: center;
 }

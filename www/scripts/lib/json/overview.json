@@ -1,11 +1,13 @@
-[
- {
- 	"headingOne":"JS Channel Conference",
- 	"date":"July 18 - 19, 2014",
- 	"venue":"Hotel Taj Vivanta, Bengaluru",
- 	"headingTwo":"Welcome to the JS Channel Conference app!",
- 	"paraOne":"Browse around the app to find the latest agenda, session details, speaker information and venue maps.",
- 	"paraTwo":"Join us at the JS Channel Conference in Bengaluru for an opportunity to learn and hear from the best brains in the industry. Two days of hands-on workshops and talks. A great platform to mingle with the community. As always lunch and high tea on us. We look forward to seeing you there and we hope you enjoy the mobile app.",
- 	"paraThree":"Feel free to contact help@jschannel.com with any questions or concerns."
- }
-]
+
+	{
+		"welcomeNote":"Welcome to",
+		"subtitle":"WE, THE JAVASCRIPT PEOPLE",
+		"description":"Join us at the JS Channel Conference in Bengaluru for an oppurtunity to learn and hear from the best brains in the industry. Two days of hands-on workshops and talks. A great platform to mingle with the community. As always lunch and high tea on us. We look forward to seeing you there and hope you enjoy the mobile app.",
+		"feature1":"Browse around the app to find the latest agenda, session details, speaker information and venue maps.",
+		"feature2":"Takes place on July 18-19, 2014, Hotel Taj Vivanta, Bengaluru.",
+		"feature3":"Contact us at <a>help@jschannel.com</a> with any questions or concerns."
+	}
+
+
+
+
