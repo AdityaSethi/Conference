@@ -1,5 +1,5 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="agendaTitleDiv headerMargin" ng-repeat="agenda in agendas" ng-if="$index==ind">
+<div class="agendaTitleDiv headerMargin loading" ng-class="{loaded:loads=='loaded'}" ng-repeat="agenda in agendas" ng-if="$index==ind">
 	
 <div class="agendaTitle">
 <div   ng-click="getPreviousDate($index)" id="agendaLeftArrow">
