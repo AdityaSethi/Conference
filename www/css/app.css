@@ -52,7 +52,7 @@ body {
 }
 .tabs:active
 {
- background: -webkit-linear-gradient(rgba(2,2,9,9),orange,rgba(2,2,9,9));  /* Not working currently in devices*/
+ background: -webkit-linear-gradient(lightsalmon, orange,lightsalmon);  /* Not working currently in devices*/
 }
 div.active,div > a.active:hover,div.active > a,div.active > a:hover
 {
