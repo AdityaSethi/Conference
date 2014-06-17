@@ -5,22 +5,22 @@
 	 <a class="speakerMainDiv" href="#speakerinfo" ng-click="speakerIndex($index)">
 		<div class="speakerDiv">
 			<!--<div class="breakline"></div>-->
-			<img class="speaker_image" src="img/{{speaker.image}}"></img>
+			<img class="speaker_image" src="img/speakers/{{speaker.image}}"></img>
 		</div>
 		
 			<div class="glyphChevronRight">
-				<span class="glyphicon glyphicon-chevron-right"></span>
+				<img height="20px" width="15px" src="img/icons/right-arrow.png"></img>
 			</div>
 				<div class="speakerInfo">
 					<div>
 						<h4>{{speaker.name}}</h4>
 					</div>
 					
-					<div class="font_size font_color">
+					<div class="font_size font_color2">
 						{{speaker.known_for}}
 					</div>
 					<div class="font_color">
-						<h6>Speaks on "{{speaker.topic}}" topic on {{speaker.dd}}/{{speaker.mon}}/{{speaker.yy}} at {{speaker.startTime}}</h6>
+						<h6><img class="mic-float" height="15px" width="10px" src="img/icons/mic-icon.png"></img><div class="mic-padding">Speaks on "{{speaker.topic}}"</div></h6> <!--topic on {{speaker.dd}}/{{speaker.mon}}/{{speaker.yy}} at {{speaker.startTime}}-->
 					</div>
 				</div>	
 	</a>

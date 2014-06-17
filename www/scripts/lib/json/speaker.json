@@ -2,7 +2,7 @@
 				{
 				"name":"Douglas Crockford",
 				"image":"douglas.jpg", 
-				"known_for":"Founder,Javascript",
+				"known_for":"Founder, Javascript",
 				"topic":"The Better Parts",
 				"description":"Douglas Crockford was born in the Frostbite Falls, Minnesota, but left when he was only six months old because it was just too damn cold. He turned his back on a promising career in television when he discovered computers. He has worked in learning systems, small business systems, office automation, games, interactive music, multimedia, location-based entertainment, social systems, and programming languages. He is the inventor of Tilton, the ugliest programming language that was not specifically designed to be an ugly programming language. He is best known for having discovered that there are good parts in JavaScript. This was an important and unexpected discovery. He also discovered the JSON Data Interchange Format, the world's most loved data format. And he works at Paypal.",
 				"dd":"18",
@@ -94,7 +94,7 @@
 				{
 				"name":"Amod Malviya",
 				"image":"amod.jpg",
-				"known_for":"SVP and Head of Engineering,Flipkart",
+				"known_for":"SVP and Head of Engineering, Flipkart",
 				"topic":"Continuous Platformization",
 				"description":"Amod heads the Engineering setup that powers Flipkart.com. Having joined the engineering team during its infancy as a Sr. Engineering Manager, he has grown wearing multiple hats at a time, playing a critical role in helping Flipkart.com reach where it is today. Prior to joining Flipkart.com, Amod has worked at multiple technology startups, mostly into consumer Internet and distributed system spaces. He is an avid technology contributor, a strong open source proponent, and is very passionate about making India a technology powerhouse.",
 				"dd":"19",
