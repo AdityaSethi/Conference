@@ -1,5 +1,5 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class="aMain headerMargin" style="height:{{deviceHeight}}px">
+<div class="aMain headerMargin loading" ng-class="{loaded:loads=='loaded'}" style="height:{{deviceHeight}}px">
 <div class="aHead">
 <a href="#/speakerinfo"><img id="aHeadLeftIcon" src="img/icons/back-arrow.png" class="font_color4"/></a>
 <div class="aHeadText roboto-medium font_color4">{{speakerDetail.session}}</div>
