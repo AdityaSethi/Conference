@@ -229,12 +229,12 @@ margin-top: 12px;
 
 .agendaRightArrowImage{
  
-  width: 30px;
+  width: 15px;
 }
 
 .agendaLeftArrowImage{
   
-  width: 30px;
+  width: 15px;
 }
 
 .agendaTitleText{
@@ -297,6 +297,18 @@ color:#818181;
 .font_color
 {
     color:#888888;
+}
+.font_color2
+{
+  color:#F39C12 !important;
+}
+.font_color3
+{
+  color:#444444 !important;
+}
+.font_color4
+{
+  color:#1E92B6 !important;
 }
 .speakerBorder
 {
@@ -645,7 +657,8 @@ float: left;
 
 color: #D1D1D1;
 /* padding: 3px 3px 3px 3px; */
-width: 30px;
+width: 15px;
+height:20px;
 margin-left: 2%;
 }
 
@@ -847,7 +860,9 @@ display: inline;
 }
 .speakerTopicImage
 {
-  height:22px;
+  height:15px;
+  width:10px;
+
 }
 span.glyphicon-chevron-left
 {
@@ -1038,13 +1053,13 @@ html
   float:left;
   font-family: "Roboto-Regular";
   font-style: italic;
-  min-width:29%;
+  min-width:23%;
   max-width:100%;
   padding-top: 7px;
    margin-left:0px;
   padding-bottom: 7px;
   text-align: left !important;
-  border-bottom: 3px solid #F39C12;
+  border-bottom: 10px solid #F39C12;
 }
 .overviewHT
 {
@@ -1165,3 +1180,16 @@ margin-left: -30px !important;*/
   margin-bottom: 8%;
   text-align: center;
 }
+.mic-float
+{
+  float:left;
+}
+.mic-padding
+{
+  padding-left:13px;
+  padding-top:4px;
+}
+/*.map-margin
+{
+  margin-top:-72px !important; changes made in margin and in the file angular-google-maps.js
+}*/

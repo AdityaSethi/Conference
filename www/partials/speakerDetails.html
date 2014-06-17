@@ -3,37 +3,37 @@
 <div class="sdArrowDiv ">
 		<div class="sdArrowSubDiv">	
 		 <a href="#speakers">
-			<img id="aHeadLeftIcon" src="img/icons/back-arrow.png"/>
+			<img id="aHeadLeftIcon" src="img/icons/back-arrow.png" class="font_color4"/>
 		</a>
 		</div>
-		<div class="text_align">Speaker Profile</div>		
+		<div class="text_align font_color4">Speaker Profile</div>		
 </div>
 
 <div class="aBody aBodyMarginLeft">
 
 	<div class="speakerImageDivLeft">
-		<img class="sdImage" src="img/{{speakerDetail.image}}"></img>
+		<img class="sdImage" src="img/speakers/{{speakerDetail.image}}"></img>
 	</div>
 	<div class="speakerImageDivRight" style="display:inline-block">
-		<div><span class="speaker_font roboto-medium">{{speakerDetail.name}}</span><h6 class="font_color roboto-regular">{{speakerDetail.known_for}}</h6></div >
+		<div><span class="speaker_font roboto-medium font_color3">{{speakerDetail.name}}</span><h6 class="font_color roboto-regular">{{speakerDetail.known_for}}</h6></div >
 		<!--<a ng-click="openLinkedIn()" href="#linkedin"><img height="22px"src="img/icons/linkedin-icon.png"></img></a>
 		<a ng-click="openTwitter()" href="#twitter"><img height="22px"src="img/icons/twitter-logo.png"></img></a>-->
 		<!-- <div class="breakline"></div> -->
 		<div>
-			<div><h6 class="font_color roboto-medium">SESSION</h6></div >
-			<a href="#speakerDetail" ng-click="showSpeakerDetails({{speakerDetail.name}})"><div><h6 class="roboto-medium" style="color:#399DE8"><img class="speakerTopicImage" src="img/icons/mic-icon.png"></img>   "{{speakerDetail.topic}}"</h6></div ></a>
+			<div><h6 class="font_color roboto-medium font_color3">SESSION</h6></div >
+			<a href="#speakerDetail" ng-click="showSpeakerDetails({{speakerDetail.name}})"><div><h6 class="roboto-medium font_color2"><img class="speakerTopicImage mic-float" src="img/icons/mic-icon.png"></img><div class="mic-padding">"{{speakerDetail.topic}}"</div></h6></div ></a>
 		</div>
 		
 		<div>
-			<div><h6 class="font_color roboto-medium">DATE & TIME</h6></div>
+			<div><h6 class="font_color roboto-medium font_color3">DATE & TIME</h6></div>
 			<div class="DTText" >
-					<div id="aIcon" class="glyphicon glyphicon-calendar"></div>
+					<div id="aIcon" class="glyphicon glyphicon-calendar font_color2"></div>
 						<div class="aText roboto-regular">
 						{{speakerDetail.day}}, {{speakerDetail.dd}} {{speakerDetail.mon}} {{speakerDetail.yyyy}}
 						</div>
 					</div>
 				<div class="DTText">
-					<div id="aIcon" class="glyphicon glyphicon-time"></div>
+					<div id="aIcon" class="glyphicon glyphicon-time font_color2"></div>
 					<div class="aText roboto-regular">{{speakerDetail.startTime}}-{{speakerDetail.endTime}}</div>
 				</div>
 				<!-- <div  class="DTText">
@@ -45,7 +45,7 @@
 </div>
 <div class="aBody aBodyMarginTopBot aBodyMarginLeft">
 	<div class="font_color roboto-medium">
-		<h6>ABOUT SPEAKER</h6>
+		<h6 class="font_color3">ABOUT SPEAKER</h6>
 	</div>
 	<div class="font_color roboto-regular">
 		<h6>{{speakerDetail.description}}</h6>
