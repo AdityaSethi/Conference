@@ -13,7 +13,7 @@
 		"startTime":"8:30 am",
 		"Time":"8:30 - 9:30 am",
 		"session":"Registration",
-		"speakerPic":"testImage.png",
+		"speakerPic":"cell_void.png",
 		"speaker":"JSChannel Team"
 	},
 	
@@ -22,7 +22,7 @@
 		"Time":"9:30 - 10:00 am",
 		"session":"Pre Conference",
 		"speaker":"JSChannel Team",
-		"speakerPic":"testImage.png",
+		"speakerPic":"cell_void.png",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"<ul><li>Welcome all guests keynote speakers and JS Community</li><li>Lighting lamp ceremony</li><li>Kick start the conference</li></ul>"
 	},

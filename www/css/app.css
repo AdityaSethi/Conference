@@ -36,7 +36,7 @@ body {
 
 .tabs
 {
-  border-right:1px solid white;
+ 
   background-color: #1E92B6; /* #CCCCCC */
   height: 45px !important; 
   text-align: center;
@@ -45,6 +45,10 @@ body {
   padding-top: 4px; 
  text-align: center;
  
+}
+.border-tab
+{
+  border-right: 1px solid white !important;
 }
 .tabs:active
 {
@@ -257,6 +261,7 @@ font-family: "Roboto-Medium";
   font-size: 15px;
   display: inline;
 float:right;
+padding-right:5px;
 }
 
 .agendaSpeakerName{
@@ -1017,7 +1022,7 @@ body
 }
 
 .secondPage{
-    background: url('../img/Home-BG.png')  no-repeat center center fixed;
+    background: url('../img/overview-bg.png')  no-repeat center center fixed;
     
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1064,7 +1069,7 @@ html
 .overviewHT
 {
   float:right;
-  padding-right: 5px;
+  padding-right: 13px;
 
 }
 .overviewHeadImage
@@ -1072,7 +1077,7 @@ html
   float:left;
   width:50%;
   border-bottom: 10px solid #F39C12;
-
+   min-width:190px;
 }
 /*.overviewImageFloatLeft
 {
@@ -1088,7 +1093,8 @@ html
   text-align: center;
   display: inline-block;
   width:100%;
-  min-width:371px !important;
+
+  
 }
 .overviewHP
 {
@@ -1187,7 +1193,7 @@ margin-left: -30px !important;*/
 .mic-padding
 {
   padding-left:13px;
-  padding-top:4px;
+  padding-top:3px;
 }
 /*.map-margin
 {
