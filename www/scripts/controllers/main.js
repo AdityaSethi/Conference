@@ -14,6 +14,7 @@ angular.module('conferenceApp')
         $rootScope.deviceHeight=window.innerHeight;
         $rootScope.deviceWidth=window.innerWidth;
         $rootScope.deviceFixHeight=window.innerHeight-50;
+        console.log($rootScope.deviceHeight, $rootScope.deviceWidth)
     //}
     $scope.loads='loaded';
 
