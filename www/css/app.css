@@ -1038,13 +1038,13 @@ html
   float:left;
   font-family: "Roboto-Regular";
   font-style: italic;
-  min-width:24%;
+  min-width:29%;
   max-width:100%;
   padding-top: 7px;
    margin-left:0px;
   padding-bottom: 7px;
   text-align: left !important;
-  border-bottom: 7px solid #F39C12;
+  border-bottom: 3px solid #F39C12;
 }
 .overviewHT
 {
@@ -1056,7 +1056,7 @@ html
 {
   float:left;
   width:50%;
-  border-bottom: 3px solid #F39C12;
+  border-bottom: 10px solid #F39C12;
 
 }
 /*.overviewImageFloatLeft
@@ -1104,7 +1104,9 @@ margin-left: -30px !important;*/
   text-align:center;
   color:white;
   font-family: roboto-medium;
-  font-size:11px;
+  font-size:12px;
+  letter-spacing: 3px;
+  margin: 10px auto;
 }
 .headerBar
 {
@@ -1118,38 +1120,37 @@ margin-left: -30px !important;*/
   border-top: solid #C2B7AD;
   border-bottom: solid #C2B7AD;
   padding: 10px 0;
-  margin:10px;
+  margin:10px auto;
   color:white;
   font-family: roboto-regular;
   text-align: justify;
+  width: 96%;
+  max-width: 450px;
 }
-.overviewFeature1
+.overviewFeature1, .overviewFeature2, .overviewFeature3
 {
-  width:90%;
-  margin:0% 5% 0% 5%;
-  padding:4% 4% 4% 4%;
+  margin: auto;
+  padding: 10px;
   color:white;
-  background-color:#31ACA6;
-  display: inline-block;
+  text-align: justify;
+  width: 96%;
+  height: 60px;
+  max-width: 450px;
 }
+
+.overviewFeature1 {
+  background-color:#31ACA6;
+}
+
 .overviewFeature2
 {
-  width:90%;
-  margin:0% 5% 0% 5%;
-  padding:4% 4% 4% 4%;
-  color:white;
   background-color:#DA5754;
-   display: inline-block;
 }
 .overviewFeature3
 {
-  width:90%;
-  margin:0% 5% 3% 5%;
-  padding:4% 4% 4% 4%;
-  color:white;
   background-color:#F38649;
-   display: inline-block;
 }
+
 .overviewFI
 {
   width:90%;
