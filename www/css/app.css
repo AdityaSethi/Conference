@@ -1,6 +1,4 @@
 /* app css stylesheet */
-
-
 @font-face
 {
 font-family:"Roboto-Regular" ;
@@ -13,38 +11,53 @@ font-family:"Roboto-Medium" ;
 src: url(Roboto-Medium.ttf);
 }
 
-
-body {
+body
+{
   height: 1024px;
 }
 
-.wrapper {
-  height: 100%;
+div.active,div > a.active:hover,div.active > a,div.active > a:hover
+{
+  background-color: #F39C12 !important; 
+  color:white !important;
+}
+a.active,a
+{
+  border:none !important;
+  color:#428BCA;
 }
 
+a:hover
+{
+  text-decoration: none !important;
+}
 
+a:link{
+  text-decoration:none;
+}
+
+.wrapper 
+{
+  height: 100%;
+}
 .font
 {
   font-family:"Roboto-Medium" ;
-    color:white;
+  color:white;
   text-align: center !important;
   font-size: 12px;
   position:relative;
 }
-
-
-
 .tabs
 {
  
-  background-color: #1E92B6; /* #CCCCCC */
+  background-color: #1E92B6; 
   height: 45px !important; 
   text-align: center;
   width:25% !important;
   float:left;
   padding-top: 4px; 
- text-align: center;
- 
+  text-align: center;
 }
 .border-tab
 {
@@ -52,25 +65,8 @@ body {
 }
 .tabs:active
 {
- background: -webkit-linear-gradient(left,lightsalmon, orange,lightsalmon);  /* Not working currently in devices*/
+  background: -webkit-linear-gradient(left,lightsalmon, orange,lightsalmon);
 }
-div.active,div > a.active:hover,div.active > a,div.active > a:hover
-{
-  background-color: #F39C12 !important; 
-  color:white !important;
-}
-
-a.active,a
-{
-  border:none !important;
-  color:#428BCA;
-}
-
-/*div >a:hover
-{
-  background-color: #CCCCCC !important ;
-  border-color: #CCCCCC !important;
-}*/
 .speaker_image
 {
   border:1px solid #CCCCCC !important;
@@ -89,74 +85,54 @@ a.active,a
   color:#A0A0A0 !important;
   height:auto;
 }
-a:hover
-{
-  text-decoration: none !important;
-}
 .breakline
 {
   padding-top:3%;
 }
-/*.horizontal_line
-{
-  margin-top:1.5%;
-  border:1px solid #CCCCCC;
-  margin-left:2%;
-  margin-right:2%;
-  position: relative;
-}*/
 .nav-tabs
 {
   border:none !important;
 }
-
-/*Twinkle's*/
-
-
-
-.head {
-  height:66px;   /* Was 20% */
-  /*background:url('../img/background.png');*/
+.head 
+{
+  height:66px;
   background-color: #F39C12;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 6px; 
+  padding-top:6px; 
 }
-
-.headerText{
-
+.headerText
+{
   display: inline;
 }
-.headerText2{
-  margin-left: 10%;
-  margin-top: -3%;
-  color:white;
-  
+.headerText2
+{
+  margin-left:10%;
+  margin-top:-3%;
+  color:white; 
 }
-.headerText3{
-  margin-left: 7%;
-
- 
+.headerText3
+{
+  margin-left:7%;
 }
-.logoImage{
-max-width:6% ;
-max-height:6% ;
-
-
+.logoImage
+{
+  max-width:6%;
+  max-height:6%;
 }
 
-.headerLogo{
-
-width:140px;
+.headerLogo
+{
+  width:140px;
 }
-
-.headerLogoDiv{
+.headerLogoDiv
+{
   display:inline;
   width: 50%;
   height: 50%;
 }
-
-.color1{
+.color1
+{
   color:#73A7BD;
 }
 .overviewImage
@@ -165,134 +141,121 @@ width:140px;
   height:100%;
   position:relative;
 }
-
-
-
-.divider{
-max-width: 100%;
+.divider
+{
+  max-width: 100%;
   height: 0;
   border-bottom: 20px solid #E1CB57;
   border-left: 700px solid transparent;
 }
-.agendaTitleDiv{
-background-color: #F4F4F4;
-padding: 1% 1% 1% 1%;
+.agendaTitleDiv
+{
+  background-color: #F4F4F4;
+  padding: 1% 1% 1% 1%;
 }
-
-.agendaTitle{
+.agendaTitle
+{
   text-align: center;
-font-size: 15px;
-color:#1E8EB3;
-width:90%;
-margin:auto;
-margin-bottom: 10px;
-margin-top:10px;
-font-family: "Roboto-Medium";
+  font-size: 15px;
+  color:#1E8EB3;
+  width:90%;
+  margin:auto;
+  margin-bottom: 10px;
+  margin-top:10px;
+  font-family: "Roboto-Medium";
+}
+.agendaSmallDiv
+{
+  padding: 1% 1% 1% 1%;
+  border:1px solid #DBDBDB;
+  background-color: #FFFFFF;
 }
 
-.agendaSmallDiv{
-
-padding: 1% 1% 1% 1%;
-border:1px solid #DBDBDB;
-background-color: #FFFFFF;
-
+.borderDiv
+{
+  border-bottom: 2px solid #CCCCCC;
+  width:98%;
+  margin-left:1%; 
 }
-
-.borderDiv{
- border-bottom: 2px solid #CCCCCC;
- width:98%;
- margin-left:1%; 
+.agendaSessionTime
+{
+  color:#818181;
+  display: inline;
+  font-family: "Roboto-Regular";
 }
-
-.agendaSessionTime{
-color:#818181;
-display: inline;
-font-family: "Roboto-Regular";
-
-
+.agendaSessionTitle
+{
+  margin-top: 12px;
 }
-
-.agendaSessionTitle{
-
-margin-top: 12px;
-}
-
 #agendaRightArrow{
   float:right;
-  
   width: 10px;
   margin-right: 10px;
-  
 }
 
-#agendaLeftArrow{
+#agendaLeftArrow
+{
   float:left;
- margin-left: -10px;
+  margin-left: -10px;
   width: 10px;
 }
-
-.agendaRightArrowImage{
- 
+.agendaRightArrowImage
+{
   width: 15px;
 }
-
-.agendaLeftArrowImage{
-  
+.agendaLeftArrowImage
+{  
   width: 15px;
 }
-
-.agendaTitleText{
+.agendaTitleText
+{
   display:inline;
   text-align: center;
   margin: 0 auto;
   width:50%;
-
 }
-
 .agendaSessionText{
   font-size: 15px;
-color:#444444;
-display: inline;
-font-family: "Roboto-Medium";
+  color:#444444;
+  display: inline;
+  font-family: "Roboto-Medium";
 }
-
-#agendaSessionRightIcon{
+#agendaSessionRightIcon
+{
   color:#8C8C8C;
   font-size: 15px;
   display: inline;
-float:right;
-padding-right:5px;
+  float:right;
+  padding-right:5px;
 }
 
-.agendaSpeakerName{
+.agendaSpeakerName
+{
   display: inline;
-font-family: "Roboto-Regular";
-color:#FFA03E;
+  font-family: "Roboto-Regular";
+  color:#FFA03E;
 }
-
-.com{
-  display:inline;
-  
-color:#FFA03E;
+.com
+{
+  display:inline; 
+  color:#FFA03E;
 }
-
 .agendaSpeakerTitle{
-   display: inline;
- font-family: "Roboto-Regular";
-color:#818181;
+  display: inline;
+  font-family: "Roboto-Regular";
+  color:#818181;
 }
-
-.agendaSessionDetail{
-
+.agendaSessionDetail
+{
 margin-top: 0%;
 color:#818181;
 }
-
-.glyphicon-chevron-right{
+.glyphicon-chevron-right
+{
   color:#CCCCCC;
 }
-
-.glyphicon-chevron-left{
+.glyphicon-chevron-left
+{
   color:#CCCCCC;
 }
 .font_size
@@ -301,7 +264,7 @@ color:#818181;
 }
 .font_color
 {
-    color:#888888;
+  color:#888888;
 }
 .font_color2
 {
@@ -330,85 +293,66 @@ color:#818181;
 {
   height:4px;
 }
-
-/*Latest css*/
-
-.landingPage{
-   background: url('../img/background.png');
-    text-align: center;
-    vertical-align: center;
-    padding: 20% 10% 40% 10%;
+.landingPage
+{
+  background: url('../img/background.png');
+  text-align: center;
+  vertical-align: center;
+  padding: 20% 10% 40% 10%;
 }
-
-
-
-.landingPageIcon{
+.landingPageIcon
+{
   height:50px;
   width:75px;
   margin:auto;
 }
-
-.landingPageLogo{
+.landingPageLogo
+{
   height:50px;
   width:140px;
   margin:auto;
 }
-
-.landingPageText{
+.landingPageText
+{
   color:#FFFFFF;
   display: inline;
   font-size:100%;
 }
-
-.blue{
+.blue
+{
   color:#73A7BD;
   display:inline;
 }
-
-a:link{
-  text-decoration:none;
-}
-
 .secondPageDiv
 {
   width:280px !important;
   margin: auto;
 }
-
-.secondPageLogoDiv{
+.secondPageLogoDiv
+{
   width:300px;
 }
-
-.secondPageIconLogo {
-height: 65px;
-width:270px;
- padding-left: 2%; 
-/* margin: auto !important; */
-/* display: inline; */
-/* float: left; */
-/* margin-left: 10%; */
-/* margin: 0px; */
-margin: auto;
-/* float: right; */
-/* margin-left: auto; */
-/* margin-right: auto; */
-/* position: inherit; */
-display: inherit;
+.secondPageIconLogo 
+{
+  height: 65px;
+  width:270px;
+  padding-left: 2%; 
+  margin: auto;
+  display: inherit;
 }
-
-.secondPageArrowDiv{
-      width:20%; 
-      margin:auto; 
+.secondPageArrowDiv
+{
+  width:20%; 
+  margin:auto; 
 }
-
-.secondPageArrow{
+.secondPageArrow
+{
   height:100px;
   margin-top: 10px;
   margin-left:10px;
-
 }
-
-.secondPageText2{
+.secondPageText2
+{
   text-align: center;
   color:#FFFFFF;
   font-size:150%;
@@ -417,9 +361,8 @@ display: inherit;
   margin-top: 5px;
   
 }
-
-.gridOne{
-
+.gridOne
+{
 width:200px;
 text-align: center;
 margin-left:33px;
@@ -1159,10 +1102,10 @@ margin-left: -30px !important;*/
   color:white;
   text-align: justify;
   width: 96%;
-  height: 60px;
+  height: 70px;
   max-width: 450px;
+  padding-left: 2% !important;
 }
-
 .overviewFeature1 {
   background-color:#31ACA6;
 }
@@ -1180,8 +1123,11 @@ margin-left: -30px !important;*/
 {
   width:90%;
   float:right;
-  font-size: 12px;
+  font-size: 13px;
   font-family: roboto-regular;
+  padding: auto;
+  text-align: justify;
+  padding-left:1% !important;
 }
 .overviewArrow
 {
