@@ -860,11 +860,11 @@ span.glyphicon-chevron-left
 .loading
 {
     opacity: 0;     /*Provides smooth transition*/
-    -webkit-transition: opacity 0.35s ease-in;
-    -moz-transition: opacity 0.35s ease-in;
-    -o-transition: opacity 0.35s ease-in;
-    -ms-transition: opacity 0.35s ease-in;
-    transition: opacity 0.35s ease-in;
+    -webkit-transition: opacity 0.20s ease-in;
+    -moz-transition: opacity 0.20s ease-in;
+    -o-transition: opacity 0.20s ease-in;
+    -ms-transition: opacity 0.20s ease-in;
+    transition: opacity 0.20s ease-in;
 }
 .loaded
 {
@@ -1087,7 +1087,7 @@ margin-left: -30px !important;*/
 {
   border-top: solid #C2B7AD;
   border-bottom: solid #C2B7AD;
-  padding: 10px 0;
+  padding: 10px ;
   margin:10px auto;
   color:white;
   font-family: roboto-regular;
