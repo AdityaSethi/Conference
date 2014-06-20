@@ -34,7 +34,7 @@
 		"speakerTitle":"Founder,Javascript",
 		"speakerPic":"douglas.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	},
 	{
 		"startTime":"11.00 a.m",
@@ -44,7 +44,7 @@
 		"speakerTitle":"Application Developer at Thoughtworks",
 		"speakerPic":"suchit.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"	
+		"detail":""	
 	},
 	{
 		"startTime":"11.45 a.m",
@@ -54,7 +54,7 @@
 		"speakerTitle":"Application Developer at Thoughtworks",
 		"speakerPic":"hemanth.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"	
+		"detail":""	
 	},
 	{
 		"startTime":"12:30 pm",
@@ -101,7 +101,7 @@
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"cell_void.png",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	
 	}
 
@@ -126,7 +126,7 @@
 		"speakerTitle":"SVP and Head of Engineering Flipkart",
 		"speakerPic":"amod.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	},
 	
 	{
@@ -148,7 +148,7 @@
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"cell_void.png",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	},
 
 	{
@@ -166,7 +166,7 @@
 		"speakerTitle":"UI Engineering Lead at MDL",
 		"speakerPic":"joe.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	
 	},
 	
@@ -178,7 +178,7 @@
 		"speakerTitle":"Digital Consultant at MDL",
 		"speakerPic":"naresh.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	},
 	
 	{
@@ -195,7 +195,7 @@
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"cell_void.png",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	},
 	
 	{
@@ -206,7 +206,7 @@
 		"speakerTitle":"Digital Principal at McKinsey Digital Labs",
 		"speakerPic":"satty.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	},
 	
 	
@@ -219,7 +219,7 @@
 		"speakerTitle":"Title of the speaker",
 		"speakerPic":"cell_void.png",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Description here"
+		"detail":""
 	}
 
 	]
