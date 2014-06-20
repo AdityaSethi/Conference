@@ -2,9 +2,8 @@
 <div class="headerMargin loading" ng-class="{loaded:loads=='loaded'}" >
 <div class="sdArrowDiv ">
 		<div class="sdArrowSubDiv">	
-		 <a href="#speakers">
-			<img id="aHeadLeftIcon" src="img/icons/back-arrow.png" class="font_color4"/>
-		</a>
+			<img id="aHeadLeftIcon" src="img/icons/back-arrow.png" class="font_color4" 
+				ng-click="goBack()"/>
 		</div>
 		<div class="text_align font_color4">Speaker Profile</div>		
 </div>
@@ -21,7 +20,7 @@
 		<!-- <div class="breakline"></div> -->
 		<div>
 			<div><h6 class="font_color roboto-medium font_color3">SESSION</h6></div >
-			<a href="#speakerDetail" ng-click="showSpeakerDetails({{speakerDetail.name}})"><div><h6 class="roboto-medium font_color2"><img class="speakerTopicImage mic-float" src="img/icons/mic-icon.png"></img><div class="mic-padding">"{{speakerDetail.topic}}"</div></h6></div ></a>
+			<a href="#speakerDetail" ng-click="showSpeakerDetails(speakerDetail.name)"><div><h6 class="roboto-medium font_color2"><img class="speakerTopicImage mic-float" src="img/icons/mic-icon.png"></img><div class="mic-padding">"{{speakerDetail.topic}}"</div></h6></div ></a>
 		</div>
 		
 		<div>

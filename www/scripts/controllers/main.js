@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('conferenceApp')
-  .controller('MainCtrl', function ($scope, $location, $anchorScroll,$rootScope) {
+  .controller('MainCtrl', function ($scope, $location, $anchorScroll, $rootScope, $window) {
    
     $scope.status = "Main view";
     // if(window.innerHeight>1024 && window.innerHeight<1400)
@@ -17,6 +17,10 @@ angular.module('conferenceApp')
         console.log($rootScope.deviceHeight, $rootScope.deviceWidth)
     //}
     $scope.loads='loaded';
+
+    $scope.goBack = function(){
+        $window.history.back();
+    }
 
      // $scope.selectTab = function(event) {
                     
