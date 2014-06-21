@@ -1,33 +1,17 @@
-<!-- <div ng-include="'partials/navbar.html'"></div>
-<div style="height:{{deviceHeight}}px !important;width:{{deviceWidth}}px !important" class="bg_grey">
-	<div class="headerMargin">
-		<div class="overviewText " ng-repeat="overview in overviews">
-			<div class="oheadingOne">{{overview.headingOne}}</div>
-			<div class="odate">{{overview.date}}</div>
-			<div class="ovenue">{{overview.venue}}</div>
-			<div class="oheadingTwo">{{overview.headingTwo}}</div>
-			<div class="oparaOne">{{overview.paraOne}}</div>
-			<div class="oparaTwo">{{overview.paraTwo}}</div>
-			<div class="oparaThree">{{overview.paraThree}}</div>
-		</div>
-		<div ><img class="overviewImage" src="img/overview-bg.png"></img></div>
-	</div>
-</div> -->
-<div class="overviewBG loading" ng-class="{loaded:loads=='loaded'}" style="height: 100%; background-size:{{deviceWidth}}px 100% !important;">
-	<!-- <div class="navbar-fixed-top"> -->
-    	<div class="container-fluid">
-      		<div class="overviewHead"> 
-	        		<div class="overviewHeadText">
-	        			<span class="overviewHT" ng-bind-html="overview.welcomeNote"></span>
-	        		</div>
-	        		<div  class="overviewHeadImage">
-		        		<div class="overviewImageFloatLeft">
-		        			<img src="img/icons/logo-large.png" class="overviewHI overviewHP"></img>
-		        		</div>
-	     			</div>	
+<div class="overviewBG loading" ng-class="{loaded:loads=='loaded'}" 
+		 style="height: 100%; background-size:{{deviceWidth}}px 100% !important;">
+	<div class="container-fluid">
+		<div class="overviewHead"> 
+  		<div class="overviewHeadText">
+  			<span class="overviewHT" ng-bind-html="overview.welcomeNote"></span>
+  		</div>
+  		<div  class="overviewHeadImage">
+    		<div class="overviewImageFloatLeft">
+    			<img src="img/icons/logo-large.png" class="overviewHI overviewHP"></img>
     		</div>
+			</div>	
 		</div>
-	<!-- </div> -->	
+	</div>
 	
 	<div class="overviewTVH">
 		<img src="img/icons/icon-large.png" class="overviewTV"></img>
@@ -38,15 +22,16 @@
 	</div>
 	
 	<div class="overviewFeature1 container">
-
-		<img height="25px" src="img/icons/browse.png" class=""></img><div class="overviewFI">{{overview.feature1}}</div>
+		<img height="25px" src="img/icons/browse.png" class=""></img>
+		<div class="overviewFI">{{overview.feature1}}</div>
 	</div>
 	<div class="overviewFeature2 container">
-		<img height="25px" src="img/icons/date.png" class=""></img><div class="overviewFI">{{overview.feature2}}</div>
+		<img height="25px" src="img/icons/date.png" class=""></img>
+		<div class="overviewFI">{{overview.feature2}}</div>
 	</div>
 	<div class="overviewFeature3 container">
-		<img height="16px" src="img/icons/email.png" class=""></img><div class="overviewFI" ng-bind-html="overview.feature3"></div>
+		<img height="16px" src="img/icons/email.png" class=""></img>
+		<div class="overviewFI" ng-bind-html="overview.feature3"></div>
 	</div>
 	<div ng-include="'partials/footer.html'"></div>
 </div>
-

@@ -29,7 +29,7 @@ angular.module('conferenceApp', ['ngRoute','ngSanitize'])
         })
         .when('/speakerinfo', {
             controller: 'SpeakerCtrl',
-            templateUrl: 'partials/speakerDetails.html'
+            templateUrl: 'partials/speaker-details.html'
         })
         .when('/speakerDetail', {
             controller: 'SpeakerCtrl',
