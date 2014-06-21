@@ -10,7 +10,7 @@ angular.module('conferenceApp')
     $scope.loads='loaded';
 
     $scope.goBack = function(){
-        $window.history.back();
+      $window.history.back();
     }
 });
 
