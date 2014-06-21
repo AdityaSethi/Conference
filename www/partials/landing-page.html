@@ -1,13 +1,11 @@
-<div class="secondPage loading" ng-class="{loaded:loads=='loaded'}" style="height:{{deviceHeight}}px !important">  	
-	<div class="secondPageLogoDiv">
-  	<img src="img/icons/New-Logo.png" class="secondPageIconLogo">
-  </div>
-  <div class="secondPageDiv container">
-  	<div class="secondPageArrowDiv"><img class="secondPageArrow" src="img/icons/arrow.png" ></img></div>
-  	<div class="secondPageText2" >
-  		<div>{{confvenue.events}}</div> 
-  		<div>{{confvenue.venue}},{{confvenue.date}}</div> 		
-  	</div>
+<div class="landing-page-container loading" ng-class="{loaded:loads=='loaded'}" 
+     style="height:{{deviceHeight}}px !important">  	
+	<div class="landing-page-logo"></div>
+  <div class="grid-container container">
+  	<div class="down-arrow"></div>
+  	<div class="conference-info-text">
+      {{confvenue.events}} <br> {{confvenue.venue}},{{confvenue.date}}
+    </div>
     <div class="grid relative pull-left">
       <div class='grid-line pull-left pull-up overview-color'></div>
       <div class='grid-line pull-right align-grid-line pull-up speaker-color'></div>

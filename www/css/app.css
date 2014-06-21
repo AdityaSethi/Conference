@@ -314,35 +314,21 @@ a:link {
   display:inline;
 }
 
-.secondPageDiv {
+.grid-container {
   width:280px !important;
   margin: auto;
 }
 
-.secondPageLogoDiv {
-  width:300px;
-}
-
-.secondPageIconLogo {
-  height: 65px;
-  width:270px;
-  padding-left: 2%; 
-  margin: auto;
-  display: inherit;
-}
-
-.secondPageArrowDiv {
+.down-arrow {
   width:20%; 
-  margin:auto; 
-}
-
-.secondPageArrow {
+  margin:auto;
   height:100px;
-  margin-top: 10px;
-  margin-left:10px;
+  background-image: url('../img/icons/arrow.png');
+  background-repeat: no-repeat;
+  background-size: 28px 100px;
 }
 
-.secondPageText2 {
+.conference-info-text {
   text-align: center;
   color:#FFFFFF;
   font-size:150%;
@@ -440,16 +426,15 @@ a:link {
   background-size: 41px 35px;
 }
 
-.secondPageText3 {
-  color:#FFFFFF;
-  font-size:100%;
-}
-
-.secondPageLogoDiv {
+.landing-page-logo {
   background-color: #F39C12;
   width: 95%;
   height:80px;
   padding-top: 7px;
+  background-image: url('../img/icons/New-Logo.png');
+  background-repeat: no-repeat;
+  background-size: 270px 65px;
+  background-position: 50% 50%;
 }
 
 .homepage {
@@ -876,7 +861,7 @@ span.glyphicon-chevron-left {
   background-color: #F4F4F4 !important;
 }
 
-.secondPage{
+.landing-page-container{
   background: url('../img/home-bg.png')  no-repeat center center fixed;    
   -webkit-background-size: cover;
   -moz-background-size: cover;
