@@ -2,7 +2,7 @@
 <div class="headerMargin loading" ng-class="{loaded:loads=='loaded'}">
 	<div class="speakerBreakline"></div>
 	<div class="container-fluid speakerBorder" ng-repeat="speaker in speakers" >
-	  <a class="speakerMainDiv" href="#/speakerinfo" ng-click="speakerIndex($index)">
+	    <a class="speakerMainDiv" href="#/speakerinfo" ng-click="speakerIndex($index)">
 			<div class="speakerDiv">
 				<img class="speaker_image" src="img/speakers/{{speaker.image}}"></img>
 			</div>
@@ -11,7 +11,9 @@
 				<img height="20px" width="15px" src="img/icons/right-arrow.png"></img>
 			</div>
 			<div class="speakerInfo">
-				<div><h4>{{speaker.name}}</h4></div>
+				<div>
+				    <h4>{{speaker.name}}</h4>
+				</div>
 				<div class="font_size font_color2">{{speaker.known_for}}</div>
 				<div class="font_color">
 					<h6>

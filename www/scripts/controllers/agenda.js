@@ -18,16 +18,16 @@ angular.module('conferenceApp')
       $location.path('/agendaDetail');
     };
         
-      $scope.showSpeakerDetails = function(selectedName) {     
-        $rootScope.speakerName = selectedName;
-        $http.get('scripts/lib/json/speaker.json').success(function(response) {
-          $rootScope.speaker = response;
-          for(var key in $rootScope.speaker) {
-            if($rootScope.speaker[key].name === $rootScope.speakerName) {
-              $rootScope.speakerDetail = $rootScope.speaker[key]; 
-              $location.path('/agendaDetail');
-            }
+    $scope.showSpeakerDetails = function(selectedName) {     
+      $rootScope.speakerName = selectedName;
+      $http.get('scripts/lib/json/speaker.json').success(function(response) {
+        $rootScope.speaker = response;
+        for(var key in $rootScope.speaker) {
+          if($rootScope.speaker[key].name === $rootScope.speakerName) {
+            $rootScope.speakerDetail = $rootScope.speaker[key]; 
+            $location.path('/agendaDetail');
           }
-        });
-      };
+        }
+      });
+    };
   });
