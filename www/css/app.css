@@ -319,10 +319,6 @@ a:link {
   margin: auto;
 }
 
-.secondPageLogoDiv {
-  width:300px;
-}
-
 .down-arrow {
   width:20%; 
   margin:auto;
@@ -428,11 +424,6 @@ a:link {
 .venue-image {
   background-image: url('../img/icons/venue-large.png');
   background-size: 41px 35px;
-}
-
-.secondPageText3 {
-  color:#FFFFFF;
-  font-size:100%;
 }
 
 .landing-page-logo {
