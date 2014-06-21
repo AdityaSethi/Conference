@@ -2,14 +2,12 @@
 
 angular.module('conferenceApp')
 .controller('venueCtrl',function($scope, $http, $rootScope) {
-    //$http.get('scripts/lib/json/venue.json').success(function(response) {
-     //  }
-    $scope.active_overview;
-    $scope.active_speaker;
-    $scope.active_agenda;
+    
     $scope.active_venue="active";
     
-    $scope.mapHeight = ($rootScope.deviceHeight - 110); // Setting the map height
+    // Setting the map height so that it appears properly on any device
+
+    $scope.mapHeight = ($rootScope.deviceHeight - 110); 
 
     $scope.loadMap = function initialize() {
       var myLatlng = new google.maps.LatLng(12.9732486,77.6197981);
@@ -24,11 +22,13 @@ angular.module('conferenceApp')
       content: contentString,
       show: true
     });
+
     var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
       title: 'Hotel Taj Vivanta,M.G Road,Bengaluru'
     });
+    
     infowindow.open(map,marker);
   }
 });

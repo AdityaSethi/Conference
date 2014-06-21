@@ -21,7 +21,7 @@ angular.module('conferenceApp', ['ngRoute','ngSanitize'])
         })
          .when('/agendaDetail', {
             controller: 'agendaCtrl',
-            templateUrl: 'partials/agendaDetail.html'
+            templateUrl: 'partials/agenda-details.html'
         })
         .when('/venue', {
             controller: 'venueCtrl',
@@ -33,7 +33,7 @@ angular.module('conferenceApp', ['ngRoute','ngSanitize'])
         })
         .when('/speakerDetail', {
             controller: 'SpeakerCtrl',
-            templateUrl: 'partials/speakerDetails2.html'
+            templateUrl: 'partials/agenda-details.html'
         })
         .otherwise({redirectTo: '/'});
     });
