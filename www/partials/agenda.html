@@ -2,13 +2,13 @@
 	<div class=" loading" ng-class="{loaded:loads=='loaded'}">
 		<div class="agendaTitleDiv headerMargin">
 			<div class="agendaTitle">
-				<a href="#/agenda2/{{day - 1}}">
+				<a href="#/agenda/{{day - 1}}">
 					<div id="agendaLeftArrow">
 						<img src="img/icons/back-arrow.png"  ng-hide="day == 0" class="agendaLeftArrowImage"/>
 					</div>
 				</a>	
 				{{currentDayAgenda.title.dayNum}} : {{currentDayAgenda.title.day}}, {{currentDayAgenda.title.month}} {{currentDayAgenda.title.date}}
-				<a href="#/agenda2/{{day + 1}}">
+				<a href="#/agenda/{{day + 1}}">
 					<div id="agendaRightArrow" ng-show="day < agendaData.length-1">
 						<img src="img/icons/forward-arrow.png" ng-hide="$index==agendas.length-1" 
 								 class="agendaRightArrowImage"/>
