@@ -1,66 +1,39 @@
 <div ng-include="'partials/navbar.html'"></div>
-<div class=" loading" ng-class="{loaded:loads=='loaded'}">
-<div class="agendaTitleDiv headerMargin" ng-repeat="agenda in agendas" ng-if="$index==ind">
-	
-<div class="agendaTitle">
-<div   ng-click="getPreviousDate($index)" id="agendaLeftArrow">
-	<img src="img/icons/back-arrow.png"  ng-hide="$index==0" class="agendaLeftArrowImage"/>
-</div>
-	<!-- {{agenda.title}} -->
-	
-	{{agenda.title.dayNum}} : {{agenda.title.day}}, {{agenda.title.month}} {{agenda.title.date}}
-	
-<div ng-click="getNextDate($index)" id="agendaRightArrow">
-	<img src="img/icons/forward-arrow.png"  ng-hide="$index==agendas.length-1" class="agendaRightArrowImage"/>
-</div>
-</div>
-
-<div class="borderDiv"></div>
-
-<div class="agendaDiv"  ng-repeat="row in agenda.data" ng-controller="SpeakerCtrl"   >
-<div class="agendaStartTime">{{row.startTime}}</div>
-	<button ng-click="showDetail(row,agenda,ind)" class="fill-div" ng-disabled="row.detail==null" >
-	<div class="agendaSmallDiv" >
-	
-	  <div class="agendaTime">
-		<div id="agendaSessionIcon" class="glyphicon glyphicon-time"></div>
-		<div class="agendaSessionTime">{{row.Time}}</div>
-		</div>
-		<!-- <div class="agendaVenue" ng-if="row.venue!=null">
-		<div class="glyphicon glyphicon-map-marker" id="agendaVenueIcon"></div>
-		<div class="agendaVenueText">{{row.venue}}</div>
-		</div> -->
-		<div class="agendaSessionTitle">
-		<div class="agendaSessionText">{{row.session}}</div>
-		<div id="agendaSessionRightIcon" 
-		ng-if="row.detail!=null"><img height="20px" width="15px" src="img/icons/right-arrow.png"></img></div>
-		</div>
-		
-		
-		<div class="agendaSpeakerName" ng-if="row.speakerTitle!=null">{{row.speaker}},</div>
-		<div class="agendaSpeakerName" ng-if="row.speakerTitle==null">{{row.speaker}}</div>
-		<!-- <div class="com" ng-if="row.speaker!=null && row.speakerTitle!=null">,</div> -->
-		<div class="agendaSpeakerTitle">{{row.speakerTitle}}</div>
-		
-	<!-- 	<div class="content overviewText" ng-if="class_toggle[$index]">{{row.detail}}</div>
-		<div class="default_content overviewText" ng-if="!class_toggle[$index]">{{row.detail}}</div>
-		<div style="width:90px;padding-top:2%;padding-left:0" ng-if="row.detail!=null">
-			<a ng-model="check" ng-click="check_expand($index)">
-				<div  ng-if="toggle[$index]">
-					<span style="font-size:16px">See less</span><div class="glyphicon glyphicon-chevron-up"></div>
+	<div class=" loading" ng-class="{loaded:loads=='loaded'}">
+		<div class="agendaTitleDiv headerMargin" ng-repeat="agenda in agendas" ng-if="$index == ind">
+			<div class="agendaTitle">
+				<div ng-click="getPreviousDate($index)" id="agendaLeftArrow">
+					<img src="img/icons/back-arrow.png"  ng-hide="$index==0" class="agendaLeftArrowImage"/>
 				</div>
-				<div style="padding-top:2%" ng-if="!toggle[$index]">
-					<span style="font-size:16px">See more</span><div class="glyphicon glyphicon-chevron-down" ></div>
+				{{agenda.title.dayNum}} : {{agenda.title.day}}, {{agenda.title.month}} {{agenda.title.date}}
+	
+				<div ng-click="getNextDate($index)" id="agendaRightArrow">
+					<img src="img/icons/forward-arrow.png" ng-hide="$index==agendas.length-1" 
+							 class="agendaRightArrowImage"/>
 				</div>
-			</a> -->
-			
-		</div>	
-
-</button>
+			</div>
+			<div class="borderDiv"></div>
+			<div class="agendaDiv" ng-repeat="row in agenda.data" ng-controller="SpeakerCtrl">
+				<div class="agendaStartTime">{{row.startTime}}</div>
+				<button ng-click="showDetail(row,agenda,ind)" class="fill-div" ng-disabled="row.detail==null">
+					<div class="agendaSmallDiv">
+		  			<div class="agendaTime">
+							<div id="agendaSessionIcon" class="glyphicon glyphicon-time"></div>
+							<div class="agendaSessionTime">{{row.Time}}</div>
+						</div>
+						<div class="agendaSessionTitle">
+							<div class="agendaSessionText">{{row.session}}</div>
+							<div id="agendaSessionRightIcon" ng-if="row.detail!=null">
+								<img height="20px" width="15px" src="img/icons/right-arrow.png"></img>
+							</div>
+						</div>
+						<div class="agendaSpeakerName" ng-if="row.speakerTitle!=null">{{row.speaker}},</div>
+						<div class="agendaSpeakerName" ng-if="row.speakerTitle==null">{{row.speaker}}</div>
+						<div class="agendaSpeakerTitle">{{row.speakerTitle}}</div>
+					</div>	
+				</button>
+			</div>	
+		</div>
 	</div>
-	
-</div>
-
-</div>
 </div>
 <div ng-include="'partials/footer.html'"></div>
