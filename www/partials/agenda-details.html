@@ -1,0 +1,43 @@
+<div ng-include="'partials/navbar.html'"></div>
+<div class="aMain headerMargin loading" ng-class="{loaded:loads=='loaded'}" 
+		 style="height:{{deviceHeight}}px">
+	<div class="aHead">
+		<img id="aHeadLeftIcon" src="img/icons/back-arrow.png" class="font_color4" ng-click="goBack()"/>
+		<div class="aHeadText roboto-medium font_color4">{{speakerDetail.session}}</div>
+	</div>
+	<div class="aBody">
+	 	<div class="aBodyUpper">
+			<div class="DateTime">
+				<div class="aText2 roboto-medium font_color3">DATE & TIME</div>
+				<div class="DTText">
+					<div id="aIcon" class="glyphicon glyphicon-calendar font_color2"></div>
+					<div class="aText roboto-regular">
+						{{speakerDetail.day}}, {{speakerDetail.dd}} {{speakerDetail.mon}} {{speakerDetail.yyyy}}
+					</div>
+				</div>
+				<div class="DTText">
+					<div id="aIcon" class="glyphicon glyphicon-time font_color2"></div>
+					<div class="aText roboto-regular">{{speakerDetail.startTime}}-{{speakerDetail.endTime}}</div>
+				</div>
+				<div  class="DTText">
+					<div id="aIcon" class="glyphicon glyphicon-map-marker font_color2"></div>
+					<div class="aText roboto-regular">{{speakerDetail.venue}}</div>
+				</div>
+			</div>
+			<div class="Speaker">
+				<div class="aText4 roboto-medium font_color3">SPEAKER</div>
+				<div class="ImageDiv">
+					<img src="img/speakers/{{speakerDetail.image}}"  class="aImage"/>
+					<div class="aImageText">
+						<div class=" roboto-regular">{{speakerDetail.name}}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="aBodyLower">
+			<div class="aText2 roboto-medium font_color3">DESCRIPTION</div>
+			<div class="aText3 roboto-regular" ng-bind-html="speakerDetail.topic_description"></div>
+		</div>
+	</div>
+</div>
+<div ng-include="'partials/footer.html'"></div>
