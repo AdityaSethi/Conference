@@ -351,107 +351,93 @@ a:link {
   margin-top: 5px;
 }
 
-.gridOne {
+.grid {
   width:200px;
   text-align: center;
-  margin-left:33px;
+  margin-left: 33px;
 } 
 
-.gridOneUp {
-  width: 185px;
-  margin-left: 33px;
-  margin-bottom: 7px;
+.grid-with-margin {
+  margin: 10px 0px 15px 33px;
 }
 
-.gridTwoDown {
-  width: 185px;
-  margin-left: 33px;
-  margin-bottom: 50px;
-
-}
-
-.gridOne1 {
-  float: left;
+.grid-box {
   height: 85px;
   width: 85px;
-  background-color:rgba(85,170,255,0.7);
   margin: 0px auto;
   text-align: center;
-  padding: 22px 6px 6px 6px;
+  position: relative;
 }
 
-.gridOne1Up {
-  float: left;
+.align-grid-box {
+  margin-left: 15px;
+}
+
+.grid-box-text {
+  color: #ffffff;
+  font-size: 100%;
+  width: 100%;
+  bottom: 8px;
+  position: absolute;
+}
+
+.grid-line {
+  position: relative;
+  width: 85px;
   height: 5px;
-  width: 85px;
-  background-color:rgba(85,170,255,0.7);
-  margin: 0px auto;
 }
 
-.gridOne2 {
-  display: inline-block;
-  height: 85px;
-  width: 85px;
+.pull-up {
+  top: -5px;
+}
+
+.pull-down {
+  top: 95px;
+}
+
+.align-grid-line {
+  margin-right: 15px;
+}
+
+.overview-color {
+  background-color: rgba(85,170,255,0.7);
+}
+
+.agenda-color {
+  background-color: rgba(3,173,3,0.7);
+}
+
+.speaker-color {
   background-color:rgba(27,156,126,0.7);
-  text-align: center;
-  padding: 12px 6px 6px 6px;
 }
 
-.gridOne2Up {
-  /* display: inline-block; */
-  height: 5px;
-  width: 85px;
-  background-color: rgba(27,156,126,0.7);
-  float: right;
-  display: inline;
+.venue-color {
+  background-color: rgba(227,190,42,0.7);
 }
 
-.gridTwo{
-  width:200px;
-  margin: 15px auto;
-  text-align: center;
-  margin-left:33px;
+.background-common {
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
 }
 
-.gridTwo1 {
-  float: left;
-  height: 85px;
-  width: 85px;
-  background-color:rgba(3,173,3,0.7);
-  text-align: center;
-  padding: 13px 6px 6px 6px;
+.overview-image {
+  background-image: url('../img/icons/overview-large.png');
+  background-size: 50px 25px;
 }
 
-.gridTwo2 {
-  display: inline-block;
-  height: 85px;
-  width: 85px;
-  background-color:rgba(227,190,42,0.7);
-  text-align: center;
-  padding: 8px 6px 6px 6px;
+.agenda-image {
+  background-image: url('../img/icons/agenda-large.png');
+  background-size: 47px 35px;
 }
 
-.gridTwo1Down {
-  float: left;
-  height: 5px;
-  width: 85px;
-  margin-top: -12px;
-  background-color:rgba(3,173,3,0.7);
-
+.speaker-image {
+  background-image: url('../img/icons/speakers-large.png');
+  background-size: 28px 35px;
 }
 
-.gridTwo2Down {
-  display: inline;
-  height: 5px;
-  width: 85px;
-  margin-top: -12px;
-  background-color:rgba(227,190,42,0.7);
-  float:right;
-}
-
-.lineSpace {
-  width: 2%;
-  height: 2%;
+.venue-image {
+  background-image: url('../img/icons/venue-large.png');
+  background-size: 41px 35px;
 }
 
 .secondPageText3 {
@@ -459,30 +445,7 @@ a:link {
   font-size:100%;
 }
 
-.secondPageIconOverview {
-  width: 50px;
-  height: 25px;
-  /* padding: 2px 2px 2px 2px; */
-  margin-bottom: 2px;
-}
-
-.secondPageIconSpeakers {
-  height: 35px;
-  margin-bottom: 2px;
-}
-
-.secondPageIconAgenda {
-  height: 35px;
-  margin-bottom: 2px;
-}
-
-.secondPageIconVenue {
-  width: 35px;
-  margin-bottom: 2px;
-}
-
 .secondPageLogoDiv {
-  /* margin: auto; */
   background-color: #F39C12;
   width: 95%;
   height:80px;
@@ -963,12 +926,12 @@ html {
    min-width: 190px;
 }
 
-.overviewHead {
+.overview-head {
   color: #FFFFFF;
   padding-top: 10px; 
   text-align: center;
   display: inline-block;
-  width:100%;
+  width: 100%;
 }
 
 .overviewHP {
@@ -980,7 +943,7 @@ html {
   width: 190px;
 }
 
-.overviewBG {
+.overview-bg {
   background: url('../img/overview-bg.png') ;
   background-repeat: no-repeat;
 }
