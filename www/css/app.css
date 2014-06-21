@@ -34,6 +34,7 @@ a:link {
 .wrapper {
   height: 100%;
 }
+
 .font {
   font-family:"Roboto-Medium" ;
   color:white;
@@ -155,6 +156,7 @@ a:link {
   margin-top:10px;
   font-family: "Roboto-Medium";
 }
+
 .agendaSmallDiv {
   padding: 1% 1% 1% 1%;
   border:1px solid #DBDBDB;
@@ -198,55 +200,55 @@ a:link {
 }
 
 .agendaTitleText {
-  display:inline;
+  display: inline;
   text-align: center;
   margin: 0 auto;
-  width:50%;
+  width: 50%;
 }
 
 .agendaSessionText {
   font-size: 15px;
-  color:#444444;
+  color: #444444;
   display: inline;
   font-family: "Roboto-Medium";
 }
 
 #agendaSessionRightIcon {
-  color:#8C8C8C;
+  color: #8C8C8C;
   font-size: 15px;
   display: inline;
-  float:right;
-  padding-right:5px;
+  float: right;
+  padding-right: 5px;
 }
 
 .agendaSpeakerName {
   display: inline;
   font-family: "Roboto-Regular";
-  color:#FFA03E;
+  color: #FFA03E;
 }
 
 .com {
-  display:inline; 
-  color:#FFA03E;
+  display: inline; 
+  color: #FFA03E;
 }
 
 .agendaSpeakerTitle {
   display: inline;
   font-family: "Roboto-Regular";
-  color:#818181;
+  color: #818181;
 }
 
 .agendaSessionDetail {
   margin-top: 0%;
-  color:#818181;
+  color: #818181;
 }
 
 .glyphicon-chevron-right {
-  color:#CCCCCC;
+  color: #CCCCCC;
 }
 
 .glyphicon-chevron-left {
-  color:#CCCCCC;
+  color: #CCCCCC;
 }
 
 .font_size {
@@ -254,34 +256,34 @@ a:link {
 }
 
 .font_color {
-  color:#888888;
+  color: #888888;
 }
 
 .font_color2 {
-  color:#F39C12 !important;
+  color: #F39C12 !important;
 }
 
 .font_color3 {
-  color:#444444 !important;
+  color: #444444 !important;
 }
 
 .font_color4 {
-  color:#1E92B6 !important;
+  color: #1E92B6 !important;
 }
 
 .font_color5,.font_color5:hover {
-  color:#000066 !important;
+  color: #000066 !important;
 }
 
 .speakerBorder {
-  border:1px solid #CCCCCC !important;
+  border: 1px solid #CCCCCC !important;
   background-color: white;
   margin-top: 2%;
-  padding-bottom:1%;
+  padding-bottom: 1%;
 }
 
 .speakerBreakline {
-  height:4px;
+  height: 4px;
 }
 
 .landingPage {
@@ -292,37 +294,37 @@ a:link {
 }
 
 .landingPageIcon {
-  height:50px;
-  width:75px;
-  margin:auto;
+  height: 50px;
+  width: 75px;
+  margin: auto;
 }
 
 .landingPageLogo {
-  height:50px;
-  width:140px;
-  margin:auto;
+  height: 50px;
+  width: 140px;
+  margin: auto;
 }
 
 .landingPageText {
-  color:#FFFFFF;
+  color: #FFFFFF;
   display: inline;
-  font-size:100%;
+  font-size: 100%;
 }
 
 .blue {
-  color:#73A7BD;
-  display:inline;
+  color: #73A7BD;
+  display: inline;
 }
 
 .grid-container {
-  width:280px !important;
+  width: 280px !important;
   margin: auto;
 }
 
 .down-arrow {
-  width:20%; 
-  margin:auto;
-  height:100px;
+  width: 20%; 
+  margin: auto;
+  height: 100px;
   background-image: url('../img/icons/arrow.png');
   background-repeat: no-repeat;
   background-size: 28px 100px;
@@ -330,15 +332,15 @@ a:link {
 
 .conference-info-text {
   text-align: center;
-  color:#FFFFFF;
-  font-size:150%;
-  margin:auto;
+  color: #FFFFFF;
+  font-size: 150%;
+  margin: auto;
   padding-bottom: 15px;
   margin-top: 5px;
 }
 
 .grid {
-  width:200px;
+  width: 200px;
   text-align: center;
   margin-left: 33px;
 } 
@@ -429,7 +431,7 @@ a:link {
 .landing-page-logo {
   background-color: #F39C12;
   width: 95%;
-  height:80px;
+  height: 80px;
   padding-top: 7px;
   background-image: url('../img/icons/New-Logo.png');
   background-repeat: no-repeat;
@@ -438,32 +440,32 @@ a:link {
 }
 
 .homepage {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .homepage:hover {
   color:#F39C12 !important;
-  background-color:#F39C12 !important;
+  background-color: #F39C12 !important;
 }
 
 .container-fluid {
-  padding-left:0px !important;
+  padding-left: 0px !important;
   padding-right: 0px !important;
 }
 
 .headerMargin {
-  padding-top:64px;
-  padding-bottom:45px;
+  padding-top: 64px;
+  padding-bottom: 45px;
   background-color: #F4F4F4;
 }
 
 .footerMargin {
-  padding-top:55px;
+  padding-top: 55px;
   background-color: #F4F4F4;
 }
 
 .footerMargin2 {
-  padding-bottom:63px;
+  padding-bottom: 63px;
   background-color: #F4F4F4;
 }
 
@@ -483,7 +485,7 @@ a:link {
 }
 
 #agendaSessionIcon {
-  color:#F39C12;
+  color: #F39C12;
   display: inline;
   font-size: 12px;
 }
@@ -494,17 +496,17 @@ a:link {
 
 .agendaVenue {
   display: inline;
-  float:right;
+  float: right;
 }
 
 .agendaVenueText {
   display: inline;
-  color:#8C8C8C;
+  color: #8C8C8C;
   font-size: 12px;
 }
-
+ 
 #agendaVenueIcon {
-  color:#8C8C8C;
+  color: #8C8C8C;
   font-size: 12px;
   display: inline;
 }

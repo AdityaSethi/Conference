@@ -23,9 +23,9 @@ angular.module('conferenceApp')
       };
 
       $scope.showDetail = function(selectedRow, selectedAgenda, selectedInd) {
-        $rootScope.row=selectedRow;
-        $rootScope.agenda=selectedAgenda;
-        $rootScope.index=selectedInd;
+        $rootScope.row = selectedRow;
+        $rootScope.agenda = selectedAgenda;
+        $rootScope.index = selectedInd;
         $location.path('/agendaDetail');
       };
         
