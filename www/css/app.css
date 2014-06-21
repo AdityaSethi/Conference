@@ -581,6 +581,7 @@ a:link {
 
 #aHeadLeftIcon {
   float: left;
+  cursor: pointer;
   color: #D1D1D1;
   /* padding: 3px 3px 3px 3px; */
   width: 15px;
@@ -912,8 +913,8 @@ span.glyphicon-chevron-left {
   background-color: #F4F4F4 !important;
 }
 
-.secondPage {
-  background: url('../img/overview-bg.png')  no-repeat center center fixed;
+.secondPage{
+  background: url('../img/home-bg.png')  no-repeat center center fixed;    
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
