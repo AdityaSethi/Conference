@@ -12,6 +12,8 @@ angular.module('conferenceApp')
     $scope.goBack = function(){
       $window.history.back();
     }
+
+    $rootScope.day = 0;
 });
 
 

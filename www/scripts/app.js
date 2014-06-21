@@ -15,11 +15,11 @@ angular.module('conferenceApp', ['ngRoute','ngSanitize'])
             controller: 'SpeakerCtrl',
             templateUrl: 'partials/speakers.html'
         })
-        .when('/agenda', {
+        .when('/agenda/:day', {
             controller: 'agendaCtrl',
             templateUrl: 'partials/agenda.html'
         })
-         .when('/agendaDetail', {
+        .when('/agendaDetail', {
             controller: 'agendaCtrl',
             templateUrl: 'partials/agenda-details.html'
         })

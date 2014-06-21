@@ -1,21 +1,25 @@
 <div ng-include="'partials/navbar.html'"></div>
 	<div class=" loading" ng-class="{loaded:loads=='loaded'}">
-		<div class="agendaTitleDiv headerMargin" ng-repeat="agenda in agendas" ng-if="$index == ind">
+		<div class="agendaTitleDiv headerMargin">
 			<div class="agendaTitle">
-				<div ng-click="getPreviousDate($index)" id="agendaLeftArrow">
-					<img src="img/icons/back-arrow.png"  ng-hide="$index==0" class="agendaLeftArrowImage"/>
-				</div>
-				{{agenda.title.dayNum}} : {{agenda.title.day}}, {{agenda.title.month}} {{agenda.title.date}}
-	
-				<div ng-click="getNextDate($index)" id="agendaRightArrow">
-					<img src="img/icons/forward-arrow.png" ng-hide="$index==agendas.length-1" 
-							 class="agendaRightArrowImage"/>
-				</div>
+				<a href="#/agenda2/{{day - 1}}">
+					<div id="agendaLeftArrow">
+						<img src="img/icons/back-arrow.png"  ng-hide="day == 0" class="agendaLeftArrowImage"/>
+					</div>
+				</a>	
+				{{currentDayAgenda.title.dayNum}} : {{currentDayAgenda.title.day}}, {{currentDayAgenda.title.month}} {{currentDayAgenda.title.date}}
+				<a href="#/agenda2/{{day + 1}}">
+					<div id="agendaRightArrow" ng-show="day < agendaData.length-1">
+						<img src="img/icons/forward-arrow.png" ng-hide="$index==agendas.length-1" 
+								 class="agendaRightArrowImage"/>
+					</div>
+				</a>	
 			</div>
 			<div class="borderDiv"></div>
-			<div class="agendaDiv" ng-repeat="row in agenda.data" ng-controller="SpeakerCtrl">
+			<div class="agendaDiv" ng-repeat="row in currentDayAgenda.data" ng-controller="SpeakerCtrl">
 				<div class="agendaStartTime">{{row.startTime}}</div>
-				<button ng-click="showDetail(row,agenda,ind)" class="fill-div" ng-disabled="row.detail==null">
+				<button ng-click="showSpeakerDetails(row.speaker)" class="fill-div" 
+							  ng-disabled="row.detail==null">
 					<div class="agendaSmallDiv">
 		  			<div class="agendaTime">
 							<div id="agendaSessionIcon" class="glyphicon glyphicon-time"></div>

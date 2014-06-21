@@ -887,8 +887,8 @@ html {
   background-color: #F4F4F4;
 }
 
-.overviewHeadText {
-  float:left;
+.overview-head-text {
+  float: left;
   font-family: "Roboto-Regular";
   min-width: 23%;
   max-width: 100%;
