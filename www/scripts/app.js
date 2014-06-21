@@ -1,17 +1,12 @@
+'use strict';
+
 angular.module('conferenceApp', ['ngRoute','ngSanitize'])
-    // .config(['$compileProvider', function ($compileProvider) {
-    //     $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
-    // }])
     .config(function ($routeProvider) {
         $routeProvider
         .when('/', {
-            controller: 'secondPageCtrl',
-            templateUrl: 'partials/secondPage.html'
+            controller: 'landingPageCtrl',
+            templateUrl: 'partials/landing-page.html'
         })
-        /*.when('/view2', {
-            controller: 'secondPageCtrl',
-            templateUrl: 'partials/secondPage.html'
-        })*/
         .when('/overview', {
             controller: 'overviewCtrl',
             templateUrl: 'partials/overview.html'
