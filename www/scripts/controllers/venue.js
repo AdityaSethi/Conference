@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('conferenceApp')
-.controller('venueCtrl',function($scope, $http, $rootScope) {
+.controller('venueCtrl',function($scope, $rootScope) {
     
     $scope.active_venue="active";
     

@@ -1,16 +1,13 @@
 'use strict';
 
 angular.module('conferenceApp')
-  .controller('agendaCtrl', function($scope, $http, $rootScope, $location, $routeParams) {
+  .controller('agendaCtrl', function($scope, $rootScope, $location, $routeParams, SetData) {
     
-    $scope.active_agenda = "active";
-        
+    $scope.active_agenda = "active";    
     $rootScope.day = parseInt($routeParams.day);
 
-    $http.get('scripts/lib/json/agenda.json').success(function(response) {
-      $scope.agendaData = response;
-      $scope.currentDayAgenda = $scope.agendaData[$rootScope.day];
-    });
+    $scope.agendaData = SetData.get_agenda_data();
+    $scope.currentDayAgenda = $scope.agendaData[$rootScope.day];
 
     $scope.showDetail = function(selectedRow, selectedAgenda) {
       $rootScope.row = selectedRow;
@@ -20,14 +17,13 @@ angular.module('conferenceApp')
         
     $scope.showSpeakerDetails = function(selectedName) {     
       $rootScope.speakerName = selectedName;
-      $http.get('scripts/lib/json/speaker.json').success(function(response) {
-        $rootScope.speaker = response;
-        for(var key in $rootScope.speaker) {
-          if($rootScope.speaker[key].name === $rootScope.speakerName) {
-            $rootScope.speakerDetail = $rootScope.speaker[key]; 
-            $location.path('/agendaDetail');
-          }
+      $rootScope.speaker = SetData.get_speaker_data();
+      for(var key in $rootScope.speaker) {
+        if($rootScope.speaker[key].name === $rootScope.speakerName) {
+          $rootScope.speakerDetail = $rootScope.speaker[key]; 
+          $location.path('/agendaDetail');
         }
-      });
+      }
     };
+
   });

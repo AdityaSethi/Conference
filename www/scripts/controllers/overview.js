@@ -1,10 +1,7 @@
 angular.module('conferenceApp')
-    .controller('overviewCtrl', function($scope,$http) {
+    .controller('overviewCtrl', function($scope, SetData) {
 
-	    $http.get('scripts/lib/json/overview.json').success(function(response) {
-	      $scope.overview = response;
-	    });
-
-	    $scope.active_overview = "active";
+    	$scope.active_overview = "active";
+	    $scope.overview = SetData.get_overview_data();
 	  
     });
