@@ -882,7 +882,7 @@ span.glyphicon-chevron-left {
 }
 
 .foot {
-  position: relative;
+  position: fixed;
 }
 
 html {
