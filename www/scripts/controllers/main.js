@@ -28,6 +28,6 @@ angular.module('conferenceApp')
     	SetData.set_venue_data(api_data);
     });
     
-    $rootScope.day = 0;
+    $rootScope.dayVal = 0;
 });
 

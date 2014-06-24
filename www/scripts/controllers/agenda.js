@@ -4,10 +4,10 @@ angular.module('conferenceApp')
   .controller('agendaCtrl', function($scope, $rootScope, $location, $routeParams, SetData) {
     
     $scope.active_agenda = "active";    
-    $rootScope.day = parseInt($routeParams.day);
+    $rootScope.dayVal = parseInt($routeParams.day);
 
     $scope.agendaData = SetData.get_agenda_data();
-    $scope.currentDayAgenda = $scope.agendaData[$rootScope.day];
+    $scope.currentDayAgenda = $scope.agendaData[$rootScope.dayVal];
 
     $scope.showDetail = function(selectedRow, selectedAgenda) {
       $rootScope.row = selectedRow;
