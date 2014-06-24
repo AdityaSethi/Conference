@@ -19,7 +19,7 @@ angular.module('conferenceApp')
       $rootScope.speakerName = selectedName;
       $rootScope.speaker = SetData.get_speaker_data();
       for(var key in $rootScope.speaker) {
-        if($rootScope.speaker[key].name === $rootScope.speakerName) {
+        if($rootScope.speaker[key].name == $rootScope.speakerName) {
           $rootScope.speakerDetail = $rootScope.speaker[key]; 
           $location.path('/agendaDetail');
         }

@@ -16,7 +16,6 @@
 		"speakerPic":"cell_void.png",
 		"speaker":"JSChannel Team"
 	},
-	
 	{
 		"startTime":"9:30 am",
 		"Time":"9:30 - 10:00 am",
@@ -31,30 +30,30 @@
 		"Time":"10:00 - 11:00 am",
 		"session":"The Better Parts",
 		"speaker":"Douglas Crockford",
-		"speakerTitle":"Founder,Javascript",
+		"speakerTitle":"Discovered the JSON",
 		"speakerPic":"douglas.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":""
 	},
 	{
-		"startTime":"11.00 a.m",
+		"startTime":"11:00 am",
 		"Time":"11:00 - 11:45 am",
-		"session":"What EmberJS taught us in past year",
-		"speaker":"Suchit Puri",
-		"speakerTitle":"Application Developer at Thoughtworks",
-		"speakerPic":"suchit.jpg",
+		"session":"Node @ Myntra",
+		"speaker":"Sunil Pai",
+		"speakerTitle":"Skinny, smart, sufferin' suckatash",
+		"speakerPic":"sunil.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":""	
+		"detail":"<p>Myntra spent the last year or so transitioning over most of their user facing services/pages to node. I was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. We learnt a number of things along the way, and I'd like to share some of these with the rest of the community. We experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. We managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with.</p>"
 	},
 	{
 		"startTime":"11.45 a.m",
 		"Time":"11:45 - 12:30 pm",
-		"session":"The new gen of *gen{}{}",
-		"speaker":"Hemanth HM",
-		"speakerTitle":"Application Developer at Thoughtworks",
-		"speakerPic":"hemanth.jpg",
+		"session":"What EmberJS taught us in past year",
+		"speaker":"Suchit Puri",
+		"speakerTitle":"Technologist @thoughtworks",
+		"speakerPic":"suchit.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":""	
+		"detail":"<p>We have been using EmberJS for past one year now , we started using Ember , Ember-Data when it was just released and Ember-data was still not fit for production.</p><p>this talk will talk about the problems we have faced and problem we have solved using this framework.</p><p>Whats the EmberJS MV* philosophy , is it really rails for javascript ?</p><p>How good is Ember-Data for projects , the problems it solves.</p><p>How to keep up with ember versions and when to upgrade .</p>"	
 	},
 	{
 		"startTime":"12:30 pm",
@@ -66,14 +65,11 @@
 		"Time":"2:00 - 4:30 pm",
 		"session":"HTML5 Game Programming",
 		"speaker":"Mark Lassoff",
-		"speakerTitle":"Author of 'Javascript for Beginners' and founder of LearnToProgram, Inc.",
+		"speakerTitle":"Founder, LearnToProgram Media",
 		"speakerPic":"mark.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":"<ol type='I'><li>Understanding when HTML5/JS is Appropriate for Gaming and When it's Not<ol type='A'><li>Pros of HTML5 Gaming</li><li>Cons of HTML5 Gaming</li><li>Cross Device Alternatives<ol type='1'><li>Unity Engine</li><li>Native Porting</li><li>WebGL</li></ol></li></ol></li><li>HTML5 Game Architecture<ol type='A'><li>Loading/Preloading Assets</li><li>Asset Hierarchies</li><li>Server Interaction</li><li>Game Loop</li><li>Libraries</li></ol></li><li>Developing the App<ol type='A'><li>Creating the Application Shell</li><li>Including Necessary Libraries</li><li>Coding the Basic Game Loop</li><li>Adding Player Interaction</li><li>Adding Animations</li><li>Adding Sounds</li><li>Adding Scoring</li><li>Making the Game Replayable</li></ol></li><li>Testing Across Environments</li><li>Release Considerations</li></ol>"
-	
-	
 	},
-
 	{
 		"startTime":"2:00 pm",
 		"Time":"2:00 - 4:30 pm",
@@ -85,26 +81,23 @@
 		"detail":"<p>Functional programming encourages the use of 'Pure functions' that depend only on their inputs and not on the global state. This leads to functions with no 'side effects' which are relatively bug free.</p><p>Functions programming gives way for declarative programming paradigm where the users of the api have to deal only with the 'what' aspect of the api rather than the nuances of the 'how'.</p><p>The workshops covers the following:<ol type='1'><li>Thinking in terms of 'actions' (functions) rather than 'state' (objects)</li><li>Writing pure functions</li><li>Avoiding intermediate state by exploiting recursion</li><li> Understanding and using 'Higher order functions'</li><li>Mastering closures</li><li> Implementing some of the Object Oriented Language Design Patterns the functional way.</li></ol></p>"
 	
 	},
-
 	{
 		"startTime":"4:30 pm",
 		"Time":"4:30 - 5:00 pm",
 		"session":"Tea Break"
 		
 	},
-
 	{
 		"startTime":"5:00 pm",
 		"Time":"5:00 - 6:00 pm",
 		"session":"Lightning Talks",
-		"speaker":"To Be Announced",
-		"speakerTitle":"Title of the speaker",
+		"speaker":"",
+		"speakerTitle":"",
 		"speakerPic":"cell_void.png",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":""
 	
 	}
-
 	]
 },
 {
@@ -123,39 +116,38 @@
 		"Time":"9:30 - 10:30 am",
 		"session":"Continuous Platformization",
 		"speaker":"Amod Malviya",
-		"speakerTitle":"SVP and Head of Engineering Flipkart",
+		"speakerTitle":"CTO, Flipkart",
 		"speakerPic":"amod.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":""
+		"detail":"<p>'Short term vs long term' is a conflict often discussed in organisations. Short term approaches give agility and time to market, while long term approaches give robustness and scale. Is there a framework that can be used to arrive at the right balance? In this talk I plan to talk about a set of best practices that have worked for us, that might be of help in determining that balance.</p>"
 	},
 	
 	{
 		"startTime":"10:30 am",
 		"Time":"10:30 - 11:15 am",
-		"session":"Node @ Myntra",
-		"speaker":"Sunil Pai",
-		"speakerTitle":"Frontend Architect at Myntra",
-		"speakerPic":"sunil.jpg",
+		"session":"Kick-starting cross platform apps with Ionic",
+		"speaker":"Kapil Manchanda",
+		"speakerTitle":"CTO at Canvas Game Studios",
+		"speakerPic":"kapil.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. I was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. We learnt a number of things along the way, and I'd like to share some of these with the rest of the community. We experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. We managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with."
+		"detail":""
 	},
 
 	{
 		"startTime":"11:15 am",
 		"Time":"11:15 - 12:00 pm",
-		"session":"Session II",
-		"speaker":"To Be Announced",
-		"speakerTitle":"Title of the speaker",
+		"session":"The new gen of *gen(){}",
+		"speaker":"Hemanth HM",
+		"speakerTitle":"Full-stack Developer at CISCO",
 		"speakerPic":"cell_void.png",
 		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":""
+		"detail":"<p>Say bye bye to callbackhell not with promises (that's old school) but with ES6 generators! :)</p><p>The talk shall be covering:</p><ol><li> A detail view of generators.</li><li> How they can avoid callbackhell.</li><li>What are some of the uber kool node modules that are already using generators (like co, koa and others)</li><li> Promises vs Thunks vs Futures.</li><li> Some live coding too ;)</li></ol>"
 	},
 
 	{
 		"startTime":"12:00 pm",
 		"Time":"12:00 - 1:00 pm",
 		"session":"Lunch"
-	
 	},
 
 	{
@@ -163,7 +155,7 @@
 		"Time":"1:00 - 3:30 pm",
 		"session":"Build a scalable video chat platform using Node, Kraken, WebRTC and HTML5 video",
 		"speaker":"Joe Pettersson",
-		"speakerTitle":"UI Engineering Lead at MDL",
+		"speakerTitle":"Technical Lead @ McKinsey & Company",
 		"speakerPic":"joe.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":""
@@ -173,9 +165,9 @@
 	{
 		"startTime":"1:00 pm",
 		"Time":"1:00 - 3:30 pm",
-		"session":"Angular Directive: A Deep Dive",
+		"session":"Angular Directive: Deep Dive",
 		"speaker":"Naresh Sharma",
-		"speakerTitle":"Digital Consultant at MDL",
+		"speakerTitle":"",
 		"speakerPic":"naresh.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":""
@@ -189,34 +181,20 @@
 	},
 	{
 		"startTime":"4:00 pm",
-		"Time":"4:00 - 4:30 pm",
-		"session":"Lightning Talks",
-		"speaker":"To Be Announced",
-		"speakerTitle":"Title of the speaker",
-		"speakerPic":"cell_void.png",
-		"venue":"Vivanta by Taj - M.G.Road",
-		"detail":""
-	},
-	
-	{
-		"startTime":"4:00 pm",
 		"Time":"4:00 - 5:00 pm",
 		"session":"Keynote IV",
 		"speaker":"Satty Bhens",
-		"speakerTitle":"Digital Principal at McKinsey Digital Labs",
+		"speakerTitle":"all things web, dev & lfc bio from Twitter",
 		"speakerPic":"satty.jpg",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":""
 	},
-	
-	
-	
 	{
 		"startTime":"5:00 pm",
 		"Time":"5:00 - 5:30 pm",
 		"session":"Thanking All - Feedback",
-		"speaker":"JS Channel",
-		"speakerTitle":"Title of the speaker",
+		"speaker":"",
+		"speakerTitle":"",
 		"speakerPic":"cell_void.png",
 		"venue":"Vivanta by Taj - M.G.Road",
 		"detail":""
@@ -225,4 +203,3 @@
 	]
 }
 ]
- 

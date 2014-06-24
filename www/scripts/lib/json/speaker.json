@@ -2,7 +2,7 @@
 				{
 				"name":"Douglas Crockford",
 				"image":"douglas.jpg", 
-				"known_for":"Founder, Javascript",
+				"known_for":"Discovered the JSON",
 				"topic":"The Better Parts",
 				"description":"Douglas Crockford was born in the Frostbite Falls, Minnesota, but left when he was only six months old because it was just too damn cold. He turned his back on a promising career in television when he discovered computers. He has worked in learning systems, small business systems, office automation, games, interactive music, multimedia, location-based entertainment, social systems, and programming languages. He is the inventor of Tilton, the ugliest programming language that was not specifically designed to be an ugly programming language. He is best known for having discovered that there are good parts in JavaScript. This was an important and unexpected discovery. He also discovered the JSON Data Interchange Format, the world's most loved data format. And he works at Paypal.",
 				"dd":"18",
@@ -16,7 +16,6 @@
 				"session":"The Better Parts",
 				"topic_description":"The Better Parts was a book written by Douglas Crawford.Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI)."
 				},
-
 				{
 				"name":"Suchit Puri",
 				"image":"suchit.jpg",
@@ -32,13 +31,13 @@
 				"day":"Friday",
 				"venue":"Vivanta by Taj - M.G.Road",
 				"session":"What EmberJS taught us in past year",
-				"topic_description":"Description here"	
+				"topic_description":""	
 				},
 
 				{
 				"name":"Hemanth HM",
 				"image":"hemanth.jpg",
-				"known_for":"Application Developer at Thoughtworks",
+				"known_for":"Full-stack Developer at CISCO",
 				"topic":"The new gen of *gen(){}",
 				"description":"Hemanth.HM a computer polyglot CLI, web and unix philosophy <3 'r.Works at CISCO as an HTML5 developer. & Blogs about programming .Contributes to FOSS via Github. Core team member of Yeoman.Curators Node Module Of The Week.",
 				"dd":"18",
@@ -50,7 +49,7 @@
 				"day":"Friday",
 				"venue":"Vivanta by Taj - M.G.Road",
 				"session":"The new gen of *gen(){}",
-				"topic_description":"Description here"	
+				"topic_description":""	
 				},
 
 				{
@@ -105,14 +104,14 @@
 				"endTime":"10.30 a.m",
 				"day":"Saturday",
 				"venue":"Vivanta by Taj - M.G.Road",
-				"session":"Keynote III",
-				"topic_description":"Description here"	
+				"session":"Continuous Platformization",
+				"topic_description":""	
 				},
 
 				{
 				"name":"Sunil Pai",
 				"image":"sunil.jpg",
-				"known_for":"Frontend Architect at Myntra",
+				"known_for":"Skinny, smart, sufferin' suckatash",
 				"topic":"Node @ Myntra",
 				"description":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. Sunil was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. He learnt a number of things along the way, and he'd like to share some of these with the rest of the community. Sunil experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. Sunil managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with.",
 				"dd":"19",
@@ -142,7 +141,7 @@
 				"day":"Saturday",
 				"venue":"Vivanta by Taj - M.G.Road",
 				"session":"Build a scalable video chat platform using Node, Kraken, WebRTC and HTML5 video",
-				"topic_description":"Description here"				
+				"topic_description":""				
 				},
 
 				{
@@ -160,7 +159,7 @@
 				"day":"Saturday",
 				"venue":"Vivanta by Taj - M.G.Road",
 				"session":"Angular Directive: A deep dive",
-				"topic_description":"Description here"	
+				"topic_description":""	
 				},	
 
 				{
@@ -178,7 +177,24 @@
 				"day":"Saturday",
 				"venue":"Vivanta by Taj - M.G.Road",
 				"session":"Keynote IV",
-				"topic_description":"Description here"	
+				"topic_description":""	
+				},
+				{
+				"name":"Kapil Manchanda",
+				"image":"kapil.jpg",
+				"known_for":"CTO at Canvas Game Studios",
+				"topic":"Kick-starting cross platform apps with Ionic",
+				"description":"",
+				"dd":"19",
+				"mon":"July",
+				"yy":"14",
+				"yyyy":"2014",
+				"startTime":"10.30 a.m",
+				"endTime":"11.15 a.m",
+				"day":"Saturday",
+				"venue":"Vivanta by Taj - M.G.Road",
+				"session":"Kick-starting cross platform apps with Ionic",
+				"topic_description":""	
 				}
 ]
 
