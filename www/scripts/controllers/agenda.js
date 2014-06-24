@@ -4,7 +4,7 @@ angular.module('conferenceApp')
   .controller('agendaCtrl', function($scope, $rootScope, $location, $routeParams, SetData) {
     
     $scope.active_agenda = "active";    
-    $rootScope.dayVal = parseInt($routeParams.day);
+    $rootScope.dayVal = parseInt($routeParams.day) || 0;
 
     $scope.agendaData = SetData.get_agenda_data();
     $scope.currentDayAgenda = $scope.agendaData[$rootScope.dayVal];
