@@ -7,7 +7,7 @@ angular.module('conferenceApp')
     $rootScope.deviceWidth = window.innerWidth;
     $rootScope.deviceFixHeight = window.innerHeight-50;
     $scope.loads = 'loaded';
-
+    
     $scope.goBack = function(){
       $window.history.back();
     }

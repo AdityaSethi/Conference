@@ -16,6 +16,25 @@
 				"session":"The Better Parts",
 				"topic_description":"The Better Parts was a book written by Douglas Crawford.Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI)."
 				},
+
+				{
+				"name":"Sunil Pai",
+				"image":"sunil.jpg",
+				"known_for":"Frontend Architect at Myntra",
+				"topic":"Node @ Myntra",
+				"description":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. Sunil was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. He learnt a number of things along the way, and he'd like to share some of these with the rest of the community. Sunil experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. Sunil managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with.",
+				"dd":"18",
+				"mon":"July",
+				"yy":"14",
+				"yyyy":"2014",
+				"startTime":"11.00 a.m",
+				"endTime":"11.45 a.m",
+				"day":"Friday",
+				"venue":"Vivanta by Taj - M.G.Road",
+				"session":"Node @ Myntra",
+				"topic_description":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. I was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. We learnt a number of things along the way, and I'd like to share some of these with the rest of the community. We experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. We managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with."	
+				},
+
 				{
 				"name":"Suchit Puri",
 				"image":"suchit.jpg",
@@ -26,48 +45,12 @@
 				"mon":"July",
 				"yy":"14",
 				"yyyy":"2014",
-				"startTime":"11.00 a.m",
-				"endTime":"11.45 a.m",
+				"startTime":"11.45 a.m",
+				"endTime":"12.30 p.m",
 				"day":"Friday",
 				"venue":"Vivanta by Taj - M.G.Road",
 				"session":"What EmberJS taught us in past year",
-				"topic_description":""	
-				},
-
-				{
-				"name":"Hemanth HM",
-				"image":"hemanth.jpg",
-				"known_for":"Full-stack Developer at CISCO",
-				"topic":"The new gen of *gen(){}",
-				"description":"Hemanth.HM a computer polyglot CLI, web and unix philosophy <3 'r.Works at CISCO as an HTML5 developer. & Blogs about programming .Contributes to FOSS via Github. Core team member of Yeoman.Curators Node Module Of The Week.",
-				"dd":"18",
-				"mon":"July",
-				"yy":"14",
-				"yyyy":"2014",
-				"startTime":"11.45 a.m",
-				"endTime":"12.30 a.m",
-				"day":"Friday",
-				"venue":"Vivanta by Taj - M.G.Road",
-				"session":"The new gen of *gen(){}",
-				"topic_description":""	
-				},
-
-				{
-				"name":"Mark Lassoff",
-				"image":"mark.jpg",
-				"known_for":"Author of 'Javascript for Beginners' and founder of LearnToProgram, Inc.",
-				"topic":"HTML5 Game Programming",
-				"description":"Mark is a publisher, top technical trainer and author, providing software, mobile and web development training. Mark is a sought after video trainer, speaker and host. Mark has trained programmers at Fortune 500 companies and government agencies world-wide. Mark's clients have included Aflak, Discover Card Services, the US Department of Interior and Symantec. A recognized expert in front end web and mobile development, Mark continues to teach at conferences regularly.",
-				"dd":"18",
-				"mon":"Jul",
-				"yy":"14",
-				"yyyy":"2014",
-				"startTime":"2.00 p.m",
-				"endTime":"4.30 p.m",
-				"day":"Friday",
-				"venue":"Vivanta by Taj - M.G.Road",
-				"session":"HTML5 Game Programming",
-				"topic_description":"<ol type='I'><li>Understanding when HTML5/JS is Appropriate for Gaming and When it's Not<ol type='A'><li>Pros of HTML5 Gaming</li><li>Cons of HTML5 Gaming</li><li>Cross Device Alternatives<ol type='1'><li>Unity Engine</li><li>Native Porting</li><li>WebGL</li></ol></li></ol></li><li>HTML5 Game Architecture<ol type='A'><li>Loading/Preloading Assets</li><li>Asset Hierarchies</li><li>Server Interaction</li><li>Game Loop</li><li>Libraries</li></ol></li><li>Developing the App<ol type='A'><li>Creating the Application Shell</li><li>Including Necessary Libraries</li><li>Coding the Basic Game Loop</li><li>Adding Player Interaction</li><li>Adding Animations</li><li>Adding Sounds</li><li>Adding Scoring</li><li>Making the Game Replayable</li></ol></li><li>Testing Across Environments</li><li>Release Considerations</li></ol>"					
+				"topic_description":"<p>We have been using EmberJS for past one year now , we started using Ember , Ember-Data when it was just released and Ember-data was still not fit for production.</p><p>This talk will talk about the problems we have faced and problem we have solved using this framework.</p><p>Whats the EmberJS MV* philosophy , is it really rails for javascript?</p><p>How good is Ember-Data for projects , the problems it solves.</p><p>How to keep up with ember versions and when to upgrade. </p>"	
 				},
 
 				{
@@ -80,7 +63,7 @@
 				"mon":"Jul",
 				"yy":"14",
 				"yyyy":"2014",
-				"startTime":"2.30 p.m",
+				"startTime":"2.00 p.m",
 				"endTime":"4.30 p.m",
 				"day":"Friday",
 				"venue":"Vivanta by Taj - M.G.Road",
@@ -88,6 +71,25 @@
 				"topic_description":"<p>Functional programming encourages the use of 'Pure functions' that depend only on their inputs and not on the global state. This leads to functions with no 'side effects' which are relatively bug free.</p><p>Functions programming gives way for declarative programming paradigm where the users of the api have to deal only with the 'what' aspect of the api rather than the nuances of the 'how'.</p><p>The workshops covers the following:<ol type='1'><li>Thinking in terms of 'actions' (functions) rather than 'state' (objects)</li><li>Writing pure functions</li><li>Avoiding intermediate state by exploiting recursion</li><li> Understanding and using 'Higher order functions'</li><li>Mastering closures</li><li> Implementing some of the Object Oriented Language Design Patterns the functional way.</li></ol></p>"
 
 			
+				},
+				
+
+				{
+				"name":"Kapil Manchanda",
+				"image":"kapil.jpg",
+				"known_for":"CTO at Canvas Game Studios",
+				"topic":"HTML5 Game Programming",
+				"description":"Helps major organizations deploy cutting-edge technology practices to accelerate project and application development, build IT capabilities, and capture substantial cost savings.",
+				"dd":"18",
+				"mon":"July",
+				"yy":"14",
+				"yyyy":"2014",
+				"startTime":"2.00 p.m",
+				"endTime":"4.30 p.m",
+				"day":"Friday",
+				"venue":"Vivanta by Taj - M.G.Road",
+				"session":"HTML5 Game Programming",
+				"topic_description":"<ol type='I'><li>Understanding when HTML5/JS is Appropriate for Gaming and When it's Not<ol type='A'><li>Pros of HTML5 Gaming</li><li>Cons of HTML5 Gaming</li><li>Cross Device Alternatives<ol type='1'><li>Unity Engine</li><li>Native Porting</li><li>WebGL</li></ol></li></ol></li><li>HTML5 Game Architecture<ol type='A'><li>Loading/Preloading Assets</li><li>Asset Hierarchies</li><li>Server Interaction</li><li>Game Loop</li><li>Libraries</li></ol></li><li>Developing the App<ol type='A'><li>Creating the Application Shell</li><li>Including Necessary Libraries</li><li>Coding the Basic Game Loop</li><li>Adding Player Interaction</li><li>Adding Animations</li><li>Adding Sounds</li><li>Adding Scoring</li><li>Making the Game Replayable</li></ol></li><li>Testing Across Environments</li><li>Release Considerations</li></ol>"	
 				},
 
 				{
@@ -105,26 +107,63 @@
 				"day":"Saturday",
 				"venue":"Vivanta by Taj - M.G.Road",
 				"session":"Continuous Platformization",
-				"topic_description":""	
+				"topic_description":"'Short term vs long term' is a conflict often discussed in organisations. Short term approaches give agility and time to market, while long term approaches give robustness and scale. Is there a framework that can be used to arrive at the right balance? In this talk I plan to talk about a set of best practices that have worked for us, that might be of help in determining that balance."	
+				},
+				{
+				"name":"Magesh Kuppan",
+				"image":"magesh.jpg",
+				"known_for":"Software consultant and trainer",
+				"topic":"Evented Models and Testable Views",
+				"description":"Magesh has a rich 17 years of experience in software development, consulting and training. He combines rich technical knowledge and domain expertise in breadth and depth that helps to create extremely rich and powerful end user experience – be it insightful technical discussions during training or powerful software solutions. He had been working on RIA using JavaScript and built custom MVC frameworks in JavaScript before the arrival of the likes of Backbone.js etc.",
+				"dd":"19",
+				"mon":"Jul",
+				"yy":"14",
+				"yyyy":"2014",
+				"startTime":"10.30 a.m",
+				"endTime": "11.15 a.m",
+				"day":"Saturday",
+				"venue":"Vivanta by Taj - M.G.Road",
+				"session":"Evented Models and Testable Views",
+				"topic_description":""
+			
 				},
 
 				{
-				"name":"Sunil Pai",
-				"image":"sunil.jpg",
-				"known_for":"Skinny, smart, sufferin' suckatash",
-				"topic":"Node @ Myntra",
-				"description":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. Sunil was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. He learnt a number of things along the way, and he'd like to share some of these with the rest of the community. Sunil experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. Sunil managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with.",
+				"name":"Hemanth HM",
+				"image":"hemanth.jpg",
+				"known_for":"Application Developer at Thoughtworks",
+				"topic":"The new gen of *gen(){}",
+				"description":"Hemanth.HM a computer polyglot CLI, web and unix philosophy <3 'r.Works at CISCO as an HTML5 developer. & Blogs about programming .Contributes to FOSS via Github. Core team member of Yeoman.Curators Node Module Of The Week.",
 				"dd":"19",
 				"mon":"July",
 				"yy":"14",
 				"yyyy":"2014",
-				"startTime":"10.30 a.m",
-				"endTime":"11.15 a.m",
+				"startTime":"11.15 a.m",
+				"endTime":"12.00 p.m",
 				"day":"Saturday",
 				"venue":"Vivanta by Taj - M.G.Road",
-				"session":"Node @ Myntra",
-				"topic_description":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. I was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. We learnt a number of things along the way, and I'd like to share some of these with the rest of the community. We experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. We managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with."	
+				"session":"The new gen of *gen(){}",
+				"topic_description":"<p>Say bye bye to callbackhell not with promises (that's old school) but with ES6 generators! :)</p><p>The talk shall be covering:</p><ol type='1'><li> A detail view of generators.</li><li>How they can avoid callbackhell.</li><li>What are some of the uber kool node modules that are already using generators (like co, koa and others)</li><li> Promises vs Thunks vs Futures.</li><li>Some live coding too ;)</li></ol>"	
 				},
+
+				{
+				"name":"Suman Paul",
+				"image":"suman.jpg",
+				"known_for":"UI developer at MDL",
+				"topic":"Angular Directive: Deep Dive",
+				"description":"Description of the speaker",
+				"dd":"19",
+				"mon":"July",
+				"yy":"14",
+				"yyyy":"2014",
+				"startTime":"1.00 p.m",
+				"endTime":"3.30 p.m",
+				"day":"Saturday",
+				"venue":"Vivanta by Taj - M.G.Road",
+				"session":"Angular Directive: Deep Dive",
+				"topic_description":"Description here"	
+				},
+
 
 				{
 				"name":"Joe Pettersson",
@@ -141,61 +180,31 @@
 				"day":"Saturday",
 				"venue":"Vivanta by Taj - M.G.Road",
 				"session":"Build a scalable video chat platform using Node, Kraken, WebRTC and HTML5 video",
-				"topic_description":""				
+				"topic_description":"Description here"				
 				},
-
-				{
-				"name":"Naresh Sharma",
-				"image":"naresh.jpg",
-				"known_for":"Digital Consultant at MDL",
-				"topic":"Angular Directive: A deep dive",
-				"description":"Naresh is full stack developer who loves to take things apart, to learn new stuff, to code and the craftsmanship part of software engineering. Latest passion is javascript and functional programming. Having fun organizing and participating in javascript meetups.",
-				"dd":"19",
-				"mon":"Jul",
-				"yy":"14",
-				"yyyy":"2014",
-				"startTime":"1.00 p.m",
-				"endTime":"3.30 p.m",
-				"day":"Saturday",
-				"venue":"Vivanta by Taj - M.G.Road",
-				"session":"Angular Directive: A deep dive",
-				"topic_description":""	
-				},	
 
 				{
 				"name":"Satty Bhens",
 				"image":"satty.jpg",
 				"known_for":"Digital Principal at McKinsey Digital Labs",
-				"topic":"Keynote IV",
+				"topic":"Beyond JavaScript",
 				"description":"Helps major organizations deploy cutting-edge technology practices to accelerate project and application development, build IT capabilities, and capture substantial cost savings.",
 				"dd":"19",
 				"mon":"July",
 				"yy":"14",
 				"yyyy":"2014",
-				"startTime":"4.30 p.m",
+				"startTime":"4.00 p.m",
 				"endTime":"5.00 p.m",
 				"day":"Saturday",
 				"venue":"Vivanta by Taj - M.G.Road",
-				"session":"Keynote IV",
-				"topic_description":""	
-				},
-				{
-				"name":"Kapil Manchanda",
-				"image":"kapil.jpg",
-				"known_for":"CTO at Canvas Game Studios",
-				"topic":"Kick-starting cross platform apps with Ionic",
-				"description":"",
-				"dd":"19",
-				"mon":"July",
-				"yy":"14",
-				"yyyy":"2014",
-				"startTime":"10.30 a.m",
-				"endTime":"11.15 a.m",
-				"day":"Saturday",
-				"venue":"Vivanta by Taj - M.G.Road",
-				"session":"Kick-starting cross platform apps with Ionic",
-				"topic_description":""	
+				"session":"Beyond JavaScript",
+				"topic_description":"Description here"	
 				}
+
+				
+				
+				
 ]
+
 
 

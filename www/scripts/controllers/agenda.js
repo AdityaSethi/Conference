@@ -15,11 +15,12 @@ angular.module('conferenceApp')
       $location.path('/agendaDetail');
     };
         
-    $scope.showSpeakerDetails = function(selectedName) {     
+    $scope.showSpeakerDetails = function(selectedName, session) {     
       $rootScope.speakerName = selectedName;
+      $rootScope.session = session;
       $rootScope.speaker = SetData.get_speaker_data();
       for(var key in $rootScope.speaker) {
-        if($rootScope.speaker[key].name == $rootScope.speakerName) {
+        if($rootScope.speaker[key].name == $rootScope.speakerName && $rootScope.speaker[key].topic== $rootScope.session) {
           $rootScope.speakerDetail = $rootScope.speaker[key]; 
           $location.path('/agendaDetail');
         }
