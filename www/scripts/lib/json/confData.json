@@ -60,12 +60,12 @@
                 {  
                     "startTime":"2:00 pm",
                     "Time":"2:00 - 4:30 pm",
-                    "session":"Functional Programming Techniques in JavaScript",
-                    "speaker":"Magesh Kuppan",
-                    "speakerTitle":"Software consultant and trainer",
-                    "speakerPic":"magesh.jpg",
+                    "session":"WebGL and ThreeJS",
+                    "speaker":"Joe Pettersson",
+                    "speakerTitle":"UI Engineering at McKinsey & Company",
+                    "speakerPic":"joep.jpeg",
                     "venue":"Vivanta by Taj - M.G.Road",
-                    "detail":"<p>Functional programming encourages the use of 'Pure functions' that depend only on their inputs and not on the global state. This leads to functions with no 'side effects' which are relatively bug free.</p><p>Functions programming gives way for declarative programming paradigm where the users of the api have to deal only with the 'what' aspect of the api rather than the nuances of the 'how'.</p><p>The workshops covers the following:<ol type='1'><li>Thinking in terms of 'actions' (functions) rather than 'state' (objects)</li><li>Writing pure functions</li><li>Avoiding intermediate state by exploiting recursion</li><li> Understanding and using 'Higher order functions'</li><li>Mastering closures</li><li> Implementing some of the Object Oriented Language Design Patterns the functional way.</li></ol></p>"
+                    "detail":"The WebGL API open's up an exciting world of possibilities for the web; allowing us to build complex applications, games and experiences that were never possible before. In this workshop we'll learn how to leverage WebGL directly, and also how to utilise it through one of it's most useful abstraction layers: ThreeJS. We'll cover the basics of rendering scenes and objects with lighting, textures and cameras; as well as interacting with them using directly and indirectly through the use of physics engines. You should come away from this talk with a thirst to learn more about this powerful technology, as well as a basic foundation of skills and knowledge to assist you in that exploration in building your own applications and games. In order to take the most from this talk, you should have a good understanding of browser JavaScript API's (the DOM API et al) as well as the heart not to be discouraged when we occasionally use phrases like 'matrix manipulation' and 'vector transforms'."
                 },
                 {  
                     "startTime":"2:00 pm",
@@ -113,9 +113,9 @@
                     "startTime":"10:30 am",
                     "Time":"10:30 - 11:15 am",
                     "session":"Evented Models and Testable Views",
-                    "speaker":"Magesh Kuppan",
-                    "speakerTitle":"Software consultant and trainer",
-                    "speakerPic":"magesh.jpg",
+                    "speaker":"Joe Pettersson",
+                    "speakerTitle":"UI Engineering at McKinsey & Company",
+                    "speakerPic":"joep.jpeg",
                     "venue":"Vivanta by Taj - M.G.Road",
                     "detail":"Description here"
                 },
@@ -236,20 +236,20 @@
             "topic_description":"Performance is a Feature, the janky your website displays, the lesser will be the user interaction and conversions, thereby impacting the growth and revenue of your business. Yet many people are not able to understand the performance gotchas completely, and don’t make it a part of their deployment process to measure the rendering performance of their webpages. In this workshop, participants will Performance Audit Web Applications to make them run them at 60fps. Workshop will consist of: Understand the working behind several jQuery functions and their performance impacts. Profiling with Dev Tools available in Browsers, to explore the rendering issues and their respective remedies. Discussion of case studies of already audited web applications, and discuss their performance remedies as well. Live Audit of Web applications by Workshop attendees."
         },
         {  
-            "name":"Magesh Kuppan",
-            "image":"magesh.jpg",
-            "known_for":"Software consultant and trainer",
-            "topic":"Functional Programming Techniques in JavaScript",
-            "description":"Magesh has a rich 17 years of experience in software development, consulting and training. He combines rich technical knowledge and domain expertise in breadth and depth that helps to create extremely rich and powerful end user experience – be it insightful technical discussions during training or powerful software solutions. He had been working on RIA using JavaScript and built custom MVC frameworks in JavaScript before the arrival of the likes of Backbone.js etc.",
-            "dd":"18",
+            "name":"Joe Pettersson",
+            "image":"joep.jpeg",
+            "known_for":"UI Engineering at McKinsey & Company",
+            "topic":"WebGL and ThreeJS",
+            "description":"Joe's UI Engineering Lead at McKinsey & Company, specifially at McKinsey Digital Labs. He's passionate about user-interfaces, user-experiences and building kick-ass tools and products. He's been writing JavaScript since the late 1990's, and has a passion for talking about it publically. He's half Swedish and half English, which means that while he loves herring, snow and flat-pack furniture; he also never performs adequatley at international football tournaments.",
+            "dd":"17",
             "mon":"Jul",
             "yyyy":"2015",
             "startTime":"2.00 p.m",
             "endTime":"4.30 p.m",
             "day":"Friday",
             "venue":"Vivanta by Taj - M.G.Road",
-            "session":"Functional Programming Techniques in JavaScript",
-            "topic_description":"<p>Functional programming encourages the use of 'Pure functions' that depend only on their inputs and not on the global state. This leads to functions with no 'side effects' which are relatively bug free.</p><p>Functions programming gives way for declarative programming paradigm where the users of the api have to deal only with the 'what' aspect of the api rather than the nuances of the 'how'.</p><p>The workshops covers the following:<ol type='1'><li>Thinking in terms of 'actions' (functions) rather than 'state' (objects)</li><li>Writing pure functions</li><li>Avoiding intermediate state by exploiting recursion</li><li> Understanding and using 'Higher order functions'</li><li>Mastering closures</li><li> Implementing some of the Object Oriented Language Design Patterns the functional way.</li></ol></p>"
+            "session":"WebGL and ThreeJS",
+            "topic_description":"The WebGL API open's up an exciting world of possibilities for the web; allowing us to build complex applications, games and experiences that were never possible before. In this workshop we'll learn how to leverage WebGL directly, and also how to utilise it through one of it's most useful abstraction layers: ThreeJS. We'll cover the basics of rendering scenes and objects with lighting, textures and cameras; as well as interacting with them using directly and indirectly through the use of physics engines. You should come away from this talk with a thirst to learn more about this powerful technology, as well as a basic foundation of skills and knowledge to assist you in that exploration in building your own applications and games. In order to take the most from this talk, you should have a good understanding of browser JavaScript API's (the DOM API et al) as well as the heart not to be discouraged when we occasionally use phrases like 'matrix manipulation' and 'vector transforms'."
         },
         {  
             "name":"Kapil Manchanda",
@@ -284,9 +284,9 @@
             "topic_description":"'Short term vs long term' is a conflict often discussed in organisations. Short term approaches give agility and time to market, while long term approaches give robustness and scale. Is there a framework that can be used to arrive at the right balance? In this talk I plan to talk about a set of best practices that have worked for us, that might be of help in determining that balance."
         },
         {  
-            "name":"Magesh Kuppan",
-            "image":"magesh.jpg",
-            "known_for":"Software consultant and trainer",
+            "name":"Joe Pettersson",
+            "image":"joep.jpeg",
+            "known_for":"UI Engineering at McKinsey & Company",
             "topic":"Evented Models and Testable Views",
             "description":"Magesh has a rich 17 years of experience in software development, consulting and training. He combines rich technical knowledge and domain expertise in breadth and depth that helps to create extremely rich and powerful end user experience – be it insightful technical discussions during training or powerful software solutions. He had been working on RIA using JavaScript and built custom MVC frameworks in JavaScript before the arrival of the likes of Backbone.js etc.",
             "dd":"18",
