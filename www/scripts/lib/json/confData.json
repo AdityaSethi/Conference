@@ -60,7 +60,7 @@
                 {  
                     "startTime":"2:00 pm",
                     "Time":"2:00 - 4:30 pm",
-                    "session":"WebGL And ThreeJS",
+                    "session":"WebGL And ThreeJS - Utilising the next generation of powerful graphics API's on the web",
                     "speaker":"Joe Pettersson",
                     "speakerTitle":"UI Engineering at McKinsey & Company",
                     "speakerPic":"joep.jpeg",
@@ -137,12 +137,12 @@
                 {  
                     "startTime":"1:00 pm",
                     "Time":"1:00 - 3:30 pm",
-                    "session":"Angular Directive: Deep Dive",
-                    "speaker":"Suman Paul",
+                    "session":"React & Flux - Learn When & How to Leverage the Power of Virtual DOM & Reactive Data Flows",
+                    "speaker":"Christian Lilley",
                     "speakerTitle":"UI developer at MDL",
-                    "speakerPic":"suman.jpg",
+                    "speakerPic":"christian.jpg",
                     "venue":"Vivanta by Taj - M.G.Road",
-                    "detail":"Description here"
+                    "detail":"Whatever other tools you use and love, one thing about ReactJS is certain: the 'Virtual DOM' approach is the future of the web. It's just too fast and too sensible to ignore. In this session, we'll learn:<br/><br/><ol><li>What 'Virtual DOM' is and why it matters</li><li>How you can begin making use of it now, in your existing environments</li><li>How React also thinks differently about data-binding, with its 'one-way reactive data flow'</li></ol><br/>Longer-Term, React combined with the 'Flux' pattern points the way to a very different style of front-end application development than we're used to now: very modular, 'component'-driven architectures. At the same time, one of the signal traits of React/Flux is that more and more of the application is contained exclusively in Javascript files: React's HTML elements are declared as either 'JSX' templates, or just as Javascript objects. And some folks are taking this on to the next level, even programming all of their CSS in JS as well! Before this session is over, you'll see how all these pieces fit together and how you can build some very effective, very fast, and very maintainable components and apps this way. That said, we'll also discuss what's still missing from the React/Flux ecosystem, and provide you with a roadmap that allows you decide when you can - and when you can't - build your whole application around it."
                 },
                 {  
                     "startTime":"1:00 pm",
@@ -239,7 +239,7 @@
             "name":"Joe Pettersson",
             "image":"joep.jpeg",
             "known_for":"UI Engineering at McKinsey & Company",
-            "topic":"WebGL And ThreeJS",
+            "topic":"WebGL And ThreeJS - Utilising the next generation of powerful graphics API's on the web",
             "description":"Joe's UI Engineering Lead at McKinsey & Company, specifially at McKinsey Digital Labs. He's passionate about user-interfaces, user-experiences and building kick-ass tools and products. He's been writing JavaScript since the late 1990's, and has a passion for talking about it publically. He's half Swedish and half English, which means that while he loves herring, snow and flat-pack furniture; he also never performs adequatley at international football tournaments.",
             "dd":"17",
             "mon":"Jul",
@@ -316,11 +316,11 @@
             "topic_description":"The design of Languages and Frameworks is highly influenced by the context and their history. As a developer it is important to be aware of these evolutionary aspects which have led to the current feature set of JS and its Frameworks. More over JS has a very interesting history."
         },
         {  
-            "name":"Suman Paul",
-            "image":"suman.jpg",
-            "known_for":"UI developer at MDL",
-            "topic":"Angular Directive: Deep Dive",
-            "description":"Description of the speaker",
+            "name":"Christian Lilley",
+            "image":"christian.jpg",
+            "known_for":"UI Architect at McKinsey Digital Labs.",
+            "topic":"React & Flux - Learn When & How to Leverage the Power of Virtual DOM & Reactive Data Flows",
+            "description":"Christian Lilley turns theoretical business-y stuff into blinky-lights that actually do useful things. He digs rapid-prototyping with AngularJS, speaks often at conferences like ng-conf and CSSConf Asia, and co-founded the Meetup 'Data Visualization NY'. Now he lives in KL, wishing there was a GeoViz that could help him find the best hawker stalls.",
             "dd":"18",
             "mon":"July",
             "yyyy":"2015",
@@ -329,7 +329,7 @@
             "day":"Saturday",
             "venue":"Vivanta by Taj - M.G.Road",
             "session":"Angular Directive: Deep Dive",
-            "topic_description":"Description here"
+            "topic_description":"Whatever other tools you use and love, one thing about ReactJS is certain: the 'Virtual DOM' approach is the future of the web. It's just too fast and too sensible to ignore. In this session, we'll learn:<br/><br/><ol><li>What 'Virtual DOM' is and why it matters</li><li>How you can begin making use of it now, in your existing environments</li><li>How React also thinks differently about data-binding, with its 'one-way reactive data flow'</li></ol><br/>Longer-Term, React combined with the 'Flux' pattern points the way to a very different style of front-end application development than we're used to now: very modular, 'component'-driven architectures. At the same time, one of the signal traits of React/Flux is that more and more of the application is contained exclusively in Javascript files: React's HTML elements are declared as either 'JSX' templates, or just as Javascript objects. And some folks are taking this on to the next level, even programming all of their CSS in JS as well! Before this session is over, you'll see how all these pieces fit together and how you can build some very effective, very fast, and very maintainable components and apps this way. That said, we'll also discuss what's still missing from the React/Flux ecosystem, and provide you with a roadmap that allows you decide when you can - and when you can't - build your whole application around it."
         },
         {  
             "name":"Joe Pettersson",
