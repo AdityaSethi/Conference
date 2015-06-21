@@ -5,8 +5,8 @@
                 "dayNum":"Day 1",
                 "day":"Friday",
                 "month":"July",
-                "date":"18",
-                "year":"2014"
+                "date":"17",
+                "year":"2015"
             },
             "data":[  
                 {  
@@ -25,22 +25,22 @@
                 {  
                     "startTime":"10:00 am",
                     "Time":"10:00 - 11:00 am",
-                    "session":"The Better Parts",
+                    "session":"Upgrading the Web",
                     "speaker":"Douglas Crockford",
                     "speakerTitle":"Discovered the JSON",
                     "speakerPic":"douglas.jpg",
                     "venue":"Vivanta by Taj - M.G.Road",
-                    "detail":"The Better Parts was a book written by Douglas Crawford.Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI)."
+                    "detail":"The web was originally imagined to be a simple distributed document retrieval system. It is now being used for applications that go far beyond the system's original capabilities and intentions. We have found ways to make it work, but they are difficult and far too fragile. Many times companies have offered to replace the web with superior proprietary systems, but we rejected them. We have been adding features to the web, but this does little to correct the deep underlying deficiencies, increasing instead of reducing its complexity.<br><br>This talk suggests a way forward, taking inspiration from our successful transition from NTSC to HDTV. There is a way forward to a web that is safer, easier, and as good as we desire."
                 },
                 {  
                     "startTime":"11:00 am",
                     "Time":"11:00 - 11:45 am",
-                    "session":"Node @ Myntra",
-                    "speaker":"Sunil Pai",
-                    "speakerTitle":"Frontend Architect at Myntra",
-                    "speakerPic":"sunil.jpg",
+                    "session":"Rapid Digital Innovation - How NodeJS Delivers",
+                    "speaker":"Richard Rodger",
+                    "speakerTitle":"Author of Beginning Mobile Application Development in the Cloud",
+                    "speakerPic":"richard.jpg",
                     "venue":"Vivanta by Taj - M.G.Road",
-                    "detail":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. I was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. We learnt a number of things along the way, and I'd like to share some of these with the rest of the community. We experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. We managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with."
+                    "detail":"Ongoing digital innovation has become vital to delivering enterprise goals. With the requirement to delivery technology solutions ever faster, traditional architectures and platforms are struggling to keep pace."
                 },
                 {  
                     "startTime":"11.45 am",
@@ -183,7 +183,7 @@
         "subtitle":"WE, THE JAVASCRIPT PEOPLE",
         "description":"Join us at the JS Channel Conference in Bengaluru for an oppurtunity to learn and hear from the best brains in the industry. Two days of hands-on workshops and talks. A great platform to mingle with the community. As always lunch and high tea on us. We look forward to seeing you there and hope you enjoy the mobile app.",
         "feature1":"Browse around the app to find the latest agenda, session details, speaker information and venue maps.",
-        "feature2":"Takes place on July 18-19, 2014, Hotel Taj Vivanta, Bengaluru.",
+        "feature2":"Takes place on July 17-18, 2015, Hotel Taj Vivanta, Bengaluru.",
         "feature3":"Contact us at <a class='font_color5' href='mailto:jsconference@gmail.com'><i>jsconference@gmail.com</i></a> with any queries or concerns."
     },
     "speakers":[  
@@ -191,25 +191,25 @@
             "name":"Douglas Crockford",
             "image":"douglas.jpg",
             "known_for":"Discovered the JSON",
-            "topic":"The Better Parts",
+            "topic":"Upgrading the Web",
             "description":"Douglas Crockford was born in the Frostbite Falls, Minnesota, but left when he was only six months old because it was just too damn cold. He turned his back on a promising career in television when he discovered computers. He has worked in learning systems, small business systems, office automation, games, interactive music, multimedia, location-based entertainment, social systems, and programming languages. He is the inventor of Tilton, the ugliest programming language that was not specifically designed to be an ugly programming language. He is best known for having discovered that there are good parts in JavaScript. This was an important and unexpected discovery. He also discovered the JSON Data Interchange Format, the world's most loved data format. And he works at Paypal.",
-            "dd":"18",
+            "dd":"17",
             "mon":"July",
-            "yy":"14",
-            "yyyy":"2014",
+            "yy":"15",
+            "yyyy":"2015",
             "startTime":"10.00 a.m",
             "endTime":"11.00 a.m",
             "day":"Friday",
             "venue":"Vivanta by Taj - M.G.Road",
-            "session":"The Better Parts",
-            "topic_description":"The Better Parts was a book written by Douglas Crawford.Douglas Crockford is an American computer programmer and entrepreneur who is best known for his ongoing involvement in the development of the JavaScript language, for having popularized the data format JSON (JavaScript Object Notation), and for developing various JavaScript related tools such as JSLint and JSMin.[2] He is currently a senior JavaScript architect at PayPal, and is also a writer and speaker on JavaScript, JSON, and related web technologies such as the Yahoo! User Interface Library (YUI)."
+            "session":"Upgrading the Web",
+            "topic_description":"The web was originally imagined to be a simple distributed document retrieval system. It is now being used for applications that go far beyond the system's original capabilities and intentions. We have found ways to make it work, but they are difficult and far too fragile. Many times companies have offered to replace the web with superior proprietary systems, but we rejected them. We have been adding features to the web, but this does little to correct the deep underlying deficiencies, increasing instead of reducing its complexity.<br><br>This talk suggests a way forward, taking inspiration from our successful transition from NTSC to HDTV. There is a way forward to a web that is safer, easier, and as good as we desire."
         },
         {  
-            "name":"Sunil Pai",
-            "image":"sunil.jpg",
-            "known_for":"Frontend Architect at Myntra",
-            "topic":"Node @ Myntra",
-            "description":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. Sunil was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. He learnt a number of things along the way, and he'd like to share some of these with the rest of the community. Sunil experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. Sunil managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with.",
+            "name":"Richard Rodger",
+            "image":"richard.jpg",
+            "known_for":"Author of Beginning Mobile Application Development in the Cloud",
+            "topic":"Rapid Digital Innovation - How NodeJS Delivers",
+            "description":"Richard Rodger is the CTO of nearForm.com, a Node.js consultancy that builds large-scale systems. Richard is the author of Mobile Application Development in the Cloud (Wiley 2012), and was formerly CTO of feedhenry.com, a mobile applications platform. He is a regular contributor to the Sunday Business Post newspaper in Ireland, and holds degrees in Mathematics and Philosophy, and Computer Science.",
             "dd":"18",
             "mon":"July",
             "yy":"14",
@@ -218,8 +218,8 @@
             "endTime":"11.45 a.m",
             "day":"Friday",
             "venue":"Vivanta by Taj - M.G.Road",
-            "session":"Node @ Myntra",
-            "topic_description":"Myntra spent the last year or so transitioning over most of their user facing services/pages to node. I was part of this effort, and helped move the company over from a php stack to a service oriented stack around node. We learnt a number of things along the way, and I'd like to share some of these with the rest of the community. We experimented heavily with parallelizing middleware stacks, isomorphic modules, in-house build/deploy systems, SEO-friendly single page applications, and so on. We managed to replace many servers with few, and have a fun ops setup that makes it quite nice to work with."
+            "session":"Rapid Digital Innovation - How NodeJS Delivers",
+            "topic_description":"The Node.js platform offers a lean, effective, and proven in-production approach that can deliver rapid digital innovation. This talk explores the challenges of large scale enterprise delivery, and the way in which Node.js overcomes these."
         },
         {  
             "name":"Suchit Puri",
