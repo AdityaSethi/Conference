@@ -122,12 +122,12 @@
                 {  
                     "startTime":"11.15 am",
                     "Time":"11:15 - 12:00 pm",
-                    "session":"The new gen of *gen(){}",
-                    "speaker":"Hemanth HM",
-                    "speakerTitle":"Co-Founder, PerfAudit",
-                    "speakerPic":"hemanth.jpg",
+                    "session":"Evolution Of Javascript Frameworks",
+                    "speaker":"HariKrishnan and Dharampal",
+                    "speakerTitle":"Developers AT MavenHive Technologies Pvt. Ltd.",
+                    "speakerPic":"HariKrishnan.jpg",
                     "venue":"Vivanta by Taj - M.G.Road",
-                    "detail":"<p>Say bye bye to callbackhell not with promises (that's old school) but with ES6 generators! :)</p><p>The talk shall be covering:</p><ol type='1'><li> A detail view of generators.</li><li>How they can avoid callbackhell.</li><li>What are some of the uber kool node modules that are already using generators (like co, koa and others)</li><li> Promises vs Thunks vs Futures.</li><li>Some live coding too ;)</li></ol>"
+                    "detail":"The design of Languages and Frameworks is highly influenced by the context and their history. As a developer it is important to be aware of these evolutionary aspects which have led to the current feature set of JS and its Frameworks. More over JS has a very interesting history."
                 },
                 {  
                     "startTime":"12:00 pm",
@@ -300,11 +300,11 @@
             "topic_description":"The new direction Angular 2.0 is taking created a lot of discussion in the community. Some people love it, some people hate it. Most people agree there is room for simplification, performance enhancements and native support of new language features. Not everyone likes the way Angular 2.0 is picking these up though. There is an alternative direction: Aurelia. In this talk, we'll do a side-by-side comparison and have the audience answer the question: Should you keep all your eggs in the Angular basket?"
         },
         {  
-            "name":"Hemanth HM",
-            "image":"hemanth.jpg",
-            "known_for":"Co-Founder, PerfAudit",
-            "topic":"The new gen of *gen(){}",
-            "description":"Hemanth.HM a computer polyglot CLI, web and unix philosophy <3 'r.Works at CISCO as an HTML5 developer. & Blogs about programming .Contributes to FOSS via Github. Core team member of Yeoman.Curators Node Module Of The Week.",
+            "name":"HariKrishnan and Dharampal",
+            "image":"HariKrishnan.jpg",
+            "known_for":"Developers AT MavenHive Technologies Pvt. Ltd.",
+            "topic":"Evolution Of Javascript Frameworks",
+            "description":"Hari is an Application Developer with a decade of experience across several technology stacks. He has spoken at several technology conferences. His areas of interest include Concurrency and high performance applications.",
             "dd":"18",
             "mon":"July",
             "yyyy":"2015",
@@ -312,8 +312,8 @@
             "endTime":"12.00 p.m",
             "day":"Saturday",
             "venue":"Vivanta by Taj - M.G.Road",
-            "session":"The new gen of *gen(){}",
-            "topic_description":"<p>Say bye bye to callbackhell not with promises (that's old school) but with ES6 generators! :)</p><p>The talk shall be covering:</p><ol type='1'><li> A detail view of generators.</li><li>How they can avoid callbackhell.</li><li>What are some of the uber kool node modules that are already using generators (like co, koa and others)</li><li> Promises vs Thunks vs Futures.</li><li>Some live coding too ;)</li></ol>"
+            "session":"Evolution Of Javascript Frameworks",
+            "topic_description":"The design of Languages and Frameworks is highly influenced by the context and their history. As a developer it is important to be aware of these evolutionary aspects which have led to the current feature set of JS and its Frameworks. More over JS has a very interesting history."
         },
         {  
             "name":"Suman Paul",
