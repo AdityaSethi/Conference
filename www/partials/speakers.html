@@ -4,7 +4,7 @@
 	<div class="container-fluid speakerBorder" ng-repeat="speaker in speakers" >
 	    <a class="speakerMainDiv" href="#/speakerinfo" ng-click="speakerIndex($index)">
 			<div class="speakerDiv">
-				<img class="speaker_image" src="img/speakers/{{speaker.image}}"></img>
+				<img class="speaker_image" ng-src="{{speaker.image}}"></img>
 			</div>
 		
 			<div class="glyphChevronRight">
