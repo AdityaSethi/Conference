@@ -95,29 +95,29 @@
                 "dayNum":"Day 2",
                 "day":"Saturday",
                 "month":"July",
-                "date":"19",
-                "year":"2014"
+                "date":"18",
+                "year":"2015"
             },
             "data":[  
                 {  
                     "startTime":"9:30 am",
                     "Time":"9:30 - 10:30 am",
-                    "session":"Continuous Platformization",
-                    "speaker":"Amod Malviya",
-                    "speakerTitle":"SVP and Head of Engineering Flipkart",
-                    "speakerPic":"amod.jpg",
+                    "session":"Opening Keynote",
+                    "speaker":"Yehuda Katz",
+                    "speakerTitle":"Open Source Evagelist, Co-founder Tilde Inc.",
+                    "speakerPic":"yehuda.jpeg",
                     "venue":"Vivanta by Taj - M.G.Road",
-                    "detail":"'Short term vs long term' is a conflict often discussed in organisations. Short term approaches give agility and time to market, while long term approaches give robustness and scale. Is there a framework that can be used to arrive at the right balance? In this talk I plan to talk about a set of best practices that have worked for us, that might be of help in determining that balance."
+                    "detail":"To be announced"
                 },
                 {  
                     "startTime":"10:30 am",
                     "Time":"10:30 - 11:15 am",
-                    "session":"Evented Models and Testable Views",
-                    "speaker":"Joe Pettersson",
-                    "speakerTitle":"UI Engineering at McKinsey & Company",
-                    "speakerPic":"joep.jpeg",
+                    "session":"Angular 2.0 vs Aurelia",
+                    "speaker":"Adriaan de Jonge",
+                    "speakerTitle":"CTO at Xebia in India",
+                    "speakerPic":"adriaan.jpg",
                     "venue":"Vivanta by Taj - M.G.Road",
-                    "detail":"Description here"
+                    "detail":"The new direction Angular 2.0 is taking created a lot of discussion in the community. Some people love it, some people hate it. Most people agree there is room for simplification, performance enhancements and native support of new language features. Not everyone likes the way Angular 2.0 is picking these up though. There is an alternative direction: Aurelia. In this talk, we'll do a side-by-side comparison and have the audience answer the question: Should you keep all your eggs in the Angular basket?"
                 },
                 {  
                     "startTime":"11.15 am",
@@ -268,11 +268,11 @@
             "topic_description":"This live coding session will reveal the inner secrets of how Angular.js works by attempting re-create a mini angular.js like framework from the ground up. This will help gain better understanding on some of the guiding principles of angular.js.<br/><br/>In this session, the participants will learn<br/><ol type='I'><li>Creating a 'Scope' api for two-way data-binding</li><li>Creating a DI container</li><li>Create the HTML Compilation process</li><li>Create simple directives from the scratch</li><li>Bootstrap the application</li></ol>"
         },
         {  
-            "name":"Amod Malviya",
-            "image":"amod.jpg",
-            "known_for":"SVP and Head of Engineering, Flipkart",
-            "topic":"Continuous Platformization",
-            "description":"Amod heads the Engineering setup that powers Flipkart.com. Having joined the engineering team during its infancy as a Sr. Engineering Manager, he has grown wearing multiple hats at a time, playing a critical role in helping Flipkart.com reach where it is today. Prior to joining Flipkart.com, Amod has worked at multiple technology startups, mostly into consumer Internet and distributed system spaces. He is an avid technology contributor, a strong open source proponent, and is very passionate about making India a technology powerhouse.",
+            "name":"Yehuda Katz",
+            "image":"yehuda.jpeg",
+            "known_for":"Open Source Evagelist, Co-founder Tilde Inc.",
+            "topic":"Opening Keynote",
+            "description":"Yehuda Katz is a member of the  Ember.js and Rust Core Teams, and a retired Ruby on Rails and jQuery Core Team member. His 9-to-5 home is at the startup he founded, Tilde Inc.. There he works on Skylight, the smart profiler for Rails, and does Ember.js consulting. He's best known for his open source work, which also includes projects like Thor, Handlebars and Bundler.",
             "dd":"18",
             "mon":"July",
             "yyyy":"2015",
@@ -280,15 +280,15 @@
             "endTime":"10.30 a.m",
             "day":"Saturday",
             "venue":"Vivanta by Taj - M.G.Road",
-            "session":"Continuous Platformization",
-            "topic_description":"'Short term vs long term' is a conflict often discussed in organisations. Short term approaches give agility and time to market, while long term approaches give robustness and scale. Is there a framework that can be used to arrive at the right balance? In this talk I plan to talk about a set of best practices that have worked for us, that might be of help in determining that balance."
+            "session":"Opening Keynote",
+            "topic_description":"To be announced"
         },
         {  
-            "name":"Joe Pettersson",
-            "image":"joep.jpeg",
-            "known_for":"UI Engineering at McKinsey & Company",
-            "topic":"Evented Models and Testable Views",
-            "description":"Magesh has a rich 17 years of experience in software development, consulting and training. He combines rich technical knowledge and domain expertise in breadth and depth that helps to create extremely rich and powerful end user experience – be it insightful technical discussions during training or powerful software solutions. He had been working on RIA using JavaScript and built custom MVC frameworks in JavaScript before the arrival of the likes of Backbone.js etc.",
+            "name":"Adriaan de Jonge",
+            "image":"adriaan.jpg",
+            "known_for":"CTO at Xebia in India",
+            "topic":"Angular 2.0 vs Aurelia",
+            "description":"Adriaan specializes in DevOps and Continuous Delivery - he is co–author of The Manager’s Guide to Continuous Delivery, which was published in 2014. He also wrote two developer guides about web technology, published by Addison–Wesley in 2011 and 2012. Adriaan is a regular speaker at conferences, including PipelineConf London 2014, Jenkins User Group Copenhagen 2014 and DevOps Summit Amsterdam 2014.",
             "dd":"18",
             "mon":"Jul",
             "yyyy":"2015",
@@ -296,8 +296,8 @@
             "endTime":"11.15 a.m",
             "day":"Saturday",
             "venue":"Vivanta by Taj - M.G.Road",
-            "session":"Evented Models and Testable Views",
-            "topic_description":""
+            "session":"Angular 2.0 vs Aurelia",
+            "topic_description":"The new direction Angular 2.0 is taking created a lot of discussion in the community. Some people love it, some people hate it. Most people agree there is room for simplification, performance enhancements and native support of new language features. Not everyone likes the way Angular 2.0 is picking these up though. There is an alternative direction: Aurelia. In this talk, we'll do a side-by-side comparison and have the audience answer the question: Should you keep all your eggs in the Angular basket?"
         },
         {  
             "name":"Hemanth HM",
