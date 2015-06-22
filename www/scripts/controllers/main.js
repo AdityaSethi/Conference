@@ -12,11 +12,14 @@ angular.module('conferenceApp')
       $window.history.back();
     }
 
-    Data.get_data('scripts/lib/json/confData.json').success(function(api_data) {
+    Data.get_data('http://www.jschannel.com/assets/docs/conference.json').success(function(api_data) {
     	SetData.set_agenda_data(api_data.agenda);
         SetData.set_overview_data(api_data.overview);
         SetData.set_speaker_data(api_data.speakers);
-        SetData.set_venue_data(api_data.venue);
+        $scope.confvenue = api_data.venue;
+    })
+    .error(function() {
+        alert('Connect to network to use this app');
     });
 
     $rootScope.dayVal = 0;
