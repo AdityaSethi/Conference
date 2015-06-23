@@ -22,8 +22,8 @@ angular.module('conferenceApp')
             SetData.set_speaker_data(api_data.speakers);
             $scope.confvenue = api_data.venue;
         })
-        .error(function() {
-            alert('Connect to network to use this app');
+        .error(function(error) {
+            alert(JSON.stringify(error));
         });
 
         $rootScope.dayVal = 0;
