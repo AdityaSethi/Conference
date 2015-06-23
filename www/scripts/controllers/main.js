@@ -20,6 +20,7 @@ angular.module('conferenceApp')
         	SetData.set_agenda_data(api_data.agenda);
             SetData.set_overview_data(api_data.overview);
             SetData.set_speaker_data(api_data.speakers);
+            SetData.set_venue_data(api_data.venue);
             $scope.confvenue = api_data.venue;
         })
         .error(function(error) {
