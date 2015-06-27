@@ -16,7 +16,7 @@ angular.module('conferenceApp')
           $window.history.back();
         }
 
-        Data.get_data('http://www.jschannel.com/assets/docs/conference.json').success(function(api_data) {
+        Data.get_data('http://www.jschannel.com/api/conference').success(function(api_data) {
         	SetData.set_agenda_data(api_data.agenda);
             SetData.set_overview_data(api_data.overview);
             SetData.set_speaker_data(api_data.speakers);
