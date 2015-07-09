@@ -324,6 +324,7 @@ body {
 .map_container {
     height: 50vh;
     margin-top: -70px;
+      background-color: rgb(233, 229, 220);
 }
 
 .black_bg {
