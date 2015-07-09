@@ -1,39 +1,75 @@
 'use strict';
 
-angular.module('conferenceApp', ['ngRoute','ngSanitize'])
-    .config(function ($routeProvider) {
+/**
+ * @ngdoc overview
+ * @name jsAppApp
+ * @description
+ * # jsAppApp
+ *
+ * Main module of the application.
+ */
+angular
+    .module('jsAppApp', [
+        'ngResource',
+        'ngRoute',
+        'ngTouch',
+        'ngSanitize'
+    ]).
+service("app_data", function() {
+        var app_data = {};
+        return {
+            setData: function(data) {
+                app_data = data;
+                // angular.copy(app_data, data);
+            },
+            getData: function() {
+                return app_data;
+            }
+        }
+    })
+    .config(function($routeProvider) {
         $routeProvider
-        .when('/', {
-            controller: 'landingPageCtrl',
-            templateUrl: 'partials/landing-page.html'
-        })
-        .when('/overview', {
-            controller: 'overviewCtrl',
-            templateUrl: 'partials/overview.html'
-        })
-        .when('/speakers', {
-            controller: 'SpeakerCtrl',
-            templateUrl: 'partials/speakers.html'
-        })
-        .when('/agenda/:day', {
-            controller: 'agendaCtrl',
-            templateUrl: 'partials/agenda.html'
-        })
-        .when('/agendaDetail', {
-            controller: 'agendaCtrl',
-            templateUrl: 'partials/agenda-details.html'
-        })
-        .when('/venue', {
-            controller: 'venueCtrl',
-            templateUrl: 'partials/venue.html'
-        })
-        .when('/speakerinfo', {
-            controller: 'SpeakerCtrl',
-            templateUrl: 'partials/speaker-details.html'
-        })
-        .when('/speakerDetail', {
-            controller: 'SpeakerCtrl',
-            templateUrl: 'partials/agenda-details.html'
-        })
-        .otherwise({redirectTo: '/'});
+            .when('/main', {
+                templateUrl: 'views/main.html',
+                controller: 'MainCtrl'
+            })
+            .when('/about', {
+                templateUrl: 'views/about.html',
+                controller: 'AboutCtrl'
+            })
+            .when('/overview', {
+                templateUrl: 'views/overview.html',
+                controller: 'OverviewCtrl'
+            })
+            .when('/venue', {
+                templateUrl: 'views/venue.html',
+                controller: 'VenueCtrl'
+            })
+            .when('/speakers', {
+                templateUrl: 'views/speakers.html',
+                controller: 'SpeakersCtrl'
+            })
+            .when('/agenda/:day', {
+                templateUrl: 'views/agenda.html',
+                controller: 'AgendaCtrl'
+            })
+            .when('/speakerDetails/:id', {
+              templateUrl: 'views/speakerdetails.html',
+              controller: 'SpeakerdetailsCtrl'
+            })
+            .when('/agendaDay2', {
+              templateUrl: 'views/agendaday2.html',
+              controller: 'Agendaday2Ctrl'
+            })
+            .when('/', {
+              templateUrl: 'views/landing.html',
+              controller: 'LandingCtrl'
+            })
+            .when('/noNetwork', {
+              templateUrl: 'views/nonetwork.html',
+              controller: 'NonetworkCtrl'
+            })
+            .otherwise({
+                redirectTo: '/landing'
+            });
     });

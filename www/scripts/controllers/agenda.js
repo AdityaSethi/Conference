@@ -1,30 +1,26 @@
 'use strict';
 
-angular.module('conferenceApp')
-  .controller('agendaCtrl', function($scope, $rootScope, $location, $routeParams, SetData) {
-    
-    $scope.active_agenda = "active";    
-    $rootScope.dayVal = parseInt($routeParams.day) || 0;
-
-    $scope.agendaData = SetData.get_agenda_data();
-    $scope.currentDayAgenda = $scope.agendaData[$rootScope.dayVal];
-
-    $scope.showDetail = function(selectedRow, selectedAgenda) {
-      $rootScope.row = selectedRow;
-      $rootScope.agenda = selectedAgenda;
-      $location.path('/agendaDetail');
-    };
-        
-    $scope.showSpeakerDetails = function(selectedName, session) {     
-      $rootScope.speakerName = selectedName;
-      $rootScope.session = session;
-      $rootScope.speaker = SetData.get_speaker_data();
-      for(var key in $rootScope.speaker) {
-        if($rootScope.speaker[key].name == $rootScope.speakerName && $rootScope.speaker[key].topic== $rootScope.session) {
-          $rootScope.speakerDetail = $rootScope.speaker[key]; 
-          $location.path('/agendaDetail');
+/**
+ * @ngdoc function
+ * @name jsAppApp.controller:AgendaCtrl
+ * @description
+ * # AgendaCtrl
+ * Controller of the jsAppApp
+ */
+angular.module('jsAppApp')
+    .controller('AgendaCtrl', function($scope, $routeParams, app_data, $location) {
+        $scope.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
+        $scope.goBack = function() {
+            window.history.back();
         }
-      }
-    };
-
-  });
+        $scope.go_day_2 = function(){
+          // console.log("asdasd");
+          $location.path("/agendaDay2");
+        }
+        $scope.day_data = app_data.getData().agenda[$routeParams.day - 1 ];
+        // console.log(app_data.getData().agenda[$routeParams.day - 1 ]);
+    });

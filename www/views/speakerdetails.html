@@ -1,0 +1,32 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <span class=" head_logo">
+<span class="glyphicon glyphicon-chevron-left" ng-click="goBack()"></span> JsChannel
+            </span>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="speakers_container">
+    <div class="logo_container_home">
+    </div>
+    <center>
+    <div class="speakers_list_det ng-scope">
+        <center>
+            <div class="img_container">
+                <img src="{{speaker_data.image}}" class="thumbnail" width = "100%" alt="">
+            </div>
+            <h3>{{speaker_data.name}}</h3>
+            <p>{{speaker_data.known_for}}</p>
+            <p><b>Session: </b>{{speaker_data.session}}</p>
+            <p><b><span class="glyphicon glyphicon-calendar"></span> </b>{{speaker_data.day}}, {{speaker_data.dd}} {{speaker_data.mon}}, {{speaker_data.yyyy}}</p>
+            <p><b><span class="glyphicon glyphicon-time"></span> </b>{{speaker_data.startTime}} to {{speaker_data.endTime}}</p>
+            <p style="text-align: justify;"><b>About Topic: </b>{{speaker_data.topic_description}}</p>
+            <p style="text-align: justify;"><b>About Speaker: </b>{{speaker_data.description}}</p>
+
+        </center>
+
+    </div>
+    </center>
+</div>

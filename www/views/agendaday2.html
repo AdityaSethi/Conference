@@ -1,0 +1,34 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="">
+        <div class="navbar-header">
+            <span class=" head_logo" ng-click="goBack()">
+<span class="glyphicon glyphicon-chevron-left"></span> JsChannel
+            </span>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="speakers_container bg_layer">
+    <div class="logo_container_home">
+    </div>
+    <div class="bg-primary agenda_heading">
+        <div class="pull-left"><b>{{day_data.title.dayNum}}: {{day_data.title.date}} {{day_data.title.month}}, {{day_data.title.year}} </b></div>
+
+        <div class="clearfix">
+        </div>
+    </div>
+    <div class="agenda_content">
+        <div class="agenda_list" ng-repeat="list in day_data.data">
+            <div class="time_head">
+                <center>
+                    <h4>{{list.startTime}}</h4></center>
+                <hr class="divider">
+            </div>
+            <div class="item_content">
+                <div class="time_range"><span class="glyphicon glyphicon-time"></span> {{list.Time}}</div>
+                <h5 class="top">{{list.session}}</h5>
+                <h5 class="down">{{list.speaker}}</h5>
+            </div>
+        </div>
+    </div>
+</div>

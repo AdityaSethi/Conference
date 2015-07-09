@@ -1,7 +1,22 @@
-angular.module('conferenceApp')
-    .controller('overviewCtrl', function($scope, SetData) {
+'use strict';
 
-    	$scope.active_overview = "active";
-	    $scope.overview = SetData.get_overview_data();
-	  
-    });
+/**
+ * @ngdoc function
+ * @name jsAppApp.controller:OverviewCtrl
+ * @description
+ * # OverviewCtrl
+ * Controller of the jsAppApp
+ */
+angular.module('jsAppApp')
+  .controller('OverviewCtrl', function ($scope, app_data) {
+    $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+    $scope.data = app_data.getData().overview;
+    // console.log($scope.data);
+    $scope.goBack = function(){
+      window.history.back();
+    }
+  });

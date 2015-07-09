@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name jsAppApp.controller:VenueCtrl
+ * @name jsAppApp.controller:Agendaday2Ctrl
  * @description
- * # VenueCtrl
+ * # Agendaday2Ctrl
  * Controller of the jsAppApp
  */
 angular.module('jsAppApp')
-    .controller('VenueCtrl', function($scope) {
+    .controller('Agendaday2Ctrl', function($scope, app_data) {
         $scope.awesomeThings = [
             'HTML5 Boilerplate',
             'AngularJS',
@@ -17,4 +17,6 @@ angular.module('jsAppApp')
         $scope.goBack = function() {
             window.history.back();
         }
+        $scope.day_data = app_data.getData().agenda[1];
+
     });

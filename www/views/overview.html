@@ -1,0 +1,31 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="">
+        <div class="navbar-header">
+            <span class=" head_logo"  ng-click="goBack()">
+<span class="glyphicon glyphicon-chevron-left"></span> JsChannel
+            </span>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="overview_container">
+    <center class="logo_container_home">
+        <img src="images/logo.png" width="60%" alt="">
+    </center>
+    <hr class="custom_hr">
+    <div class="overview_content">
+        {{data.description}}
+    </div>
+    <hr class="custom_hr">
+    <div class="clearfix">
+    </div>
+    <div class="alert alert-success" role="alert">
+        {{data.feature1}}
+    </div>
+    <div class="alert alert-info" role="alert">
+        {{data.feature2}}
+    </div>
+    <div class="alert alert-danger" role="alert" ng-bind-html="data.feature3">
+        {{data.feature3}}
+    </div>
+</div>

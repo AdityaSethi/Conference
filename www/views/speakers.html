@@ -1,0 +1,36 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="">
+        <div class="navbar-header">
+            <span class=" head_logo"  ng-click="goBack()">
+<span class="glyphicon glyphicon-chevron-left"></span> JsChannel
+            </span>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<div class="speakers_container">
+    <div class="logo_container_home">
+    </div>
+    <center>
+    <div class="speakers_list" ng-repeat="speaker in speakers_data" ng-click="show_detail(speaker.$$hashKey)">
+        <div class="speakers_img">
+            <img src="{{speaker.image}}" width="100%" alt="">
+        </div>
+        <div class="speaker_details">
+            <div class="speaker_name">{{speaker.name}}</div>
+            <div class="short_summ">
+                <p>{{speaker.known_for}}</p>
+            </div>
+        </div>
+        <div class="clearfix speaker_bg"></div>
+        <div class="other_details divider">
+            <div class="left_name">
+                <b>Topic: </b> {{speaker.topic}}
+            </div>
+            <div class="right_nav">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </div>
+        </div>
+    </div>
+    </center>
+</div>
