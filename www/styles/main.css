@@ -96,20 +96,20 @@ body {
     color: white;
     background-size: 120%;
     background-position-y: 75%;
-      overflow: scroll;
+    overflow: scroll;
 }
 
 .overview_container {
     background-image: url('../images/home-bg.png');
     position: absolute;
     width: 100%;
-      background-attachment: fixed;
+    background-attachment: fixed;
     padding: 10px;
     color: white;
     background-size: 120%;
     background-size: cover;
-      height: 100vh;
-        overflow: scroll;
+    height: 100vh;
+    overflow: scroll;
 }
 
 .container {
@@ -196,6 +196,9 @@ body {
 .agenda_heading {
     padding: 10px 5px;
     margin-top: -19px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 .overview_content {}
@@ -329,8 +332,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-      overflow: scroll;
-
+    overflow: scroll;
 }
 
 .black_bg img {
@@ -351,7 +353,10 @@ body {
 .black_bg h2 {
     color: white;
 }
-
+.agenda_content{
+    padding-top: 25px;
+    overflow: hidden;
+}
 .rotate {
     margin: 20px;
     -webkit-animation-name: spin;
@@ -409,28 +414,31 @@ body {
 }
 
 @media (min-width: 500px) {
-    .logo_container_home img, .black_bg img {
+    .logo_container_home img,
+    .black_bg img {
         width: 60%;
     }
-     .speakers_list{
+    .speakers_list {
         width: 80%;
     }
 }
 
 @media (min-width: 700px) {
-    .logo_container_home img, .black_bg img {
+    .logo_container_home img,
+    .black_bg img {
         width: 50%;
     }
-     .speakers_list{
+    .speakers_list {
         width: 70%;
     }
 }
 
 @media (min-width: 900px) {
-    .logo_container_home img, .black_bg img {
+    .logo_container_home img,
+    .black_bg img {
         width: 40%;
     }
-    .speakers_list{
+    .speakers_list {
         width: 60%;
     }
 }
