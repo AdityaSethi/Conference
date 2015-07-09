@@ -64,7 +64,7 @@
     <access origin="*://*.googleapis.com/*" subdomains="true" />
     <access origin="*://*.gstatic.com/*" subdomains="true" />
     <access origin="*://*.google.com/*" subdomains="true" />
-    <access origin="*://*.jschannel.com/*" subdomains="true" />
+    <access origin="http://www.jschannel.com/api/conference" subdomains="true" />
     <access origin="*://*.googleusercontent.com/*" subdomains="true" />
     <content src="index.html" />
 </widget>
